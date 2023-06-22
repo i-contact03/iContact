@@ -162,6 +162,22 @@ div.left-top-category {
     color: rgb(85, 89, 105);
 }
 
+.inner-checkbox::after {
+	opacity: 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    display: table;
+    width: 4px;
+    height: 8px;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    content: " ";
+    transition: opacity 0.3s;
+}
+
 .list-text {
 	position: relative;
     flex: 1 1 0%;
