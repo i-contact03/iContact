@@ -220,6 +220,309 @@
 		                  </li>
 		               </ul>
 		    <!--ul태그 반복-->
+		    			<ul class="top-list">
+		                  <div class="left-top-category">모바일</div>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">앱</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">앱 수정·유지보수</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		               </ul>
+		    <!--ul태그 반복-->
+		    			<ul class="top-list">
+		                  <div class="left-top-category">프로그램</div>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">비즈니스 애플리케이션</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">PC·웹 프로그램</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">백엔드·서버</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">봇·챗봇</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		               </ul>
+		    <!--ul태그 반복-->
+		    			<ul class="top-list">
+		                  <div class="left-top-category">트렌드</div>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">AI 애플리케이션</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">게임∙AR∙VR</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">노코드·로우코드</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">메타버스</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">블록체인·NFT</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		               </ul>
+		    <!--ul태그 반복-->
+		    <ul class="top-list">
+		                  <div class="left-top-category">데이터</div>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">데이터 구매·구축</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">데이터 마이닝·크롤링</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">데이터 전처리</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">데이터 라벨링</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">데이터 분석·시각화</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">인공지능·머신러닝</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">데이터베이스</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		               </ul>
+		    <!--ul태그 반복-->
+		    <ul class="top-list">
+		                  <div class="left-top-category">기타</div>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">하드웨어·임베디드</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">보안</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">QA·테스트</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">컴퓨터 기술지원</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">파일변환</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                   <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">기타</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		               </ul>
+		    <!--ul태그 반복-->
+		    <ul class="top-list">
+		                  <div class="left-top-category">직무직군</div>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">백엔드 개발자</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">풀스택 개발자</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">노코드·로우코드</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">DevOps 엔지니어</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">데이터 직군</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">ML·DL직군</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		                  <li>
+		                     <div class="category-detail">
+		                        <a class="category-link">
+		                           <div class="list-text2">
+		                           	<span class="list-text">인프라 직군</span>
+		                           </div>
+		                        </a>
+		                     </div>
+		                  </li>
+		               </ul>
+		    <!--ul태그 반복-->
 		            </div>
 		         </nav>
 		         <!--메인 아이템-->
@@ -328,7 +631,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods1.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="/img/goods1.jpg" class="goods-img2">
 			            					
 			            						</div>
 			            					</div>
