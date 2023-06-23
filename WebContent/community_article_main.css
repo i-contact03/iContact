@@ -267,6 +267,16 @@ body > main {
 }
 
 
+/* focus */
+
+.search input[type="search"]:focus {
+  border: 1px solid rgba(255, 212, 0, 1);
+  color: #555;
+}
+
+
+
+
 /* 검색창 끝 */
 
 
