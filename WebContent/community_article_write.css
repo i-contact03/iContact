@@ -336,6 +336,17 @@ body > main {
     width: 100%;
 }
 
+/* focus */
+
+.search input[type="search"]:focus {
+  border: 1px solid rgba(255, 212, 0, 1);
+  color: #555;
+}
+
+
+
+
+
 @media (min-width: 768px) {
 .sub-nav input[type="search"] {
     min-width: 300px;
