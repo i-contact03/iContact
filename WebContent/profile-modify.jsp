@@ -50,15 +50,19 @@
 						<span class="kmong-profile-modify-nav-btn-span">희망 급여</span>
 					</div>
 					
-					<div class="kmong-profile-modify-nav-btn">
+					
+					<!-- 상주 가능 정보 일단 생략! -->
+					<!-- <div class="kmong-profile-modify-nav-btn">
 						<div class="kmong-profile-modify-nav-btn-div">5</div>
 						<span class="kmong-profile-modify-nav-btn-span">상주 가능 정보</span>
-					</div>
+					</div> -->
 				</div>
 			</nav>
 			
 			
 			<div class="kmong-profile-modify-write-out">
+			
+				<!-- 전문가 소개 -->
 				<section class="information-wrapper">
 					<span class="information-title">전문가 소개</span>
 					<div class="information-content">
@@ -82,40 +86,503 @@
 							
 							
 							<div class="profile-basic-information-wrapper">
-								<div>
+								<!-- 전문가 닉네임 -->
+								<div> 
 									<div class="user-nickname-wrapper">
 										<span>전문가 닉네임</span>
 										<div class="user-nickname-input-wrapper">
 											<input type="text" placeholder="전문가 닉네임" class="user-nickname">
 										</div>
-										<span class="restricted-conditions">
+										<!-- <span class="restricted-conditions">
 											10/17
+										</span> -->
+									</div>
+									
+									<div></div>
+									
+									<p class="test-nickname">사용 가능한 닉네입입니다.</p>
+									
+									<div class="tip-wrapper">
+										<div class="tip-title">Tip</div>
+										<div class="tip-content-list-wrapper">
+											<div class="tip-list">
+												• 닉네임 변경은 가입 후 1회만 가능합니다.
+											</div>
+											<div class="tip-list">
+												• 닉네임 변경 이력이 있다면 수정 기능이 비활성화되며, 추가 변경은 불가합니다.
+											</div>
+											<div class="tip-list">
+												• 한글/영문/숫자만 사용할 수 있으며, 이메일 아이디와 동일한 문자열은 사용이 불가합니다.
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<!-- 자기소개 -->
+								<div>
+									<div class="introduce-yourself-wrapper">
+										<span class="introduce-yourself-title">
+											자기소개
 										</span>
+										<textarea placeholder="자기소개" maxlength="255" class="introduce-yourself-content">안녕하세요. 반갑습니다.</textarea>
+									</div>
+								</div>
+								
+								<!-- 지역 -->
+								<div>
+									<div class="choose-wrapper">
+										<span class="choose-title">지역</span>
+										<div class="choose-list">
+											<div class="choose-list-content-container">
+												<div class="choose-list-content">
+													<div class="choose-list-detail">
+														<div class="choose">부산</div>
+														<!-- <input> -->
+													</div>
+													<div class="choose-list-arrow-wrapper">
+														<div class="choose-list-arrow">
+															<svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="arrow-svg">
+																<path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+															</svg>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="information-content-skill-detail-wrapper">
+							<span class="information-content-skill-detail-title">
+								전문분야 및 상세분야
+							</span>
+							<div class="information-content-skill-detail">
+								<span class="detail-restricted-conditions">
+									최대 3개를 선택해 주세요.
+									<span class="mandatory">필수</span>
+								</span>
+								
+								<div>
+									<div class="field-wrapper">
+										<!-- 전문분야 -->
+										<div class="choose-wrapper">
+											<span class="choose-title">전문분야</span>
+											<div class="choose-list">
+												<div class="choose-list-content-container">
+													<span></span>
+													<div class="choose-list-content">
+														<div class="choose-list-detail">
+															<div class="choose">선택해주세요</div>
+															<!-- <input> -->
+														</div>
+														<div class="choose-list-arrow-wrapper">
+															<span></span>
+															<div class="choose-list-arrow">
+																<svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="arrow-svg">
+																	<path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+																</svg>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!-- 상세분야 -->
+										<div class="choose-wrapper">
+											<span class="choose-title">상세분야</span>
+											<div class="choose-list">
+												<div class="choose-list-content-container">
+													<span></span>
+													<div class="choose-list-content">
+														<div class="choose-list-detail">
+															<div class="choose">선택해주세요</div>
+															<!-- <input> -->
+														</div>
+														<div class="choose-list-arrow-wrapper">
+															<span></span>
+															<div class="choose-list-arrow">
+																<svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="arrow-svg">
+																	<path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+																</svg>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!-- 선택태그 -->
+										<div  class="choose-tag-wrapper">
+											<div class="choose-type-title-wrapper">
+												<span class="choose-type-title">IT·프로그래밍</span>
+												<button class="delete-tag-all">
+													<span>전체 삭제</span>
+												</button>
+											</div>
+											
+											<div class="choose-tag-list-wrapper">
+												<div class="choose-tag">
+													웹사이트 신규 제작
+													<button class="close-choose-tag-btn">
+														<span class="cross-wrapper">
+															<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="cross">
+																<path xmlns="http://www.w3.org/2000/svg" d="M6.34314575,4.92893219 L12.000039,10.585039 L17.6568542,4.92893219 C18.0473785,4.5384079 18.6805435,4.5384079 19.0710678,4.92893219 C19.4615921,5.31945648 19.4615921,5.95262146 19.0710678,6.34314575 L13.415039,12.000039 L19.0710678,17.6568542 C19.4615921,18.0473785 19.4615921,18.6805435 19.0710678,19.0710678 C18.6805435,19.4615921 18.0473785,19.4615921 17.6568542,19.0710678 L12.000039,13.415039 L6.34314575,19.0710678 C5.95262146,19.4615921 5.31945648,19.4615921 4.92893219,19.0710678 C4.5384079,18.6805435 4.5384079,18.0473785 4.92893219,17.6568542 L10.585039,12.000039 L4.92893219,6.34314575 C4.5384079,5.95262146 4.5384079,5.31945648 4.92893219,4.92893219 C5.31945648,4.5384079 5.95262146,4.5384079 6.34314575,4.92893219 Z"></path>
+															</svg>
+														</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="information-content-skill-detail-wrapper">
+							<span class="information-content-skill-detail-title">
+								보유기술
+							</span>
+							<div class="information-content-skill-detail">
+								<span class="detail-restricted-conditions">
+									최대 20개를 선택해 주세요.
+									<span class="mandatory">필수</span>
+								</span>
+								
+								<div class="retained-technology-tag-list-wrapper">
+									<div class="retained-technology-tag-list-search-wrapper">
+										<div class="retained-technology-tag-list-search">
+											<span>
+												<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="">
+													<path xmlns="http://www.w3.org/2000/svg" d="M11.2307008,3.5 C15.5002489,3.5 18.9614015,6.96828437 18.9614015,11.24663 C18.9614015,13.0978372 18.3133954,14.7973826 17.2322825,16.1299241 L20.2742127,19.178378 C20.5762688,19.4810023 20.5764739,19.9714482 20.2746708,20.2738195 C19.9728678,20.5761908 19.4833433,20.5759857 19.1812873,20.2733614 L19.1812873,20.2733614 L16.1426973,17.2288066 C14.8071694,18.3312107 13.0960911,18.9932599 11.2307008,18.9932599 C6.96115262,18.9932599 3.5,15.5249756 3.5,11.24663 C3.5,6.96828437 6.96115262,3.5 11.2307008,3.5 Z M11.2307008,5.04932599 C7.81506225,5.04932599 5.04614015,7.82395349 5.04614015,11.24663 C5.04614015,14.6693064 7.81506225,17.4439339 11.2307008,17.4439339 C14.6463393,17.4439339 17.4152614,14.6693064 17.4152614,11.24663 C17.4152614,7.82395349 14.6463393,5.04932599 11.2307008,5.04932599 Z"></path>
+												</svg>
+											</span>
+										</div>
+										<input type="text" placeholder="기술 검색" class="retained-technology-tag-list-search-bar">
+									</div>
+									
+									<div class="retained-technology-list-wrapper">
+										<div class="retained-technology-list">
+											<ul class="retained-technology-type">
+												<!-- li태그 16개 필요. 클래스 입력 후 16개 넣기 -->
+												<li class="retained-technology-type-content">디자인</li>
+												<li class="retained-technology-type-content">마케팅</li>
+												<li class="retained-technology-type-content">번역·통역</li>
+												<li class="retained-technology-type-content">문서·글쓰기</li>
+												<li class="retained-technology-type-content">IT·프로그래밍</li>
+												<li class="retained-technology-type-content-active">영상·사진·음향</li>
+												<li class="retained-technology-type-content">창업·사업</li>
+												<li class="retained-technology-type-content">운세</li>
+												<li class="retained-technology-type-content">직무역량 레슨</li>
+												<li class="retained-technology-type-content">주문제작</li>
+												<li class="retained-technology-type-content">취업·입시</li>
+												<li class="retained-technology-type-content">투잡·노하우</li>
+												<li class="retained-technology-type-content">세무·법무·노무</li>
+												<li class="retained-technology-type-content">취미 레슨</li>
+												<li class="retained-technology-type-content">생활서비스</li>
+												<li class="retained-technology-type-content">심리상담</li>
+											</ul>
+											
+											<ul class="retained-technology-detail-type">
+												<li class="retained-technology-detail-type-content-wrapper-active">
+													<div class="retained-technology-detail-type-content-active">촬영</div>
+													<span class="checked-wrapper">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="checked">
+															<path d="M0 0h24v24H0V0z" fill="none"></path>
+															<path d="M7.13322158,10.821143 C6.77457526,10.3822153 6.17602724,10.3624856 5.79632715,10.7770754 C5.41662707,11.1916652 5.39955962,11.8835778 5.75820594,12.3225054 L9.30027691,16.6574524 C9.66714471,17.1064419 10.2826916,17.1152317 10.6590418,16.6768551 L18.2255456,7.86331213 C18.5934618,7.43475954 18.5911847,6.74257073 18.2204597,6.31726515 C17.8497347,5.89195957 17.2509477,5.89459179 16.8830316,6.32314438 L10.004578,14.3352391 L7.13322158,10.821143 Z"></path>
+														</svg>
+													</span>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">편집</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">후보정</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">제작총괄</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper-active">
+													<div class="retained-technology-detail-type-content-active">인물</div>
+													<span class="checked-wrapper">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="checked">
+															<path d="M0 0h24v24H0V0z" fill="none"></path>
+															<path d="M7.13322158,10.821143 C6.77457526,10.3822153 6.17602724,10.3624856 5.79632715,10.7770754 C5.41662707,11.1916652 5.39955962,11.8835778 5.75820594,12.3225054 L9.30027691,16.6574524 C9.66714471,17.1064419 10.2826916,17.1152317 10.6590418,16.6768551 L18.2255456,7.86331213 C18.5934618,7.43475954 18.5911847,6.74257073 18.2204597,6.31726515 C17.8497347,5.89195957 17.2509477,5.89459179 16.8830316,6.32314438 L10.004578,14.3352391 L7.13322158,10.821143 Z"></path>
+														</svg>
+													</span>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">제품</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">프로필</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">음식</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">남자 성우</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">여자 성우</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">캐릭터 연기</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">ARS 녹음</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">내레이션</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">채보/사보</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">편곡</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">작곡</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">마스터링</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">음원편집</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">MC</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">모델</div>
+												</li>
+												<li class="retained-technology-detail-type-content-wrapper">
+													<div class="retained-technology-detail-type-content">공연</div>
+												</li>
+											</ul>
+										</div>
+										
+										<div class="show-retained-technology-detail-type-tag">
+											<div class="delete-all-tag-btn-wrapper">
+												<button class="delete-all-tag-btn">
+													<span>전체삭제</span>
+												</button>
+											</div>
+											
+											<!-- 한 태그 -->
+											<div class="detail-type-tag-wrapper">
+												<div class="detail-type-tag">
+													<div class="detail-type-tag-content">
+														촬영
+														<button class="close-type-tag-btn">
+															<span class="type-cross-wrapper">
+																<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="type-cross">
+																	<path xmlns="http://www.w3.org/2000/svg" d="M6.34314575,4.92893219 L12.000039,10.585039 L17.6568542,4.92893219 C18.0473785,4.5384079 18.6805435,4.5384079 19.0710678,4.92893219 C19.4615921,5.31945648 19.4615921,5.95262146 19.0710678,6.34314575 L13.415039,12.000039 L19.0710678,17.6568542 C19.4615921,18.0473785 19.4615921,18.6805435 19.0710678,19.0710678 C18.6805435,19.4615921 18.0473785,19.4615921 17.6568542,19.0710678 L12.000039,13.415039 L6.34314575,19.0710678 C5.95262146,19.4615921 5.31945648,19.4615921 4.92893219,19.0710678 C4.5384079,18.6805435 4.5384079,18.0473785 4.92893219,17.6568542 L10.585039,12.000039 L4.92893219,6.34314575 C4.5384079,5.95262146 4.5384079,5.31945648 4.92893219,4.92893219 C5.31945648,4.5384079 5.95262146,4.5384079 6.34314575,4.92893219 Z"></path>
+																</svg>
+															</span>
+														</button>
+													</div>
+												</div>
+											</div>
+											
+											<div class="detail-type-tag-wrapper">
+												<div class="detail-type-tag">
+													<div class="detail-type-tag-content">
+														인물
+														<button class="close-type-tag-btn">
+															<span class="type-cross-wrapper">
+																<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="type-cross">
+																	<path xmlns="http://www.w3.org/2000/svg" d="M6.34314575,4.92893219 L12.000039,10.585039 L17.6568542,4.92893219 C18.0473785,4.5384079 18.6805435,4.5384079 19.0710678,4.92893219 C19.4615921,5.31945648 19.4615921,5.95262146 19.0710678,6.34314575 L13.415039,12.000039 L19.0710678,17.6568542 C19.4615921,18.0473785 19.4615921,18.6805435 19.0710678,19.0710678 C18.6805435,19.4615921 18.0473785,19.4615921 17.6568542,19.0710678 L12.000039,13.415039 L6.34314575,19.0710678 C5.95262146,19.4615921 5.31945648,19.4615921 4.92893219,19.0710678 C4.5384079,18.6805435 4.5384079,18.0473785 4.92893219,17.6568542 L10.585039,12.000039 L4.92893219,6.34314575 C4.5384079,5.95262146 4.5384079,5.31945648 4.92893219,4.92893219 C5.31945648,4.5384079 5.95262146,4.5384079 6.34314575,4.92893219 Z"></path>
+																</svg>
+															</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 									<div></div>
 								</div>
-								<div></div>
-								<div></div>
 							</div>
 						</div>
 					</div>
 				</section>
+				
+				
+				<!-- 경력사항 -->
+				<section class="additional-information-section">
+					<span class="additional-information-title">경력사항</span>
+					<div class="additional-information-content-wrapper">
+						<span class="mandatory">필수</span>
+						
+						<div class="additional-information-content">
+							<div class="career-information-wrapper">
+							
+								<div>
+									<div class="choose-wrapper">
+										<span class="choose-title">총 경력 기간</span>
+										<div class="choose-list">
+											<div class="choose-list-content-container">
+												<div class="choose-list-content">
+													<div class="choose-list-detail">
+														<div class="choose">1년</div>
+														<!-- <input> -->
+													</div>
+													<div class="choose-list-arrow-wrapper">
+														<div class="choose-list-arrow">
+															<svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="arrow-svg">
+																<path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+															</svg>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="tip-wrapper">
+									<div class="tip-title">Tip</div>
+									<div class="tip-content-list-wrapper">
+										<div class="tip-list">
+											• 전문 분야와 직접적으로 연관된 총 경력 기간을 선택해 주세요.
+										</div>
+									</div>
+								</div>
+								
+								<!-- <div class="career-information-wrapper"></div> -->
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				
+				
+				<!-- 학력﹒자격증 -->
+				<section class="additional-information-section">
+					<span class="additional-information-title">학력 · 자격증</span>
+					<div class="additional-information-content-wrapper">
+						<span class="choice">선택</span>
+						<div class="additional-information-content">
+						
+							<!-- 팝업 기능 있는 부분(팝업 전)--------------------------------------- -->
+                    		<div>
+								<div class="choose-wrapper">
+									<span class="choose-title">학력 · 전공</span>
+									
+									<div class="choose-list">
+										<div class="choose-list-content-container">
+											<div class="choose-list-content">
+												<div class="choose-list-detail">
+													<div class="choose">추가해주세요</div>
+												</div>
+												
+												<!-- 모달 버튼 -->
+												<div id="btn-modal" class="plus-icon-container" onClick="modalOn()">
+													<span class="plus-icon-wrapper">
+														<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="plus-icon">
+															<path xmlns="http://www.w3.org/2000/svg" d="M6.34314575,4.92893219 L12.000039,10.585039 L17.6568542,4.92893219 C18.0473785,4.5384079 18.6805435,4.5384079 19.0710678,4.92893219 C19.4615921,5.31945648 19.4615921,5.95262146 19.0710678,6.34314575 L13.415039,12.000039 L19.0710678,17.6568542 C19.4615921,18.0473785 19.4615921,18.6805435 19.0710678,19.0710678 C18.6805435,19.4615921 18.0473785,19.4615921 17.6568542,19.0710678 L12.000039,13.415039 L6.34314575,19.0710678 C5.95262146,19.4615921 5.31945648,19.4615921 4.92893219,19.0710678 C4.5384079,18.6805435 4.5384079,18.0473785 4.92893219,17.6568542 L10.585039,12.000039 L4.92893219,6.34314575 C4.5384079,5.95262146 4.5384079,5.31945648 4.92893219,4.92893219 C5.31945648,4.5384079 5.95262146,4.5384079 6.34314575,4.92893219 Z"></path>
+														</svg>
+													</span>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="choose-wrapper" style="margin-top: 20px">
+									<span class="choose-title">자격증</span>
+									
+									<div class="choose-list">
+										<div class="choose-list-content-container">
+											<div class="choose-list-content">
+												<div class="choose-list-detail">
+													<div class="choose">추가해주세요</div>
+												</div>
+												
+												<!-- 모달 버튼 -->
+												<div id="btn-modal" class="plus-icon-container" onClick="modalOn()">
+													<span class="plus-icon-wrapper">
+														<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="plus-icon">
+															<path xmlns="http://www.w3.org/2000/svg" d="M6.34314575,4.92893219 L12.000039,10.585039 L17.6568542,4.92893219 C18.0473785,4.5384079 18.6805435,4.5384079 19.0710678,4.92893219 C19.4615921,5.31945648 19.4615921,5.95262146 19.0710678,6.34314575 L13.415039,12.000039 L19.0710678,17.6568542 C19.4615921,18.0473785 19.4615921,18.6805435 19.0710678,19.0710678 C18.6805435,19.4615921 18.0473785,19.4615921 17.6568542,19.0710678 L12.000039,13.415039 L6.34314575,19.0710678 C5.95262146,19.4615921 5.31945648,19.4615921 4.92893219,19.0710678 C4.5384079,18.6805435 4.5384079,18.0473785 4.92893219,17.6568542 L10.585039,12.000039 L4.92893219,6.34314575 C4.5384079,5.95262146 4.5384079,5.31945648 4.92893219,4.92893219 C5.31945648,4.5384079 5.95262146,4.5384079 6.34314575,4.92893219 Z"></path>
+														</svg>
+													</span>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								
+							</div>
+                    		
+							<!-- 모달 영역?------------------------------------------------- -->
+							<!-- <div id="modal" class="modal-overlay">
+								<div class="modal-window">
+						            <div class="title">
+						                <h2>모달</h2>
+						            </div>
+						            <div class="close-area">X</div>
+						            <div class="content">
+						                <p>가나다라마바사 아자차카타파하</p>
+						                <p>가나다라마바사 아자차카타파하</p>
+						                <p>가나다라마바사 아자차카타파하</p>
+						                <p>가나다라마바사 아자차카타파하</p>
+						            </div>
+						        </div>
+						    </div> -->
+						    
+						    <!-- --------------------------------------------------------------- -->
+						    
+						</div>
+					</div>
+				</section>
 			
+				
+				
+				<!-- 희망 급여 -->
+				<section class="additional-information-section">
+					<span class="additional-information-title">희망 급여</span>
+					<div class="additional-information-content-wrapper">
+						<span class="choice">선택</span>
+						<div class="additional-information-content">
+							<div class="desired-salary-container">
+								<div class="desired-salary-wrapper">
+									<span class="choose-title">희망 시급 (세전 기준)</span>
+									<div class="additional-information-input-wrapper">
+										<div class="additional-information-input-wrapper-inner">
+											<input type="text" placeholder="천원 단위로 입력하세요 (최소 10,000원)" class="additional-information-input" value="">
+										</div>
+										<span class="won">
+											원
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				
+				
+				<!-- 상주 가능 정보 -->  <!-- 일단 생략! -->
+				<!-- <section class="additional-information-section">
+					<span class="additional-information-title">상주 가능 정보</span>
+					<div class="additional-information-content-wrapper">
+						<span class="mandatory">필수</span>
+						<div class="additional-information-content">
+						</div>
+					</div>
+				</section> -->
+				
+				
 			</div>
-			
-			
-			
-					
 		</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		<!-- footer -->
 		<footer class="kmong-profile-modify-form-footer-wrapper">
 			<div class="kmong-profile-modify-form-footer">
@@ -126,53 +593,11 @@
 		</footer>
 	</form>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="profile-modify.js"></script>
+
 </html>
