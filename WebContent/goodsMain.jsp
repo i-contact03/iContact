@@ -245,15 +245,78 @@
 						</div>
 					</div>
 				</section>
-				<section>서비스설명</section>
-				<section>서비스 제공절차</section>
-				<section>의뢰인 준비사항</section>
-				<section>서비스_태그</section>
+				<section class="service-info">
+					<div class="service-info-title">서비스 설명</div>
+					<div height="842" class="service-info-body">
+						<div class="service-info-text">
+							<p>고객님은 고객님의 분야에서 최고이실 거예요!</p>
+							<p>저흰 고객님의 전문 분야에 대해선 초보이고 문외한이에요.</p>
+							<p><br></p>
+							<p><br></p>
+							<p style="text-align: center;">
+								<strong>당연한 것 같아요! 저희는 IT에서 최고이거든요 : )</strong>
+							</p>
+							<p><br></p>
+							<p><br></p>
+							<p>IT에 대한 용어도 서툴고 모르시는 것이 당연해요.</p>
+							<p>그건 하나하나 친절하게 안내해드릴게요!</p>
+							<p><br></p>
+							<p>홈페이지, 플랫폼, 솔루션을 제작하며 수많은 좋지 않은 사례를 겪은 클라이언트님들이 많았어요.</p>
+							<p>제작사의 폐업, 전문가의 잠수 등..</p>
+							<p>2017년 회사설립 이후 지금까지도 크리티온에 유지보수를 맡겨주시는 클라이언트가 많아요.</p>
+							<p><u>그만큼 만족하시고 믿으시는 이유가 아닐까요?</u></p>
+							<p><br></p>
+							<p>홈페이지를 만들때 물론 저렴한 홈페이지도 있지만</p>
+							<p>저희는 내 집 같이 오래 사용할 수 있는 홈페이지를 만들어 드릴 거예요.</p>
+							<p><br></p>
+							<p>다른 전문가보다 다소 비싸다는 생각이 드실 수 있어요.</p>
+							<p>저희는 <strong>영업팀, 기획팀, 디자인팀, 퍼블리싱팀, 개발팀, 운영관리팀을 가지고 있는 웹에이전시이고 해당 공정 과정에 최고의 전문가들이 배치</strong>되어 있답니다.</p>
+							<p><br></p>
+							<p>한번 만들고 실패해서 두 번 만들게 될 내 소중한 자산!</p>
+							<p>한 번에 원스톱으로 정확하게 만들고 평생 관리가 가능한 자산관리시스템을 이용하여 유지보수를 이용해보세요!</p>
+							<p>(제작 완료 시 자산관리시스템 계정 제공)</p>
+							<p>총 제작비의 10%를 추가 유지보수에 사용하실 수 있도록 마일리지를 적립해 드릴게요 : )</p>
+							<p><br></p>
+						</div>
+						<div class="service-info-margin"></div>
+						<div class="service-info-margin2"></div>
+					</div>
+				</section>
+				<section class="service-info">
+					<div class="service-info-title">서비스 제공 절차</div>
+					<div height="842" class="service-info-body">
+						<div class="service-info-text">
+							<p>1. 크몽 문의</p>
+							<p>2. 결제</p>
+							<p>3. 기획팀과 소통을 통해 컨셉과 자료 전달 및 필요시 미팅 진행</p>
+							<p>4. 기획 작업 진행 후 컨펌</p>
+							<p>5. 디자인 작업 진행 후 컨펌</p>
+							<p>6. 퍼블리싱/개발 작업 진행 후 컨펌</p>
+							<p>7. 구매확정 및 자산관리 시스템 계정 전달 및 마일리지 적립</p>
+							<p>8. 서비스 개시</p>
+						</div>
+						<div class="service-info-margin"></div>
+						<div class="service-info-margin2"></div>
+					</div>
+				</section>
+				<section class="service-info">
+					<div class="service-info-title">의뢰인 준비사항</div>
+					<div height="842" class="service-info-body">
+						<div class="service-info-text">
+							<p>상담전 동종 업계가 아니더라도 원하는 디자인 사이트 URL을 준비해주시면 보다 높은 만족감으로 완성이 될 수 있어요.</p>
+							<p>또한 작업이 시작되면 빠른 자료 전달이 빠르게 작업을 완료시킬 수 있답니다.</p>
+							<p>자료 요청은 우리 기획팀이 닦달할게요 : )</p>
+						</div>
+						<div class="service-info-margin"></div>
+						<div class="service-info-margin2"></div>
+					</div>
+				</section>
+		<!-- 	<section>서비스_태그</section>
 				<section>서비스 상세</section>
 				<section>가격정보</section>
 				<section>수정 및 재진행</section>
 				<section>취소 및 환불 규정</section>
-				<section>서비스평가</section>
+				<section>서비스평가</section>  -->
 			</main>
 			<!--메인 옆 공간-->
 			<aside class="right-born">
