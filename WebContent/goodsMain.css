@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-* {
-	font-family: 'NanumSquareNeo';
-    box-sizing: border-box;
-}
-
 svg {
 	width: 16;
     height: 16;
@@ -823,6 +818,49 @@ nav {
     line-height: normal;
     line-height: normal;
 }
+
+.service-info {
+	border-bottom: 1px solid rgb(228, 229, 237);
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
+
+.service-info-title {
+	font-size: 18px;
+    font-weight: 700;
+    color: rgb(48, 52, 65);
+}
+
+.service-info-body {
+	position: relative;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out 0s;
+    max-height: none;
+}
+
+.service-info-text {
+    color: rgb(48, 52, 65);
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 16px;
+    user-select: none;
+    word-break: break-all;
+}
+
+.service-info-margin {
+	height: 20px;
+}
+
+.service-info-margin2 {
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
 
 
 
