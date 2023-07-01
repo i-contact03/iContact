@@ -347,6 +347,104 @@
 					
 					<!-- 댓글 찐 -->
 					
+					
+					<!-- 댓글 작성하기 전체 틀 -->
+					<!-- 댓글 작성하기 전체 틀 -->
+					<!-- 댓글 작성하기 전체 틀 -->
+					<div>
+						<!-- 메세지 입력 틀 -->
+						<div>
+							
+						
+						
+						</div>
+						
+						<!-- 파일 첨부, 자주 쓰는 문구, 전송  틀 -->
+						<div>
+						
+						
+						
+						
+						</div>
+								
+					</div>
+					<!-- ================= -->
+					<!-- 댓글 작성하기 전체 틀 -->
+					<!-- ================= -->
+					<div class="comment-write-full-container"> <!-- .InboxDetailMessageFooter -->
+						
+						<!-- 메세지 작성 큰 틀 -->
+						<div class="comment-write-reply-area">	<!-- inbox-detail-message-area -->
+							<div class="comment-write-reply-textarea">	<!-- inbox-message-textarea -->
+								<textarea rows="1" placeholder="메시지를 입력하세요. (Enter: 줄바꿈, Ctrl + Enter: 전송)" ></textarea> 
+							</div>
+							
+							<!-- 댓글 메세지 입력 옆 첨부파일 드래그 존 --> 
+							<!-- <div class="dropzone-previews inbox-dropzone-preview"></div> -->
+						</div>
+						<!-- ===---=== -->
+						 
+						<div class="comment-below-box margin-top-10"> <!-- flex-between-center margin-top-10 -->
+							<div class="comment-below-left-button-area"> <!-- inbox-left-button-area -->
+								<!-- <div id="inboxDetailDropzone" draggable="true" ondragleave="window.inboxDetailDrag(event)" ondragexit="window.inboxDetailDrag(event)"> -->
+									
+									<!-- 파일 첨부 -->
+									<!-- <div id="inbox" class="vue-dropzone dropzone dz-clickable" quotereferraldzremovedfile="function () { [native code] }"> -->
+										<!-- <div class="dz-message"> -->
+										<div>
+											<div class="comment-below-inbox-fileupload cursor">	<!-- inbox-fileupload cursor has-tooltip -->	<!-- data-original-title="null" -->
+												<img src="https://d2v80xjmx68n4w.cloudfront.net/assets/icon/ic_clip.svg" alt="파일 첨부">
+                        						파일 첨부
+                    						</div>
+                    					</div>
+                    					<!-- </div> -->
+                    				<!-- </div> -->
+                    				<!-- 첨부파일 드래그 인 --> 
+                    				<!-- <div draggable="true" class="drag-in">
+                    					<div>
+                    						<img width="54px" src="/img/inbox/ic_inbox_drag_drop.png" alt="파일첨부"> 
+                    							<h3 class="drag-in-title NGB">
+                            					이곳에 파일을 올려 파일을 첨부합니다.
+                        						</h3> 
+	                        				<h5 class="drag-in-desc">
+					                            최대 6개까지 한번에 첨부 할 수 있어요. 
+					                            <br>
+					                            파일을 첨부하신 뒤 전송 버튼을 눌러주세요.
+	                        				</h5>
+                        				</div>
+                        			</div> -->
+                        		<!-- </div> --> 
+                        		<div class="comment-below-frequently-used-messages-button-wrapper">	<!-- InboxDetailMessageFooter__frequently-used-messages-btn-wrapper -->
+                        			<!----> 
+                        			<div> <!-- FrequentlyUsedMessages -->
+                        				<div>	<!-- v-popover -->
+                        					<div class="comment-frequently-used-messages-button-wrapper-final" >	<!-- trigger -->	<!-- style="display: inline-block;" -->
+                        						<button class="comment-below-frequently-used-messages-button-btn">	<!-- InboxDetailMessageFooter__frequently-used-messages-btn -->
+                        							<img src="https://d2v80xjmx68n4w.cloudfront.net/assets/icon/ic_message.png" alt="메세지">
+                        							자주 쓰는 문구
+                    							</button> 
+                    						</div> 
+                    					</div> 
+                    					<!-- <div data-v-2246e5d3="" data-v-53fa6b31="" data-v-17d148f2="" class="v-portal" style="display: none;"></div> -->
+                    				</div>
+                    			</div>
+                    
+                    		</div> 
+                    		
+                    		<!-- 작성하기 버튼 (전송 버튼) -->
+                    		<button  type="button" class="btn btn-yellow comment-inbox-send-btn">	 <!-- disabled="disabled" --><!-- btn btn-brand-yellow inbox-send-btn NGB -->
+          					  전송                                
+       				 		</button>
+       				 	</div>
+       				 
+       				 </div>					
+					
+					
+					<!-- ================= -->
+					
+					<!-- 댓글 작성하기 전체 틀 ====== 끝 ======-->
+					
+					<!-- 댓글 보기 전체 틀 -->
 					<div class="comment-container">
 					<!-- css-0 eeze5551 -->
 					
