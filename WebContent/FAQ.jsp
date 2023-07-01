@@ -27,8 +27,6 @@
  
  
  
- 
- 
 
   <div class="nav-wrap">
     <a href="https://support.kmong.com/hc/ko/requests/new">문의하기</a> 
