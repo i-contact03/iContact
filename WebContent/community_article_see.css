@@ -829,6 +829,189 @@ footer {
 
 
 
+/* 댓글 작성하기 전체 틀 ----------------------- */
+
+.comment-write-full-container {
+	border-top: 1px solid #e4e5ed;
+    padding: 20px;
+}
+
+
+.comment-write-reply-area {
+	/* display: flex; */
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e4e5ed;
+}
+
+
+.comment-write-reply-textarea {
+	position: relative;
+    flex: 1;
+    line-height: 0;
+    border-radius: 4px;
+}
+
+
+
+.comment-write-reply-textarea textarea {
+	background: #ffffff;
+    padding: 15px !important;
+    border: 0;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #333333;
+    line-height: 1.5;
+    width: 100%;
+    border-radius: 4px;
+    /* element.style */
+    height: 52px;
+    resize: none;
+    overflow: hidden;
+}
+
+
+.comment-below-box {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.margin-top-10 {
+    margin-top: 10px !important;
+}
+
+.comment-below-left-button-area {
+	display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+
+.comment-inbox-fileupload {
+	margin-right: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #9a9ba7;
+}
+
+.comment-below-inbox-fileupload{
+	    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #9a9ba7;
+}
+
+.cursor {
+	    cursor: pointer;
+}
+
+
+
+.comment-below-inbox-fileupload img {
+	width: 24px;
+    margin-right: 2px;
+}
+
+
+.comment-below-frequently-used-messages-button-wrapper {
+	position: relative;
+    height: 24px;
+}
+
+
+.comment-frequently-used-messages-button-wrapper-final {
+	    display: inline-block;
+}
+
+.comment-below-frequently-used-messages-button-btn {
+	display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 13px;
+    color: #9a9ba7;
+    margin: 0 16px 0 0;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
+.comment-below-frequently-used-messages-button-btn img {
+	width: 24px;
+    margin-right: 2px;
+}
+
+
+
+
+.comment-inbox-send-btn {
+	padding: 0 25px;
+    height: 40px;
+    font-size: 16px;
+    color: #303441;
+    
+    
+    font-weight: 500;
+}
+
+.btn-yellow {
+	color: #303441;
+    background-color: #ffd400;
+    border-color: #ffd400;
+}
+
+
+.btn {
+    border-radius: 4px !important;
+    
+    cursor: pointer;
+    user-select: none;
+    line-height: 1.5438;
+	text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+/*         display: inline-block;
+ */                
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
