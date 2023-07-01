@@ -4,36 +4,33 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>구매 관리 | 전문가가 필요한 순간, 프리랜서 마켓 No.1 크몽</title>
+<title>전문가가 필요한 순간, 프리랜서 마켓 No.1 크몽</title>
 <link rel="icon" href="kmongFavicon.png">
 <link rel="stylesheet" href="mymeterialize.css">
 
 <style>
 
 	@font-face {
-		font-family: 'MetroSansBold;
+		font-family: 'MetroSansBold';
 		src: url('MetroSans-Bold.woff2'); /* 굵은글씨체 주소지정 */
 	}
 	
 	@font-face {
-		font-family: 'MetroSansMedium;
+		font-family: 'MetroSansMedium';
 		src: url('MetroSans-Medium.woff2');
 	}
 	
 	
 	@font-face {
-		font-family: 'MetroSansRegular;
+		font-family: 'MetroSansRegular';
 		src: url('MetroSans-Regular.woff2'); /* 가는글씨체 주소지정 */
 	}
 	
 </style>
 
-
 </head>
 <body>
 
-
-<!-- 헤더바 시작--------------------------------------------------------------------------------->
 <header>
 <div class="header">
 <!-- 로고 + 검색바 + 메시지 + 마이크몽 + 프로필-->
@@ -112,7 +109,8 @@
 	</section>
 </div>
 </header>
-<!-- 헤더바 끝--------------------------------------------------------------------------------->
+
+
 
 <div style="margin-top: 0px">
 	<div class="buyer-requests">
@@ -156,9 +154,7 @@
 								<a>내 프로젝트</a>
 								<a aria-controls="buyerRequests" aria-expanded="true" data-toggle="collapse">
 									<div class="flex">
-									  <i class="arrow">
-									  
-									  </i>
+									  <img src="/images/arrow.png" width="14px" height="14px" class="arrow">
 									</div>
 								</a>
 							</div>
@@ -257,131 +253,436 @@
 		
 		<!-- 왼쪽 프로필과 사이드 메뉴 끝 ------------------------------------------->
 		
-		<main class="main-wrapper">
-			<h2 class="main-content-title">구매 관리</h2>
+		
+		
+		
+		<div class="content-wrapper">
+			<h2 class="coupon-title">쿠폰</h2>
 			
-			<section class="main-content-status-wrapper">
-				<div class="notice-wrapper">
-					<div style="margin-right: 4px">
-						<span class="notice-image-wrapper">
-							<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" class="notice-image">
-								<path d="M0 0h24v24H0z" fill="none"></path>
-								<path d="M12.1666667,2.16666667 C6.64666667,2.16666667 2.16666667,6.64666667 2.16666667,12.1666667 C2.16666667,17.6866667 6.64666667,22.1666667 12.1666667,22.1666667 C17.6866667,22.1666667 22.1666667,17.6866667 22.1666667,12.1666667 C22.1666667,6.64666667 17.6866667,2.16666667 12.1666667,2.16666667 L12.1666667,2.16666667 Z M13.1666667,19.1666667 L11.1666667,19.1666667 L11.1666667,17.1666667 L13.1666667,17.1666667 L13.1666667,19.1666667 L13.1666667,19.1666667 Z M15.2366667,11.4166667 L14.3366667,12.3366667 C13.6166667,13.0666667 13.1666667,13.6666667 13.1666667,15.1666667 L11.1666667,15.1666667 L11.1666667,14.6666667 C11.1666667,13.5666667 11.6166667,12.5666667 12.3366667,11.8366667 L13.5766667,10.5766667 C13.9466667,10.2166667 14.1666667,9.71666667 14.1666667,9.16666667 C14.1666667,8.06666667 13.2666667,7.16666667 12.1666667,7.16666667 C11.0666667,7.16666667 10.1666667,8.06666667 10.1666667,9.16666667 L8.16666667,9.16666667 C8.16666667,6.95666667 9.95666667,5.16666667 12.1666667,5.16666667 C14.3766667,5.16666667 16.1666667,6.95666667 16.1666667,9.16666667 C16.1666667,10.0466667 15.8066667,10.8466667 15.2366667,11.4166667 L15.2366667,11.4166667 Z"></path>
-							</svg>
-						</span>
-					</div>
-					구매 과정 및 주문 상태 안내
-				</div>
-				
-				<ul class="main-content-status-list-wrapper">
-					<li class="main-content-status-list">
-						<div class="main-content-status">
-							<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<rect width="36" height="36" rx="12" fill="#EBF4FF"></rect>
-								<rect x="18.375" y="13.2422" width="6" height="6" rx="1" transform="rotate(-45 18.375 13.2422)" fill="#116AD4"></rect>
-								<rect x="9.75" y="19.7197" width="6.75" height="6.75" rx="3.375" fill="#116AD4"></rect>
-								<rect x="19.5" y="19.7197" width="6.75" height="6.75" rx="1" fill="#116AD4"></rect>
-								<rect x="9.75" y="9.96973" width="6.75" height="6.75" rx="1" fill="#116AD4"></rect>
-							</svg>
-							<div class="main-content-status-detail">진행중</div>
+			
+			<div class="coupon-wrapper">
+			
+				<!-- 쿠폰 -->
+				<section class="coupon-search-bar-wrapper">
+					<form action="" class="coupon-search-bar">
+						<div class="coupon-search-input-wrapper">
+							<input type="text" placeholder="쿠폰 코드 입력 (대소문자 구별)" class="coupon-search-input" >
 						</div>
-						
-						<div class="main-content-status-number">
-							<a>0</a>
-						</div>
-					</li>
+						<button class="coupon-search-button">
+							<span style="font-family: 'NanumSquareAcr';">쿠폰 입력</span>
+						</button>
+					</form>
 					
-					<li class="main-content-status-list">
-						<div class="main-content-status">
-							<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<rect width="36" height="36" rx="12" fill="#EDFEE0"></rect>
-								<path d="M9.75 12.75H24.25C25.3546 12.75 26.25 13.6454 26.25 14.75V24.25C26.25 25.3546 25.3546 26.25 24.25 26.25H11.75C10.6454 26.25 9.75 25.3546 9.75 24.25V12.75Z" fill="#11CA2D"></path>
-								<path d="M9.75 12.5C9.75 11.3954 10.6454 10.5 11.75 10.5H16.125L18 12.75H9.75V12.5Z" fill="#11CA2D"></path>
-							</svg>
-							<div class="main-content-status-detail">작업물 도착</div>
-						</div>
-						
-						<div class="main-content-status-number">
-							<a>0</a>
-						</div>
-					</li>
-					<li class="main-content-status-list">
-						<div class="main-content-status">
-							<div class="image-background-style-wrapper">
-								<div class="image-background-style">
-									<span class="image-color-style">
-										<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="css-7kp13n e181xm9y0">
-											<g xmlns="http://www.w3.org/2000/svg" fill-rule="nonzero">
-												<path d="M12.5085,16.2335 C13.2055,16.2335 13.7665,16.7945 13.7665,17.4915 C13.7665,18.1885 13.2055,18.7665 12.5085,18.7665 C11.8115,18.7665 11.2335,18.1885 11.2335,17.4915 C11.2335,16.7945 11.8115,16.2335 12.5085,16.2335 Z M12.5,5.5 C13.2615898,5.5 14,6 13.9916659,7.16150442 L13.5106618,13.2256637 C13.4505363,13.6438053 13.0697413,14 12.5085699,14 C11.9473985,14 11.5666035,13.6438053 11.506478,13.2256637 L11.0054321,7.16150442 C11,6 11.7384102,5.5 12.5,5.5 Z"></path>
-											</g>
-										</svg>
-									</span>
+					
+					<!-- 유효성 검사 -->
+					<!-- 
+					<p class="coupon-search-validation">코드를 확인 후 다시 입력하세요</p>
+					 -->
+				
+				</section>
+				
+				
+				<!-- 사용 가능한 쿠폰 -->
+				<section class="coupon-list-wrapper">
+					<section class="coupon-available-wrapper">
+						<h1 class="coupon-available-title">사용 가능한 쿠폰</h1>
+						<span class="coupon-stuck">12</span>					
+					</section>
+					
+					<!-- 쿠폰 리스트 -->
+					<ul class="coupon-list">
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									5,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 디자인 5천원 할인</h2>
+							
+							<p class="coupon-benefit-detail">30,000원 이상 구매 시 최대 5,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									디자인 카테고리 사용 가능
 								</div>
 							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									10,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
 							
-							<div class="main-content-status-detail">취소·문제 해결</div>
-						</div>
+							
+							<h2 class="coupon-benefit">신규회원 마케팅 1만원 할인</h2>
+							
+							<p class="coupon-benefit-detail">50,000원 이상 구매 시 최대 10,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									마케팅 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
 						
-						<div class="main-content-status-number">
-							<a>0</a>
-						</div>
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									10,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 번역·통역 1만원 할인</h2>
+							
+							<p class="coupon-benefit-detail">50,000원 이상 구매 시 최대 10,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									번역·통역 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									5,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 문서·글쓰기 5천원 할인</h2>
+							
+							<p class="coupon-benefit-detail">30,000원 이상 구매 시 최대 5,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									문서·글쓰기 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									25,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 IT·프로그래밍 2.5만원 할인</h2>
+							
+							<p class="coupon-benefit-detail">100,000원 이상 구매 시 최대 25,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									IT·프로그래밍 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									10,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 영상·사진·음향 1만원 할인</h2>
+							
+							<p class="coupon-benefit-detail">50,000원 이상 구매 시 최대 10,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									영상·사진·음향 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									10,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 경영자문·운영지원 1만원 할인</h2>
+							
+							<p class="coupon-benefit-detail">80,000원 이상 구매 시 최대 10,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									창업·사업 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									5,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 운세 5천원 할인</h2>
+							
+							<p class="coupon-benefit-detail">50,000원 이상 구매 시 최대 5,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									운세 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									10,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 레슨·컨설팅 1만원 할인</h2>
+							
+							<p class="coupon-benefit-detail">80,000원 이상 구매 시 최대 10,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									직무역량 레슨, 취미 레슨, 투잡·노하우 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									5,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 주문제작 5천원 할인</h2>
+							
+							<p class="coupon-benefit-detail">80,000원 이상 구매 시 최대 5,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									주문제작 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									2,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 취업·입시 2천원 할인</h2>
+							
+							<p class="coupon-benefit-detail">30,000원 이상 구매 시 최대 2,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									취업·입시 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+						
+						<li class="coupon-list-element">
+							<section class="coupon-sale">
+								<h2>
+									3,000
+									원
+								</h2>
+								<span>
+									<strong class="coupon-sale-dday">12</strong>
+									일 남음
+								</span>
+							</section>
+							
+							
+							<h2 class="coupon-benefit">신규회원 콘텐츠(전자책, VOD, 자료·템플릿) 3천원 할인</h2>
+							
+							<p class="coupon-benefit-detail">30,000원 이상 구매 시 최대 3,000원 할인</p>
+							
+							<section class="coupon-dday-detail-wrapper">
+								<div class="coupon-dday-detail">
+									2023.07.05 16:27까지
+								</div>
+							</section>
+							
+							<div class="coupon-benefit-category-wrapper">
+								<div class="coupon-benefit-category">
+									전자책, VOD, 자료·템플릿 카테고리 사용 가능
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+			
+			
+			</div>
+			
+			
+			<section class="notice">
+				<h2 class="notice-title">꼭 확인해 주세요!</h2>
+				<ul class="notice-list-wrapper">
+					<li class="notice-list">
+						· 주문 1회당 쿠폰 1개에 한하여 적용되며, 타 이벤트 할인과 중복 적용되지 않습니다.
 					</li>
-					
-					<li class="main-content-status-list-detail">
-						<div class="main-content-status">
-							구매 확정
-							<strong>
-								<a>0</a>
-							</strong>
-						</div>
-						
-						<div class="main-content-status">
-							작성 가능한 평가
-							<strong>
-								<a>0</a>
-							</strong>
-						</div>
-						<div class="main-content-status">
-							주문 취소
-							<strong>
-								<a>0</a>
-							</strong>
-						</div>
+					<li class="notice-list">
+						· 서비스 구매 시 총 결제 금액에서 할인이 적용되며, 쿠폰 금액 이상 구매 시 적용 가능합니다.
+					</li>
+					<li class="notice-list">
+						· 구매 금액에 따라 조건에 맞는 쿠폰을 발급받아 사용할 수 있으며, 할인 쿠폰별로 적용 대상이 다를 수 있습니다.
+					</li>
+					<li class="notice-list">
+						· 쿠폰 사용 후 다른 쿠폰으로의 변경은 불가합니다.
+					</li>
+					<li class="notice-list">
+						· 쿠폰을 적용하신 주문 건이 유효기간 이후 취소되는 경우, 복구가 불가합니다.
 					</li>
 				</ul>
 			</section>
-			
-			
-			
-			<section class="main-content-items-list">
-				<p class="main-content-items-notice">주문 기간 내에 구매 내역이 없습니다.</p>
-				주문 기간을 변경하여 확인해 보세요.
-				<br>
-				(기본 조회 기간: 1년)
-			</section>
-			
-			
-			
-			<section class="announcement-wrapper">
-				<h2 class="announcement-title">꼭 확인해 주세요!</h2>
-				<ul class="announcement-list-wrapper">
-					<li class="announcement-list">· 주문 금액에 대한 세금계산서는 거래 주체인 전문가가 직접 발행하며, 세금계산서 발행 가능한 사업자 전문가의 서비스 구매 시에만 신청하실 수 있습니다.</li>
-					<li class="announcement-list">· 수수료에 대한 세금계산서는 크몽이 발행합니다.</li>
-					<li class="announcement-list">· 세금계산서는 구매 확정일(거래 완료일) 기준으로 발행됩니다.</li>
-					<li class="announcement-list">· 이벤트 쿠폰 사용 금액은 할인된 금액이기 때문에 세금계산서에 포함되지 않습니다.</li>
-					<li class="announcement-list">· 거래명세서는 결제가 완료되었음을 증명하는 용도로만 활용 가능하며 세무상의 지출증빙 효력이 없습니다.</li>
-					<li class="announcement-list">· 현금영수증은 개인의 소득공제용으로만 사용 가능하며, 결제 당시 지출 증빙용으로 선택하셨더라도 매입세액공제를 받으실 수 없습니다.</li>
-					<li class="announcement-list">
-						· 자세한 내용은
-						<a>
-						[자주 묻는 질문 - 구매 및 영수증]</a>
-						항목을 참고해주세요.
-					</li>
-				</ul>
-			</section>
-		</main>
+		</div>
+
 	</div>
 </div>
+
+
 
 
 <footer>
@@ -530,14 +831,9 @@
 	
 </footer>
 
-
-
-
-
-
-
-
-
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="mainpage.js"></script>
+<script src="mymeterialize.js"></script>
 
 </body>
 </html>
