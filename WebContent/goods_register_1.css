@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     word-break: break-all;
-    font-family: MetroSans;
+	font-family: 'MetroSansMedium';    
 }
 
 body {
@@ -560,7 +560,7 @@ svg:not(:root) {
 }
 
 .main-img3 {
-	flex-direction: column;
+	flex-direction: column !important;
     padding-left: 0;
     padding-right: 0;
     border: 0;

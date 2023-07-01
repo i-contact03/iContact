@@ -4,10 +4,32 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ideabank_main</title>
+<title>84,195개 리뷰로 증명된 42,695개 IT·프로그래밍 서비스를 5,000원에서 부터 만나보세요! | 프리랜서마켓 No.1 크몽</title>
+<link rel="icon" href="kmongFavicon.png">
 <link rel="stylesheet" href="ideabank.css"/>
 <link rel="stylesheet" href="goodsMain.css"/>
 <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css" rel="stylesheet">
+
+<style>
+
+	@font-face {
+		font-family: 'MetroSansBold';
+		src: url('MetroSans-Bold.woff2'); /* 굵은글씨체 주소지정 */
+	}
+	
+	@font-face {
+		font-family: 'MetroSansMedium';
+		src: url('MetroSans-Medium.woff2');
+	}
+	
+	
+	@font-face {
+		font-family: 'MetroSansRegular';
+		src: url('MetroSans-Regular.woff2'); /* 가는글씨체 주소지정 */
+	}
+	
+</style>
+
 </head>
 <body>
 <div id="next">
@@ -753,7 +775,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/good2.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/good2.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -804,7 +826,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods3.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods3.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            					
 			            						</div>
 			            					</div>
@@ -856,7 +878,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods4.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods4.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            					
 			            						</div>
 			            					</div>
@@ -912,7 +934,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods5.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods5.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -964,7 +986,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods6.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods6.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            					
 			            						</div>
 			            					</div>
@@ -1016,7 +1038,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods7.jpg" class="goods-img2">
+			            							<img src="img/goods7.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1067,7 +1089,7 @@
 			         		<div class="middle-banner">
 			         			<a>
 			         				<div class="middle-banner2">
-			         					<img src="https://d2v80xjmx68n4w.cloudfront.net/assets/enterprise/banners/banner-black.png" width="212" height="309">
+			         					<img src="https://d2v80xjmx68n4w.cloudfront.net/assets/enterprise/banners/banner-b.png" width="212" height="309">
 			         				</div>
 			         			</a>
 			         		</div>
@@ -1078,7 +1100,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods8.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods8.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            					
 			            						</div>
 			            					</div>
@@ -1132,7 +1154,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods9.png" class="goods-img2">
+			            							<img src="img/goods9.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1185,7 +1207,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods10.jpg" class="goods-img2">
+			            							<img src="img/goods10.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1235,7 +1257,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods11.jpg" class="goods-img2">
+			            							<img src="img/goods11.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1289,7 +1311,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods12.png" class="goods-img2">
+			            							<img src="img/goods12.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1342,7 +1364,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods13.jpg" class="goods-img2">
+			            							<img src="img/goods13.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1393,7 +1415,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods14.png" class="goods-img2">
+			            							<img src="img/goods14.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1446,7 +1468,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods15.jpg" class="goods-img2">
+			            							<img src="img/goods15.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1499,7 +1521,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods16.jpg" class="goods-img2">
+			            							<img src="img/goods16.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1552,7 +1574,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods17.jpg" class="goods-img2">
+			            							<img src="img/goods17.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1602,7 +1624,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods18.png" class="goods-img2">
+			            							<img src="img/goods18.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1656,7 +1678,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods12.png" class="goods-img2">
+			            							<img src="img/goods12.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1709,7 +1731,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods13.jpg" class="goods-img2">
+			            							<img src="img/goods13.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1760,7 +1782,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods14.png" class="goods-img2">
+			            							<img src="img/goods14.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1813,7 +1835,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods1.jpg" class="goods-img2">
+			            							<img src="img/goods1.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1868,7 +1890,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/good2.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/good2.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -1919,7 +1941,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods3.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods3.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            					
 			            						</div>
 			            					</div>
@@ -1971,7 +1993,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods4.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods4.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            					
 			            						</div>
 			            					</div>
@@ -2027,7 +2049,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods5.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods5.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2079,7 +2101,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods6.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods6.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            					
 			            						</div>
 			            					</div>
@@ -2131,7 +2153,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods7.jpg" class="goods-img2">
+			            							<img src="img/goods7.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2185,8 +2207,8 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods8.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
-			            					
+			            							<img src="img/goods8.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            				
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2239,7 +2261,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods9.png" class="goods-img2">
+			            							<img src="img/goods9.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2292,7 +2314,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods10.jpg" class="goods-img2">
+			            							<img src="img/goods10.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2342,7 +2364,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods11.jpg" class="goods-img2">
+			            							<img src="img/goods11.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2396,7 +2418,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods12.png" class="goods-img2">
+			            							<img src="img/goods12.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2449,7 +2471,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods13.jpg" class="goods-img2">
+			            							<img src="img/goods13.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2500,7 +2522,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods14.png" class="goods-img2">
+			            							<img src="img/goods14.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2553,7 +2575,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods15.jpg" class="goods-img2">
+			            							<img src="img/goods15.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2606,7 +2628,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods16.jpg" class="goods-img2">
+			            							<img src="img/goods16.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2659,7 +2681,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods17.jpg" class="goods-img2">
+			            							<img src="img/goods17.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2709,7 +2731,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods18.png" class="goods-img2">
+			            							<img src="img/goods18.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2763,7 +2785,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods12.png" class="goods-img2">
+			            							<img src="img/goods12.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2816,7 +2838,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods13.jpg" class="goods-img2">
+			            							<img src="img/goods13.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2867,7 +2889,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods14.png" class="goods-img2">
+			            							<img src="img/goods14.png" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2920,7 +2942,7 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods5.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
+			            							<img src="img/goods5.jpg" class="goods-img2" title="&quot;성공적인 홈페이지제작 전문&quot; PC 모바일 업종맞춤제작">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -2971,10 +2993,12 @@
 			         		<ul class="number-list">
 			         			<li class="number-list2">
 			         				<button class="number-list3">
-			         					<span class="advertisement-img">
-			         						<svg class="list-left" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet">
-			         						<path xmlns="http://www.w3.org/2000/svg" d="M9.41421356,12 L15.7071068,5.70710678 C16.0976311,5.31658249 16.0976311,4.68341751 15.7071068,4.29289322 C15.3165825,3.90236893 14.6834175,3.90236893 14.2928932,4.29289322 L7.29289322,11.2928932 C6.90236893,11.6834175 6.90236893,12.3165825 7.29289322,12.7071068 L14.2928932,19.7071068 C14.6834175,20.0976311 15.3165825,20.0976311 15.7071068,19.7071068 C16.0976311,19.3165825 16.0976311,18.6834175 15.7071068,18.2928932 L9.41421356,12 Z"></path>
-			         						</svg>
+			         					<span class="">
+				         					<span class="advertisement-img">
+				         						<svg class="list-left" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet">
+				         						<path xmlns="http://www.w3.org/2000/svg" d="M9.41421356,12 L15.7071068,5.70710678 C16.0976311,5.31658249 16.0976311,4.68341751 15.7071068,4.29289322 C15.3165825,3.90236893 14.6834175,3.90236893 14.2928932,4.29289322 L7.29289322,11.2928932 C6.90236893,11.6834175 6.90236893,12.3165825 7.29289322,12.7071068 L14.2928932,19.7071068 C14.6834175,20.0976311 15.3165825,20.0976311 15.7071068,19.7071068 C16.0976311,19.3165825 16.0976311,18.6834175 15.7071068,18.2928932 L9.41421356,12 Z"></path>
+				         						</svg>
+				         					</span>
 			         					</span>
 			         				</button>
 			         			</li>
@@ -2993,9 +3017,27 @@
 			         					<span>3</span>
 			         				</button>
 			         			</li>
-			         			<li class="number-list2"></li>
-			         			<li class="number-list2"></li>
-			         			<li class="number-list2"></li>
+			         			<li class="number-list2">
+			         				<button class="list-number-non">
+			         					<span>…</span>
+			         				</button>
+			         			</li>
+			         			<li class="number-list2">
+			         				<button class="list-number2">
+			         					<span>206</span>
+			         				</button>
+			         			</li>
+			         			<li class="number-list2">
+			         				<button class="list-left">
+			         					<span class="">
+			         						<span role="img" rotate="0" class="advertisement-img">
+			         							<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="star2">
+			         							<path xmlns="http://www.w3.org/2000/svg" d="M9.41421356,12 L15.7071068,5.70710678 C16.0976311,5.31658249 16.0976311,4.68341751 15.7071068,4.29289322 C15.3165825,3.90236893 14.6834175,3.90236893 14.2928932,4.29289322 L7.29289322,11.2928932 C6.90236893,11.6834175 6.90236893,12.3165825 7.29289322,12.7071068 L14.2928932,19.7071068 C14.6834175,20.0976311 15.3165825,20.0976311 15.7071068,19.7071068 C16.0976311,19.3165825 16.0976311,18.6834175 15.7071068,18.2928932 L9.41421356,12 Z" transform="translate(11.500000, 12.000000) scale(-1, 1) translate(-11.500000, -12.000000) "></path>
+			         							</svg>
+			         						</span>
+			         					</span>
+			         				</button>
+			         			</li>
 			         		</ul>
 			         	</div>
 			        </div> 	

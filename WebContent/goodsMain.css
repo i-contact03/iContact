@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+* {
+	font-family: 'MetroSansMedium';
+    box-sizing: border-box;
+}
+
+
 svg {
 	width: 16;
     height: 16;
@@ -934,6 +940,38 @@ nav {
     transform: translateX(2px);
 }
 
+.list-number-non {
+	outline: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    line-height: 1;
+    font-weight: 500;
+    transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    white-space: nowrap;
+    max-width: 100%;
+    font-size: 12px;
+    padding: 0px 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(154, 155, 167);
+    border: none;
+    min-width: 36px;
+    height: 36px;
+}
+
+.list-number-non:disabled {
+	border-color: rgb(228, 229, 237);
+    color: rgb(154, 155, 167);
+    opacity: 0.3;
+    background: none;
+    cursor: default;
+}
 
 
 

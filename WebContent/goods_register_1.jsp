@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>상품등록</title>
+<link rel="icon" href="kmongFavicon.png">
 <link rel="stylesheet" href="goods_register_1.css"/>
 </head>
 <body>
@@ -18,7 +19,7 @@
 							<img class="kmong-logo" src="https://d2v80xjmx68n4w.cloudfront.net/assets/desktop/pages/main/kmong_wordmark.svg">
 						</a>
 					</div>
-					<button disabled="disabled" class="header-summit" >제출하기</button>
+					<button disabled="disabled" class="header-summit">제출하기</button>
 				</section>
 				<div class="header-line"></div>
 				<div class="header-form"></div>
