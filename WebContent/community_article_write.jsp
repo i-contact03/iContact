@@ -7,6 +7,25 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="community_article_write.css" />
 <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<style>
+
+   @font-face {
+      font-family: 'MetroSansBold';
+      src: url('MetroSans-Bold.woff2'); /* 굵은글씨체 주소지정 */
+   }
+   
+   @font-face {
+      font-family: 'MetroSansMedium';
+      src: url('MetroSans-Medium.woff2');
+   }
+   
+   
+   @font-face {
+      font-family: 'MetroSansRegular';
+      src: url('MetroSans-Regular.woff2'); /* 가는글씨체 주소지정 */
+   }
+   
+</style>
 </head>
 <body>
 	<div  style="background-color: #FAE57C;">
