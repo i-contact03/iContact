@@ -697,7 +697,8 @@
 			            				<div class="goods-setting2">
 			            					<div class="goods-height">
 			            						<div tabindex="0" class="goods-img">
-			            							<img src="/img/goods1.jpg" class="goods-img2">
+			  <!-- 사진 -->
+			            							<img onmouseover="expansion()" src="img/goods1.jpg" class="goods-img2">
 			            						</div>
 			            					</div>
 			            				</div>
@@ -3139,4 +3140,6 @@
 </footer>
 </div>
 </body>
+<script type="module" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="ideabank.js"></script>
 </html>

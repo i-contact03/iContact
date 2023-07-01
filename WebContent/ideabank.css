@@ -198,6 +198,14 @@ h3 {
     cursor: default;
 }
 
+.expert:hover {
+	 background-color :  rgba(48, 52, 65, 0.1);
+}
+
+.main-searsh-box:hover {
+	 background-color :  rgba(48, 52, 65, 0.1);
+}
+
 .expert {
 	outline: none;
     border-width: 1px;
@@ -224,6 +232,10 @@ h3 {
     border-color: transparent;
     color: rgb(48, 52, 65);
     margin-right: 4px;
+}
+
+.login:hover {
+	 background-color :  rgba(48, 52, 65, 0.1);
 }
 
 .login {
@@ -441,6 +453,11 @@ div.left-top-category {
 	text-decoration: none;
 }
 
+.list-text2:hover {
+	font-weight: 500;
+    color: rgb(48, 52, 65);
+}
+
 .list-text2 {
 	display: flex;
     align-items: center;
@@ -510,6 +527,12 @@ div.left-top-category {
 .select-category{
 	 width: 137px;
 }
+
+.select-text:hover {
+	border-color: rgb(154, 155, 167);
+    background-color: #ECECF0;
+}
+
 .select-text {
 	display: flex;
     align-items: center;
@@ -720,6 +743,9 @@ div.left-top-category {
     opacity: 1;
 }
 
+.goods-img2:hover {
+	transform:scale(1.1);
+}
 .heart {
 	position: absolute;
     top: 8px;
