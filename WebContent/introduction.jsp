@@ -13,7 +13,7 @@
 </head>
 
 
-<div class="ckIVIC">
+<div class="flex-direction">
 <header class="header">
 	<div class="header-div header-div2">
 		<a href="/"><div class="header-div-flex">
@@ -33,7 +33,7 @@
 			<div class="div-layout">
 				<div class="div-layout-width layout">
 					<div class="div-layout-max layout">
-									<div class="gWcRja"
+									<div class="profile-intro"
 										style="position: relative;">
 									</div>
 								</div>
@@ -67,9 +67,9 @@
 				<div class="div-img-max">
 					<div class="fYnJnG hheoID">
 						<div size="100" class="enwEeT">
-							<div class="gwUxHZ column"
+							<div class="position-relative column"
 								id="">
-								<div class="gWcRja"
+								<div class="profile-intro"
 									style="position: relative;">
 									<div id="" type="blank"
 										class="iPzkpi"></div>
@@ -118,9 +118,9 @@
 		<div class="gMLwfu layout">
 			<div class="fYnJnG hheoID">
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="blank"
 								class="iPzkpi"></div>
@@ -132,18 +132,18 @@
 	</div>
 	<div class="dVVNTz layout">
 		<div class="gMLwfu layout">
-			<div class="jrdJyp hheoID">
+			<div class="profile-gap hheoID">
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="image"
-								size="100" radius="[object Object]" class="hRZthl">
-								<div size="100" class="bDDbFr">
+								size="100" radius="[object Object]" class="img-flex">
+								<div size="100" class="img-width">
 									<div id="" type="image"
 										size="100" radius="[object Object]"
-										class="wCigc">
+										class="profile-position">
 										<img
 											src="https://opening-attachments.greetinghr.com/20220916/cd5a7a60-79c2-4258-b291-43fe567079c9/2.png">
 									</div>
@@ -153,7 +153,7 @@
 								class="iPzkpi"></div>
 							<div id="" type="text"
 								content="<p>크몽은 다양한 시도를 통해 개발자가 성장할 수 있는 기회를 제공해줍니다.</p><p><br></p>"
-								class="hvOLDM jwyDuD">
+								class="hvOLDM height">
 								<p>크몽은 다양한 시도를 통해 개발자가 성장할 수 있는 기회를 제공해줍니다.</p>
 								<p>
 									<br>
@@ -169,25 +169,25 @@
 									target="_blank" rel="noreferrer"><button
 										id="" type="button"
 										name="플랫폼기술팀 백엔드 개발자 Ellie" radius="[object Object]"
-										shape="square" class="Mcmni">
+										shape="square" class="profile-btn">
 										<span color="#eacaff" type="item"
-											class="jHPtRy">플랫폼기술팀 백엔드개발자 Ellie</span>
+											class="profile-font">플랫폼기술팀 백엔드개발자 Ellie</span>
 									</button></a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="image"
-								size="100" radius="[object Object]" class="hRZthl">
-								<div size="100" class="bDDbFr">
+								size="100" radius="[object Object]" class="img-flex">
+								<div size="100" class="img-width">
 									<div id="" type="image"
 										size="100" radius="[object Object]"
-										class="wCigc">
+										class="profile-position">
 										<img
 											src="https://opening-attachments.greetinghr.com/20220916/b08dfa33-e4c0-4d1d-87c7-f459512e6a0b/2.png">
 									</div>
@@ -197,7 +197,7 @@
 								class=""></div>
 							<div id="" type="text"
 								content="<p>크몽에서는 높은 자율성을 가지고 사업에 필요한 내용을 주도적으로 진행할 수 있어요.</p><p><br></p>"
-								class="hvOLDM jwyDuD">
+								class="hvOLDM height">
 								<p>크몽에서는 높은 자율성을 가지고 사업에 필요한 내용을 주도적으로 진행할 수 있어요.</p>
 								<p>
 									<br>
@@ -213,9 +213,9 @@
 									target="_blank" rel="noreferrer"><button
 										id="" type="button"
 										name="Enterprise팀 기업외주파트 리드 Aida" radius="[object Object]"
-										shape="square" class="Mcmni">
+										shape="square" class="profile-btn">
 										<span color="#eacaff" type="item"
-											class="jHPtRy">Enterprise팀
+											class="profile-font">Enterprise팀
 											기업외주파트 리드 Aida</span>
 									</button></a>
 							</div>
@@ -223,16 +223,16 @@
 					</div>
 				</div>
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="image"
-								size="100" radius="[object Object]" class="sc-c1df87fb-1 hRZthl">
-								<div size="100" class="bDDbFr">
+								size="100" radius="[object Object]" class="sc-c1df87fb-1 img-flex">
+								<div size="100" class="img-width">
 									<div id="" type="image"
 										size="100" radius="[object Object]"
-										class="wCigc">
+										class="profile-position">
 										<img
 											src="https://opening-attachments.greetinghr.com/20220916/3e005ba5-7d17-4ef8-9c39-def85d8f5eca/2.png">
 									</div>
@@ -242,7 +242,7 @@
 								class="iPzkpi"></div>
 							<div id="" type="text"
 								content="<p>soon팀은 기존 경쟁 서비스들이 해결하지 못한 명쾌한 솔루션을 제시하며 새로운 역사를 쓰고 있어요.</p>"
-								class="hvOLDM jwyDuD">
+								class="hvOLDM height">
 								<p>soon팀은 기존 경쟁 서비스들이 해결하지 못한 명쾌한 솔루션을 제시하며 새로운 역사를 쓰고 있어요.</p>
 							</div>
 							<div id="" type="blank"
@@ -255,9 +255,9 @@
 									target="_blank" rel="noreferrer"><button
 										id="" type="button"
 										name="soon팀 PO Don     " radius="[object Object]"
-										shape="square" class="Mcmni">
+										shape="square" class="profile-btn">
 										<span color="#eacaff" type="item"
-											class="jHPtRy">soon팀 PO
+											class="profile-font">soon팀 PO
 											Don </span>
 									</button></a>
 							</div>
@@ -271,9 +271,9 @@
 		<div class="gMLwfu layout">
 			<div class="fYnJnG hheoID">
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="blank"
 								class="iPzkpi"></div>
@@ -296,9 +296,9 @@
 		<div class="gMLwfu layout">
 			<div class="fYnJnG hheoID">
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="blank"
 								class="iPzkpi"></div>
@@ -310,18 +310,18 @@
 	</div>
 	<div class="dVVNTz layout">
 		<div class="gMLwfu layout">
-			<div class="jrdJyp hheoID">
+			<div class="profile-gap hheoID">
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="image"
-								size="100" radius="[object Object]" class="hRZthl">
-								<div size="100" class="bDDbFr">
+								size="100" radius="[object Object]" class="img-flex">
+								<div size="100" class="img-width">
 									<div id="" type="image"
 										size="100" radius="[object Object]"
-										class="wCigc">
+										class="profile-position">
 										<img
 											src="https://opening-attachments.greetinghr.com/20220916/0477a026-ce37-4bc6-bb1d-78c5e2ae4ed2/A9_01318.jpg">
 									</div>
@@ -331,7 +331,7 @@
 								class="iPzkpi"></div>
 							<div id="" type="text"
 								content="<p>크몽은 무한한 확장성을 바탕으로 다양한 기회를 통해 새로운 가능성을 만들어낼 수 있는 곳입니다.</p><p><br></p>"
-								class="hvOLDM jwyDuD">
+								class="hvOLDM height">
 								<p>크몽은 무한한 확장성을 바탕으로 다양한 기회를 통해 새로운 가능성을 만들어낼 수 있는 곳입니다.</p>
 								<p>
 									<br>
@@ -347,9 +347,9 @@
 									target="_blank" rel="noreferrer"><button
 										id="" type="button"
 										name="Mass Market팀 PO Ray" radius="[object Object]"
-										shape="square" class="Mcmni">
+										shape="square" class="profile-btn">
 										<span color="#eacaff" type="item"
-											class="jHPtRy">Mass
+											class="profile-font">Mass
 											Market팀 PO Ray</span>
 									</button></a>
 							</div>
@@ -357,16 +357,16 @@
 					</div>
 				</div>
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="image"
-								size="100" radius="[object Object]" class="sc-c1df87fb-1 hRZthl">
-								<div size="100" class="bDDbFr">
+								size="100" radius="[object Object]" class="sc-c1df87fb-1 img-flex">
+								<div size="100" class="img-width">
 									<div id="" type="image"
 										size="100" radius="[object Object]"
-										class="wCigc">
+										class="profile-position">
 										<img
 											src="https://opening-attachments.greetinghr.com/20220916/b381ad8e-de65-45ad-9bcd-f1e150751dc5/A9_00796.jpg">
 									</div>
@@ -376,7 +376,7 @@
 								class="iPzkpi"></div>
 							<div id="" type="text"
 								content="<p>크몽은 표방하는 조직 문화가 실제로 잘 이행되고 있는 곳입니다. 구성원이 행복하게 일하는 것에 진심이고, 이를 통해 자연스럽게 최고의 성과를 낼 수 있도록 도와줍니다.&amp;nbsp;</p>"
-								class="jwyDuD">
+								class="height">
 								<p>크몽은 표방하는 조직 문화가 실제로 잘 이행되고 있는 곳입니다. 구성원이 행복하게 일하는 것에
 									진심이고, 이를 통해 자연스럽게 최고의 성과를 낼 수 있도록 도와줍니다.&nbsp;</p>
 							</div>
@@ -390,9 +390,9 @@
 									target="_blank" rel="noreferrer"><button
 										id="" type="button"
 										name="People팀 피플매니저 Joanne" radius="[object Object]"
-										shape="square" class="Mcmni">
+										shape="square" class="profile-btn">
 										<span color="#eacaff" type="item"
-											class="jHPtRy">People팀
+											class="profile-font">People팀
 											피플매니저 Joanne</span>
 									</button></a>
 							</div>
@@ -400,16 +400,16 @@
 					</div>
 				</div>
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="image"
-								size="100" radius="[object Object]" class="sc-c1df87fb-1 hRZthl">
-								<div size="100" class="bDDbFr">
+								size="100" radius="[object Object]" class="sc-c1df87fb-1 img-flex">
+								<div size="100" class="img-width">
 									<div id="" type="image"
 										size="100" radius="[object Object]"
-										class="wCigc">
+										class="profile-position">
 										<img
 											src="https://opening-attachments.greetinghr.com/20220916/a27e65d2-dda0-4f80-8ba6-cb63680ce7ab/1.png">
 									</div>
@@ -419,7 +419,7 @@
 								class="iPzkpi"></div>
 							<div id="" type="text"
 								content="<p>크몽은 내가 어떤 Happy를 꿈꾸든, 그 Happy가 있는 곳입니다.</p><p><br></p><p><br></p>"
-								class="jwyDuD">
+								class="height">
 								<p>크몽은 내가 어떤 Happy를 꿈꾸든, 그 Happy가 있는 곳입니다.</p>
 								<p>
 									<br>
@@ -438,9 +438,9 @@
 									target="_blank" rel="noreferrer"><button
 										id="" type="button"
 										name="Category팀 리드 Danny" radius="[object Object]"
-										shape="square" class="Mcmni">
+										shape="square" class="profile-btn">
 										<span color="#eacaff" type="item"
-											class="jHPtRy">Category팀
+											class="profile-font">Category팀
 											리드 Danny</span>
 									</button></a>
 							</div>
@@ -454,9 +454,9 @@
 		<div class="gMLwfu layout">
 			<div class="fYnJnG hheoID">
 				<div size="100" class="enwEeT">
-					<div class="gwUxHZ column"
+					<div class="position-relative column"
 						id="">
-						<div class="gWcRja"
+						<div class="profile-intro"
 							style="position: relative;">
 							<div id="" type="blank"
 								class="iPzkpi"></div>
@@ -477,7 +477,7 @@
 
 
 
-<div id="" type="blank" class="sc-f33f30ea-0 btfUMz"></div>
+<div id="" type="blank" class="sc-f33f30ea-0 height-100"></div>
 
 
 
@@ -492,9 +492,9 @@
 			<div class=" gMLwfu layout">
 				<div class="fYnJnG hheoID">
 					<div size="100" class="enwEeT">
-						<div class="gwUxHZ column"
+						<div class="position-relative column"
 							id="">
-							<div class="gWcRja"
+							<div class="profile-intro"
 								style="position: relative;">
 								<div id="" type="blank"
 									class="iPzkpi"></div>
@@ -506,15 +506,15 @@
 		</div>
 		<div class="dVVNTz layout">
 			<div class="gMLwfu layout">
-				<div class="jrdJyp hheoID">
+				<div class="profile-gap hheoID">
 					<div size="100" class="enwEeT">
-						<div class="gwUxHZ column"
+						<div class="position-relative column"
 							id="">
-							<div class="gWcRja"
+							<div class="profile-intro"
 								style="position: relative;">
 								<h2 id="" type="text"
 									content="<p>크몽이 걸어온 길이</p><p>긱 이코노미가 성장해온 길입니다.</p>"
-									class="juLzZe jwyDuD">
+									class="juLzZe height">
 									<p>크몽이 걸어온 길이</p>
 									<p>긱 이코노미가 성장해온 길입니다.</p>
 								</h2>
@@ -522,7 +522,7 @@
 									class="iPzkpi"></div>
 								<div id="" type="text"
 									content="<p>우리는 변화하는 노동 시장의 흐름을 리드하며 새로운 기회와 성장을 만들어 냈습니다.</p>"
-									class="jwyDuD">
+									class="height">
 									<p>우리는 변화하는 노동 시장의 흐름을 리드하며 새로운 기회와 성장을 만들어 냈습니다.</p>
 								</div>
 							</div>
@@ -537,7 +537,7 @@
 
 
 
-	<div id="" type="blank" class="hVDyEP"></div>
+	<div id="" type="blank" class="height-64"></div>
 
 
 
@@ -546,16 +546,16 @@
 
 				<div class="dVVNTz layout">
 					<div class="gMLwfu layout">
-						<div class="jrdJyp hheoID">
+						<div class="profile-gap hheoID">
 							<div size="100" class="enwEeT">
-								<div class="gwUxHZ column"
+								<div class="position-relative column"
 									id="">
-									<div class="gWcRja"
+									<div class="profile-intro"
 										style="position: relative;">
 										<div id="" type="image"
 											size="100" radius="[object Object]"
-											class="hRZthl">
-											<div size="100" class="bDDbFr">
+											class="img-flex">
+											<div size="100" class="img-width">
 												<div id="" type="image"
 													size="100" radius="[object Object]"
 													class="gHTxSR">
@@ -579,7 +579,7 @@
 				
 				
 				
-				<div id="" type="blank" class="btfUMz"></div>
+				<div id="" type="blank" class="height-100"></div>
 
 
 
@@ -595,9 +595,9 @@
 				<div class="gMLwfu layout">
 					<div class="fYnJnG hheoID">
 						<div size="100" class="enwEeT">
-							<div class="gwUxHZ column"
+							<div class="position-relative column"
 								id="">
-								<div class="gWcRja"
+								<div class="profile-intro"
 									style="position: relative;">
 									<div id="" type="blank"
 										class="iPzkpi"></div>
@@ -609,20 +609,20 @@
 			</div>
 			<div class="dVVNTz layout">
 				<div class="gMLwfu layout">
-					<div class="jrdJyp hheoID">
+					<div class="profile-gap hheoID">
 						<div size="100" class="enwEeT">
-							<div class="gwUxHZ column"
+							<div class="position-relative column"
 								id="">
-								<div class="gWcRja"
+								<div class="profile-intro"
 									style="position: relative;">
 									<h2 id="" type="text"
 										content="복지 및 혜택"
-										class="juLzZe jwyDuD">복지 및 혜택</h2>
+										class="juLzZe height">복지 및 혜택</h2>
 									<div id="" type="blank"
 										class="iPzkpi"></div>
 									<div id="" type="text"
 										content="<p>크몽 팀원이 되면 누릴 수 있는 복지와 혜택입니다.</p>"
-										class="jwyDuD">
+										class="height">
 										<p>크몽 팀원이 되면 누릴 수 있는 복지와 혜택입니다.</p>
 									</div>
 								</div>
@@ -651,9 +651,9 @@
 								<div
 									class="fYnJnG hheoID">
 									<div size="100" class="enwEeT">
-										<div class="gwUxHZ column"
+										<div class="position-relative column"
 											id="">
-											<div class="gWcRja"
+											<div class="profile-intro"
 												style="position: relative;">
 												<div id="" type="blank"
 													class=""></div>
@@ -666,19 +666,19 @@
 						<div class="dVVNTz layout">
 							<div class="gMLwfu layout">
 								<div
-									class="jrdJyp hheoID">
+									class="profile-gap hheoID">
 									<div size="100" class="enwEeT">
-										<div class="gwUxHZ column"
+										<div class="position-relative column"
 											id="">
-											<div class="gWcRja"
+											<div class="profile-intro"
 												style="position: relative;">
 												<div id="" type="image"
 													size="100" radius="[object Object]"
-													class="hRZthl">
-													<div size="100" class="bDDbFr">
+													class="img-flex">
+													<div size="100" class="img-width">
 														<div id=""
 															type="image" size="100" radius="[object Object]"
-															class="wCigc">
+															class="profile-position">
 															<img
 																src="https://opening-attachments.greetinghr.com/20220823/2024757e-d392-4701-9590-64aca0c5b96e/.png">
 														</div>
@@ -687,7 +687,7 @@
 												<div id="" type="blank"
 													class="iPzkpi"></div>
 												<div id="" type="text" content="<p><strong>업무에만 집중할 수 있도록</strong></p><p><br></p><p>- 주 35시간 근무</p><p>- 재택근무(주 1회 필수 출근)</p><p>- 유연출퇴근(7~11시 사이 출근)</p><p>- 점심식사 지원</p><p>- 간식과 음료 무제한 제공</p><p>- 최신 업무장비 및 다양한 업무 툴 지원</p><p>- 야근 시 저녁식사, 택시비 지원</p>"
-													class="hvOLDM jwyDuD">
+													class="hvOLDM height">
 													<p id="isPasted">
 														<strong>업무에만 집중할 수 있도록</strong>
 													</p>
@@ -706,17 +706,17 @@
 										</div>
 									</div>
 									<div size="100" class="enwEeT">
-										<div class="gwUxHZ column"
+										<div class="position-relative column"
 											id="">
-											<div class="gWcRja"
+											<div class="profile-intro"
 												style="position: relative;">
 												<div id="" type="image"
 													size="100" radius="[object Object]"
-													class="hRZthl">
-													<div size="100" class="bDDbFr">
+													class="img-flex">
+													<div size="100" class="img-width">
 														<div id=""
 															type="image" size="100" radius="[object Object]"
-															class="wCigc">
+															class="profile-position">
 															<img
 																src="https://opening-attachments.greetinghr.com/20220823/a25affaf-ec8b-46f4-b096-90ec07b0941f/.png">
 														</div>
@@ -726,7 +726,7 @@
 													class="iPzkpi"></div>
 												<div id="" type="text"
 													content="<p id=><strong>더 멀리 함께 나아갈 수 있도록&amp;nbsp;</strong></p><p><br></p><p>- 자기계발비 지원</p><p>- 크몽 도서관 운영</p><p>- 크몽캐시 지급</p>"
-													class="hvOLDM  jwyDuD">
+													class="hvOLDM  height">
 													<p id="isPasted">
 														<strong>더 멀리 함께 나아갈 수 있도록&nbsp;</strong>
 													</p>
@@ -741,17 +741,17 @@
 										</div>
 									</div>
 									<div size="100" class="enwEeT">
-										<div class="gwUxHZ column"
+										<div class="position-relative column"
 											id="">
-											<div class="gWcRja"
+											<div class="profile-intro"
 												style="position: relative;">
 												<div id="" type="image"
 													size="100" radius="[object Object]"
-													class="sc-c1df87fb-1 hRZthl">
-													<div size="100" class="bDDbFr">
+													class="sc-c1df87fb-1 img-flex">
+													<div size="100" class="img-width">
 														<div id=""
 															type="image" size="100" radius="[object Object]"
-															class="wCigc">
+															class="profile-position">
 															<img
 																src="https://opening-attachments.greetinghr.com/20220823/00dcb297-0c88-4435-8b22-7664db2359a1/.png">
 														</div>
@@ -761,7 +761,7 @@
 													class="iPzkpi"></div>
 												<div id="" type="text"
 													content="<p ><strong>&amp;nbsp;충분한 쉼을 통해 다시 도약할 수 있도록</strong></p><p><br></p><p>- 5년 근속 시 1개월 리프레쉬 휴가 지원</p><p>-&amp;nbsp;생일반차 지원</p><p>- 각종 경조사 지원</p>"
-													class="hvOLDM jwyDuD">
+													class="hvOLDM height">
 													<p id="isPasted">
 														<strong>&nbsp;충분한 쉼을 통해 다시 도약할 수 있도록</strong>
 													</p>
@@ -783,9 +783,9 @@
 									<div
 										class="fYnJnG hheoID">
 										<div size="100" class="enwEeT">
-											<div class="gwUxHZ column"
+											<div class="position-relative column"
 												id="">
-												<div class="gWcRja"
+												<div class="profile-intro"
 													style="position: relative;">
 													<div id="" type="blank"
 														class="iPzkpi"></div>
@@ -809,7 +809,7 @@
 
 
 
-						<div id="" type="blank" class="sc-f33f30ea-0 btfUMz"></div>
+						<div id="" type="blank" class="sc-f33f30ea-0 height-100"></div>
 
 
 
@@ -834,9 +834,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -849,22 +849,22 @@
 								<div class="dVVNTz layout">
 									<div class="gMLwfu layout">
 										<div
-											class="jrdJyp hheoID">
+											class="profile-gap hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<h2 id="" type="text"
 															content="<p>크몽 오피스 투어</p>"
-															class="juLzZe jwyDuD">
+															class="juLzZe height">
 															<p>크몽 오피스 투어</p>
 														</h2>
 														<div id=""
 															type="blank" class="iPzkpi"></div>
 														<div id="" type="text"
 															content="<p>업무 형태와 스타일에 따라 집중할 수 있는 환경이 다르니까,</p><p>크몽의 다양한 업무 공간과 휴식 공간을 둘러보세요.</p>"
-															class="jwyDuD">
+															class="height">
 															<p>업무 형태와 스타일에 따라 집중할 수 있는 환경이 다르니까,</p>
 															<p>크몽의 다양한 업무 공간과 휴식 공간을 둘러보세요.</p>
 														</div>
@@ -879,9 +879,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -918,9 +918,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -933,15 +933,15 @@
 								<div class="dVVNTz layout">
 									<div class="gMLwfu layout">
 										<div
-											class="jrdJyp hheoID">
+											class="profile-gap hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<h2 id="" type="text"
 															content="자주 찾는 질문(FAQ)"
-															class="juLzZe jwyDuD">자주 찾는 질문(FAQ)</h2>
+															class="juLzZe height">자주 찾는 질문(FAQ)</h2>
 													</div>
 												</div>
 											</div>
@@ -953,9 +953,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -983,9 +983,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -998,22 +998,22 @@
 								<div class="dVVNTz layout">
 									<div class="gMLwfu layout">
 										<div
-											class="jrdJyp hheoID">
+											class="profile-gap hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<h3 id="" type="text"
 															content="<p>Q. 지원 서류 양식이 따로 있나요?</p>"
-															class="jwyDuD" style="height: 90px">
+															class="height faq-font" style="height: 90px">
 															<p>Q. 지원 서류 양식이 따로 있나요?</p>
 														</h3>
 														<div id=""
 															type="blank" class="iPzkpi"></div>
 														<div id="" type="text"
 															content="<p>크몽은 정해진 양식 없이 자유양식으로 지원을 받고 있습니다. 가지고 계신 양식의 이력서로 지원 부탁드립니다.</p>"
-															class="jwyDuD">
+															class="height">
 															<p>크몽은 정해진 양식 없이 자유양식으로 지원을 받고 있습니다. 가지고 계신 양식의 이력서로
 																지원 부탁드립니다.</p>
 														</div>
@@ -1028,9 +1028,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -1057,9 +1057,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -1072,22 +1072,22 @@
 								<div class="dVVNTz layout">
 									<div class="gMLwfu layout">
 										<div
-											class="jrdJyp hheoID">
+											class="profile-gap hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<h3 id="" type="text"
 															content="<p>Q. 지원 절차가 궁금합니다.</p>"
-															class="jwyDuD" style="height: 90px">
+															class="height faq-font" style="height: 90px">
 															<p>Q. 지원 절차가 궁금합니다.</p>
 														</h3>
 														<div id=""
 															type="blank" class="iPzkpi"></div>
 														<div id="" type="text"
 															content="<p>지원 절차는 직군에 따라 아래와 같이 다르게 진행하고 있습니다.</p><p><br></p><p><strong>개발 - 서류 &amp;gt; 과제(또는 전화인터뷰) &amp;gt; 1차 인터뷰 &amp;gt; 2차 인터뷰 &amp;gt; 처우 협의 &amp;gt; 크몽 입사</strong></p><p><strong>비개발 - 서류 &amp;gt; 1차 인터뷰 &amp;gt; 2차 인터뷰 &amp;gt; 처우 협의 &amp;gt; 크몽 입사</strong></p><p><br></p><p>* 채용 절차에서 필요에 따라 3차 인터뷰 등 추가 전형을 요청드릴 수 있습니다.</p>"
-															class="jwyDuD">
+															class="height">
 															<p>지원 절차는 직군에 따라 아래와 같이 다르게 진행하고 있습니다.</p>
 															<p>
 																<br>
@@ -1116,9 +1116,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -1145,9 +1145,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -1160,22 +1160,22 @@
 								<div class="dVVNTz layout" >
 									<div class="gMLwfu layout">
 										<div
-											class="jrdJyp hheoID">
+											class="profile-gap hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<h3 id="" type="text"
 															content="<p>Q. 인터뷰는 어떤 방식으로 진행되나요?</p>"
-															class="jwyDuD" style="height: 90px">
+															class="height faq-font" style="height: 90px">
 															<p>Q. 인터뷰는 어떤 방식으로 진행되나요?</p>
 														</h3>
 														<div id=""
 															type="blank" class="iPzkpi"></div>
 														<div id="" type="text"
 															content="<p>통상적으로 1,2차 인터뷰 모두 비대면 화상인터뷰로 진행됩니다.</p><p>하지만 필요에 따라 대면 인터뷰를 요청드릴 수 있습니다.</p>"
-															class="jwyDuD">
+															class="height">
 															<p>통상적으로 1,2차 인터뷰 모두 비대면 화상인터뷰로 진행됩니다.</p>
 															<p>하지만 필요에 따라 대면 인터뷰를 요청드릴 수 있습니다.</p>
 														</div>
@@ -1190,9 +1190,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -1218,9 +1218,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -1233,22 +1233,22 @@
 								<div class="dVVNTz layout" >
 									<div class="gMLwfu layout">
 										<div
-											class="jrdJyp hheoID">
+											class="profile-gap hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<h3 id="" type="text"
 															content="<p>Q. 1차, 2차 인터뷰는 어떤 내용으로 진행되나요?</p>"
-															class="jwyDuD" style="height: 90px">
+															class="height faq-font" style="height: 90px">
 															<p>Q. 1차, 2차 인터뷰는 어떤 내용으로 진행되나요?</p>
 														</h3>
 														<div id=""
 															type="blank" class="iPzkpi"></div>
 														<div id="" type="text"
 															content="<p>1차, 2차 인터뷰에서 실무, 컬쳐핏에 대해 구분하지 않고 전반적인 내용이 모두 다뤄집니다.</p><p>그 동안 해오신 직무 경험과 컬쳐핏에 대해 1,2차 인터뷰를 준비해주시면 됩니다.</p>"
-															class="jwyDuD">
+															class="height">
 															<p>1차, 2차 인터뷰에서 실무, 컬쳐핏에 대해 구분하지 않고 전반적인 내용이 모두
 																다뤄집니다.</p>
 															<p>그 동안 해오신 직무 경험과 컬쳐핏에 대해 1,2차 인터뷰를 준비해주시면 됩니다.</p>
@@ -1264,9 +1264,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -1292,9 +1292,9 @@
 										<div
 											class="fYnJnG hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<div id=""
 															type="blank" class="iPzkpi"></div>
@@ -1307,15 +1307,15 @@
 								<div class="dVVNTz layout" >
 									<div class="gMLwfu layout">
 										<div
-											class="jrdJyp hheoID">
+											class="profile-gap hheoID">
 											<div size="100" class="enwEeT">
-												<div class="gwUxHZ column"
+												<div class="position-relative column"
 													id="">
-													<div class="gWcRja"
+													<div class="profile-intro"
 														style="position: relative;">
 														<h3 id="" type="text"
 															content="<p>Q. 지원 결과는 언제 알 수 있나요?</p>"
-															class="jwyDuD" style="height: 90px">
+															class="height faq-font" style="height: 90px">
 															<p>Q. 지원 결과는 언제 알 수 있나요?</p>
 														</h3>
 															<p>각 전형별로 검토는 통상적으로 일주일 정도 소요되며, 서류 전형은 합격자에 한해 별도로
