@@ -4,10 +4,29 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>게시글 상세보기</title>
 <link rel="stylesheet" href="community_article_see.css" />
 <!-- <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
  -->
+<style>
+
+   @font-face {
+      font-family: 'MetroSansBold';
+      src: url('MetroSans-Bold.woff2'); /* 굵은글씨체 주소지정 */
+   }
+   
+   @font-face {
+      font-family: 'MetroSansMedium';
+      src: url('MetroSans-Medium.woff2');
+   }
+   
+   
+   @font-face {
+      font-family: 'MetroSansRegular';
+      src: url('MetroSans-Regular.woff2'); /* 가는글씨체 주소지정 */
+   }
+   
+</style>
 </head>
 <body>
 	<div  style="background-color: #FAE57C;">
@@ -232,7 +251,7 @@
 		        </div>
 		        <p class="art-bottom">다른 질문이 있으신가요?</p>
 		        <p class="art-bottom ask-button">
-		          <a class="ask-button-request" href="https://support.kmong.com/hc/ko/requests/new">문의하기</a>
+		          <a class="ask-button-request darker" href="https://support.kmong.com/hc/ko/requests/new">문의하기</a>
 		        </p> 
 		        
 		        <!-- <div class="article-return-to-top">
@@ -432,7 +451,7 @@
                     		</div> 
                     		
                     		<!-- 작성하기 버튼 (전송 버튼) -->
-                    		<button  type="button" class="btn btn-yellow comment-inbox-send-btn">	 <!-- disabled="disabled" --><!-- btn btn-brand-yellow inbox-send-btn NGB -->
+                    		<button  type="button" class="btn btn-yellow comment-inbox-send-btn darker">	 <!-- disabled="disabled" --><!-- btn btn-brand-yellow inbox-send-btn NGB -->
           					  전송                                
        				 		</button>
        				 	</div>
