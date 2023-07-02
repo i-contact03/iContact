@@ -66,7 +66,7 @@
 			<div class="div-img-width">
 				<div class="div-img-max">
 					<div class="fYnJnG hheoID">
-						<div size="100" class="enwEeT">
+						<div size="100" class="profile-sort">
 							<div class="position-relative column"
 								id="">
 								<div class="profile-intro"
@@ -114,10 +114,10 @@
 
 
 <div class="cgvBGH">
-	<div class="dVVNTz layout">
-		<div class="gMLwfu layout">
+	<div class="img-position layout">
+		<div class="div-max-width layout">
 			<div class="fYnJnG hheoID">
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -130,10 +130,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="dVVNTz layout">
-		<div class="gMLwfu layout">
+	<div class="img-position layout">
+		<div class="div-max-width layout">
 			<div class="profile-gap hheoID">
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -153,7 +153,7 @@
 								class="iPzkpi"></div>
 							<div id="" type="text"
 								content="<p>크몽은 다양한 시도를 통해 개발자가 성장할 수 있는 기회를 제공해줍니다.</p><p><br></p>"
-								class="hvOLDM height">
+								class="font-bold height">
 								<p>크몽은 다양한 시도를 통해 개발자가 성장할 수 있는 기회를 제공해줍니다.</p>
 								<p>
 									<br>
@@ -177,7 +177,7 @@
 						</div>
 					</div>
 				</div>
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -197,7 +197,7 @@
 								class=""></div>
 							<div id="" type="text"
 								content="<p>크몽에서는 높은 자율성을 가지고 사업에 필요한 내용을 주도적으로 진행할 수 있어요.</p><p><br></p>"
-								class="hvOLDM height">
+								class="font-bold height">
 								<p>크몽에서는 높은 자율성을 가지고 사업에 필요한 내용을 주도적으로 진행할 수 있어요.</p>
 								<p>
 									<br>
@@ -222,7 +222,7 @@
 						</div>
 					</div>
 				</div>
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -242,7 +242,7 @@
 								class="iPzkpi"></div>
 							<div id="" type="text"
 								content="<p>soon팀은 기존 경쟁 서비스들이 해결하지 못한 명쾌한 솔루션을 제시하며 새로운 역사를 쓰고 있어요.</p>"
-								class="hvOLDM height">
+								class="font-bold height">
 								<p>soon팀은 기존 경쟁 서비스들이 해결하지 못한 명쾌한 솔루션을 제시하며 새로운 역사를 쓰고 있어요.</p>
 							</div>
 							<div id="" type="blank"
@@ -267,10 +267,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="dVVNTz layout">
-		<div class="gMLwfu layout">
+	<div class="img-position layout">
+		<div class="div-max-width layout">
 			<div class="fYnJnG hheoID">
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -292,10 +292,10 @@
 
 
 <div class="cgvBGH">
-	<div class="dVVNTz layout">
-		<div class="gMLwfu layout">
+	<div class="img-position layout">
+		<div class="div-max-width layout">
 			<div class="fYnJnG hheoID">
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -308,10 +308,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="dVVNTz layout">
-		<div class="gMLwfu layout">
+	<div class="img-position layout">
+		<div class="div-max-width layout">
 			<div class="profile-gap hheoID">
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -331,7 +331,7 @@
 								class="iPzkpi"></div>
 							<div id="" type="text"
 								content="<p>크몽은 무한한 확장성을 바탕으로 다양한 기회를 통해 새로운 가능성을 만들어낼 수 있는 곳입니다.</p><p><br></p>"
-								class="hvOLDM height">
+								class="font-bold height">
 								<p>크몽은 무한한 확장성을 바탕으로 다양한 기회를 통해 새로운 가능성을 만들어낼 수 있는 곳입니다.</p>
 								<p>
 									<br>
@@ -356,7 +356,7 @@
 						</div>
 					</div>
 				</div>
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -399,7 +399,7 @@
 						</div>
 					</div>
 				</div>
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -450,10 +450,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="dVVNTz layout">
-		<div class="gMLwfu layout">
+	<div class="img-position layout">
+		<div class="div-max-width layout">
 			<div class="fYnJnG hheoID">
-				<div size="100" class="enwEeT">
+				<div size="100" class="profile-sort">
 					<div class="position-relative column"
 						id="">
 						<div class="profile-intro"
@@ -477,7 +477,7 @@
 
 
 
-<div id="" type="blank" class="sc-f33f30ea-0 height-100"></div>
+<div id="" type="blank" class="height-100"></div>
 
 
 
@@ -488,10 +488,10 @@
 
 
 	<div class="cgvBGH">
-		<div class="dVVNTz layout">
-			<div class=" gMLwfu layout">
+		<div class="img-position layout">
+			<div class=" div-max-width layout">
 				<div class="fYnJnG hheoID">
-					<div size="100" class="enwEeT">
+					<div size="100" class="profile-sort">
 						<div class="position-relative column"
 							id="">
 							<div class="profile-intro"
@@ -504,17 +504,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="dVVNTz layout">
-			<div class="gMLwfu layout">
+		<div class="img-position layout">
+			<div class="div-max-width layout">
 				<div class="profile-gap hheoID">
-					<div size="100" class="enwEeT">
+					<div size="100" class="profile-sort">
 						<div class="position-relative column"
 							id="">
 							<div class="profile-intro"
 								style="position: relative;">
 								<h2 id="" type="text"
 									content="<p>크몽이 걸어온 길이</p><p>긱 이코노미가 성장해온 길입니다.</p>"
-									class="juLzZe height">
+									class="font-height height">
 									<p>크몽이 걸어온 길이</p>
 									<p>긱 이코노미가 성장해온 길입니다.</p>
 								</h2>
@@ -544,10 +544,10 @@
 
 
 
-				<div class="dVVNTz layout">
-					<div class="gMLwfu layout">
+				<div class="img-position layout">
+					<div class="div-max-width layout">
 						<div class="profile-gap hheoID">
-							<div size="100" class="enwEeT">
+							<div size="100" class="profile-sort">
 								<div class="position-relative column"
 									id="">
 									<div class="profile-intro"
@@ -558,7 +558,7 @@
 											<div size="100" class="img-width">
 												<div id="" type="image"
 													size="100" radius="[object Object]"
-													class="gHTxSR">
+													class="img-cover">
 													<img
 														src="https://opening-attachments.greetinghr.com/20230104/d03ab9b3-d24b-4677-94d2-68907ae9d6d5/.jpg">
 												</div>
@@ -591,10 +591,10 @@
 
 
 		<div class="cgvBGH">
-			<div class="dVVNTz layout">
-				<div class="gMLwfu layout">
+			<div class="img-position layout">
+				<div class="div-max-width layout">
 					<div class="fYnJnG hheoID">
-						<div size="100" class="enwEeT">
+						<div size="100" class="profile-sort">
 							<div class="position-relative column"
 								id="">
 								<div class="profile-intro"
@@ -607,17 +607,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="dVVNTz layout">
-				<div class="gMLwfu layout">
+			<div class="img-position layout">
+				<div class="div-max-width layout">
 					<div class="profile-gap hheoID">
-						<div size="100" class="enwEeT">
+						<div size="100" class="profile-sort">
 							<div class="position-relative column"
 								id="">
 								<div class="profile-intro"
 									style="position: relative;">
 									<h2 id="" type="text"
 										content="복지 및 혜택"
-										class="juLzZe height">복지 및 혜택</h2>
+										class="font-height height">복지 및 혜택</h2>
 									<div id="" type="blank"
 										class="iPzkpi"></div>
 									<div id="" type="text"
@@ -642,15 +642,15 @@
 
 
 
-			<div class="jJMlMD">
+			<div class="">
 				<div id="" class="section-focus"></div>
 				<div class="ippkbk section">
 					<div class="cgvBGH">
-						<div class="dVVNTz layout">
-							<div class="gMLwfu layout">
+						<div class="img-position layout">
+							<div class="div-max-width layout">
 								<div
 									class="fYnJnG hheoID">
-									<div size="100" class="enwEeT">
+									<div size="100" class="profile-sort">
 										<div class="position-relative column"
 											id="">
 											<div class="profile-intro"
@@ -663,11 +663,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="dVVNTz layout">
-							<div class="gMLwfu layout">
+						<div class="img-position layout">
+							<div class="div-max-width layout">
 								<div
 									class="profile-gap hheoID">
-									<div size="100" class="enwEeT">
+									<div size="100" class="profile-sort">
 										<div class="position-relative column"
 											id="">
 											<div class="profile-intro"
@@ -687,7 +687,7 @@
 												<div id="" type="blank"
 													class="iPzkpi"></div>
 												<div id="" type="text" content="<p><strong>업무에만 집중할 수 있도록</strong></p><p><br></p><p>- 주 35시간 근무</p><p>- 재택근무(주 1회 필수 출근)</p><p>- 유연출퇴근(7~11시 사이 출근)</p><p>- 점심식사 지원</p><p>- 간식과 음료 무제한 제공</p><p>- 최신 업무장비 및 다양한 업무 툴 지원</p><p>- 야근 시 저녁식사, 택시비 지원</p>"
-													class="hvOLDM height">
+													class="font-bold height">
 													<p id="isPasted">
 														<strong>업무에만 집중할 수 있도록</strong>
 													</p>
@@ -705,7 +705,7 @@
 											</div>
 										</div>
 									</div>
-									<div size="100" class="enwEeT">
+									<div size="100" class="profile-sort">
 										<div class="position-relative column"
 											id="">
 											<div class="profile-intro"
@@ -726,7 +726,7 @@
 													class="iPzkpi"></div>
 												<div id="" type="text"
 													content="<p id=><strong>더 멀리 함께 나아갈 수 있도록&amp;nbsp;</strong></p><p><br></p><p>- 자기계발비 지원</p><p>- 크몽 도서관 운영</p><p>- 크몽캐시 지급</p>"
-													class="hvOLDM  height">
+													class="font-bold  height">
 													<p id="isPasted">
 														<strong>더 멀리 함께 나아갈 수 있도록&nbsp;</strong>
 													</p>
@@ -740,7 +740,7 @@
 											</div>
 										</div>
 									</div>
-									<div size="100" class="enwEeT">
+									<div size="100" class="profile-sort">
 										<div class="position-relative column"
 											id="">
 											<div class="profile-intro"
@@ -761,7 +761,7 @@
 													class="iPzkpi"></div>
 												<div id="" type="text"
 													content="<p ><strong>&amp;nbsp;충분한 쉼을 통해 다시 도약할 수 있도록</strong></p><p><br></p><p>- 5년 근속 시 1개월 리프레쉬 휴가 지원</p><p>-&amp;nbsp;생일반차 지원</p><p>- 각종 경조사 지원</p>"
-													class="hvOLDM height">
+													class="font-bold height">
 													<p id="isPasted">
 														<strong>&nbsp;충분한 쉼을 통해 다시 도약할 수 있도록</strong>
 													</p>
@@ -778,11 +778,11 @@
 								</div>
 							</div>
 						</div>
-					<div class="dVVNTz layout">
-								<div class="gMLwfu layout">
+					<div class="img-position layout">
+								<div class="div-max-width layout">
 									<div
 										class="fYnJnG hheoID">
-										<div size="100" class="enwEeT">
+										<div size="100" class="profile-sort">
 											<div class="position-relative column"
 												id="">
 												<div class="profile-intro"
@@ -805,101 +805,7 @@
 
 
 
-
-
-
-
-						<div id="" type="blank" class="sc-f33f30ea-0 height-100"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-					<div class="jJMlMD">
-						<div id=""
-							class="section-focus"></div>
-						<div class="ippkbk section">
-							<div class="cgvBGH">
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
-										<div
-											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
-												<div class="position-relative column"
-													id="">
-													<div class="profile-intro"
-														style="position: relative;">
-														<div id=""
-															type="blank" class="iPzkpi"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
-										<div
-											class="profile-gap hheoID">
-											<div size="100" class="enwEeT">
-												<div class="position-relative column"
-													id="">
-													<div class="profile-intro"
-														style="position: relative;">
-														<h2 id="" type="text"
-															content="<p>크몽 오피스 투어</p>"
-															class="juLzZe height">
-															<p>크몽 오피스 투어</p>
-														</h2>
-														<div id=""
-															type="blank" class="iPzkpi"></div>
-														<div id="" type="text"
-															content="<p>업무 형태와 스타일에 따라 집중할 수 있는 환경이 다르니까,</p><p>크몽의 다양한 업무 공간과 휴식 공간을 둘러보세요.</p>"
-															class="height">
-															<p>업무 형태와 스타일에 따라 집중할 수 있는 환경이 다르니까,</p>
-															<p>크몽의 다양한 업무 공간과 휴식 공간을 둘러보세요.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
-										<div
-											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
-												<div class="position-relative column"
-													id="">
-													<div class="profile-intro"
-														style="position: relative;">
-														<div id=""
-															type="blank" class="iPzkpi"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-
-
-
-
+<div id="" type="blank" class="height-100"></div>
 
 
 				
@@ -908,16 +814,16 @@
 
 
 
-					<div class="jJMlMD">
+					<div class="">
 						<div id=""
 							class="section-focus"></div>
 						<div class="ippkbk section">
 							<div class="cgvBGH">
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -930,29 +836,29 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="profile-gap hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
 														style="position: relative;">
 														<h2 id="" type="text"
 															content="자주 찾는 질문(FAQ)"
-															class="juLzZe height">자주 찾는 질문(FAQ)</h2>
+															class="font-height height">자주 찾는 질문(FAQ)</h2>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -973,16 +879,16 @@
 
 
 
-					<div class="jJMlMD">
+					<div class="">
 						<div id=""
 							class="section-focus"></div>
 						<div class="ippkbk section">
 							<div class="cgvBGH">
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -995,11 +901,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="profile-gap hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1023,11 +929,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1047,16 +953,16 @@
 
 
 
-					<div class="jJMlMD">
+					<div class="">
 						<div id=""
 							class="section-focus"></div>
 						<div class="ippkbk section">
 							<div class="cgvBGH">
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1069,11 +975,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="profile-gap hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1111,11 +1017,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1135,16 +1041,16 @@
 
 
 
-					<div class="jJMlMD">
+					<div class="">
 						<div id=""
 							class="section-focus"></div>
 						<div class="ippkbk section">
 							<div class="cgvBGH">
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1157,11 +1063,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout" >
-									<div class="gMLwfu layout">
+								<div class="img-position layout" >
+									<div class="div-max-width layout">
 										<div
 											class="profile-gap hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1185,11 +1091,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1208,16 +1114,16 @@
 
 
 
-					<div class="jJMlMD">
+					<div class="">
 						<div id=""
 							class="section-focus"></div>
 						<div class="ippkbk section">
 							<div class="cgvBGH">
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1230,11 +1136,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout" >
-									<div class="gMLwfu layout">
+								<div class="img-position layout" >
+									<div class="div-max-width layout">
 										<div
 											class="profile-gap hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1259,11 +1165,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1282,16 +1188,16 @@
 
 
 
-					<div class="jJMlMD" >
+					<div class="" >
 						<div id=""
 							class="section-focus"></div>
 						<div class="ippkbk section">
 							<div class="cgvBGH">
-								<div class="dVVNTz layout">
-									<div class="gMLwfu layout">
+								<div class="img-position layout">
+									<div class="div-max-width layout">
 										<div
 											class="fYnJnG hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1304,11 +1210,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="dVVNTz layout" >
-									<div class="gMLwfu layout">
+								<div class="img-position layout" >
+									<div class="div-max-width layout">
 										<div
 											class="profile-gap hheoID">
-											<div size="100" class="enwEeT">
+											<div size="100" class="profile-sort">
 												<div class="position-relative column"
 													id="">
 													<div class="profile-intro"
@@ -1330,6 +1236,8 @@
 
 
 
+<div id="" type="blank" class="height-100"></div>
+
 
 
 
@@ -1337,7 +1245,7 @@
 
 					<footer class="footer">
 												<div class="tASNY">
-													<div class="fjTMvs">
+													<div class="footer-gap">
 														<span color="#eacaff" type="item"
 															class="dVPnlv">made
 															with <a target="_blank"
