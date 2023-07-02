@@ -686,11 +686,10 @@ nav {
 
 .portfolio-part {
 	cursor: pointer;
-/*	position: relative;
+	position: relative;
     display: block;
     box-sizing: border-box;
-    user-select: none;
-    touch-action: pan-y; */
+    touch-action: pan-y;
 }
 
 .portfolio-left-button {

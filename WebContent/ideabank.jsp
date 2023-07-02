@@ -33,123 +33,120 @@
 </head>
 <body>
 <div id="next">
-	<header class="header-born">
-		<section class="header-one">
-			<a class="header-logo">
-				<svg width="85" height="100%" viewBox="0 0 85 26" xmlns="http://www.w3.org/2000/svg">
+<header>
+	<div class="header-wrap">
+		<div class="header">
+		<!-- 로고 + 검색바 + 메시지 + 마이크몽 + 프로필-->
+			<section class="top-header">
+				<svg class="top-header-logo" width="85" height="100%" viewBox="0 0 85 26" 
+					xmlns="http://www.w3.org/2000/svg">
 					<path d="M77.69 4.86c3.975 0 7.197 3.215 7.197 7.18l-.002.055h.002c.073 3.477.074 5.769.003 6.874-.108 1.659-.724 3.372-1.947 4.693A7.21 7.21 0 0 1 77.593 26c-2.724 0-4.998-.984-6.653-2.921l-.05-.059 3.226-2.684c.837.997 1.938 1.48 3.478 1.48.9 0 1.67-.358 2.259-.992.515-.556.817-1.263.832-1.813v-.443a7.186 7.186 0 0 1-2.995.65c-3.975 0-7.197-3.214-7.197-7.179 0-3.964 3.222-7.178 7.197-7.178zm-32.13-.225c4.131 0 7.48 3.34 7.48 7.46 0 4.121-3.349 7.462-7.48 7.462s-7.48-3.34-7.48-7.461c0-4.12 3.349-7.461 7.48-7.461zM4.533 0v10.354L8.623 5.2h5.309l-5.337 6.726 5.572 7.065h-4.98L4.534 13.42v5.572H0V0h4.533zM29.92 4.86a6.233 6.233 0 0 1 6.233 6.234v7.897H31.96v-7.908a2.04 2.04 0 0 0-4.074-.152l-.006.152v7.908h-4.193v-7.908a2.04 2.04 0 0 0-4.075-.152l-.005.152v7.908h-4.194v-7.897a6.233 6.233 0 0 1 10.371-4.662 6.201 6.201 0 0 1 4.136-1.571zm31.847 0a6.8 6.8 0 0 1 6.8 6.8v7.331h-4.194v-7.34a2.607 2.607 0 0 0-2.441-2.602l-.165-.006a2.607 2.607 0 0 0-2.602 2.442l-.005.165v7.34l-4.193.001v-7.33a6.8 6.8 0 0 1 6.8-6.8zM45.56 8.818a3.282 3.282 0 0 0-3.287 3.279 3.282 3.282 0 0 0 3.287 3.278 3.282 3.282 0 0 0 3.287-3.278 3.282 3.282 0 0 0-3.287-3.279zm32.13.226a3 3 0 0 0-3.003 2.996 3 3 0 0 0 3.003 2.996 3 3 0 0 0 3.003-2.996 3 3 0 0 0-3.003-2.996z" fill="#212224" fill-rule="evenodd"></path>
-				</svg>			
-			</a>
-		<!--<div></div>
-			<div></div>  -->
-			<div style="flex-grow: 1;"></div>
-			<form class="search-form">
-				<div class="main-searsh-box">
-					<input type="text" placeholder="서비스 또는 전문가를 검색해보세요." class="input-text" maxlength="30" autocomplete="off" autocorrect="off" autocapitalize="off" value>
-					<div class="suffix-wrapper search-icon">
-						<span role="img" class="advertisement-img">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" class="star2">
-								<path xmlns="http://www.w3.org/2000/svg" d="M11.2307008,3.5 C15.5002489,3.5 18.9614015,6.96828437 18.9614015,11.24663 C18.9614015,13.0978372 18.3133954,14.7973826 17.2322825,16.1299241 L20.2742127,19.178378 C20.5762688,19.4810023 20.5764739,19.9714482 20.2746708,20.2738195 C19.9728678,20.5761908 19.4833433,20.5759857 19.1812873,20.2733614 L19.1812873,20.2733614 L16.1426973,17.2288066 C14.8071694,18.3312107 13.0960911,18.9932599 11.2307008,18.9932599 C6.96115262,18.9932599 3.5,15.5249756 3.5,11.24663 C3.5,6.96828437 6.96115262,3.5 11.2307008,3.5 Z M11.2307008,5.04932599 C7.81506225,5.04932599 5.04614015,7.82395349 5.04614015,11.24663 C5.04614015,14.6693064 7.81506225,17.4439339 11.2307008,17.4439339 C14.6463393,17.4439339 17.4152614,14.6693064 17.4152614,11.24663 C17.4152614,7.82395349 14.6463393,5.04932599 11.2307008,5.04932599 Z">
-								</path>
+				</svg>
+				
+				<form action="" class="top-header-input-form">
+					<div class="top-header-input-wrapper">
+						<input type="text" class="top-header-input" placeholder="서비스 또는 전문가를 검색해보세요.">
+						<div class="magnifier-wrapper">
+							<svg width="24" height="24" viewBox="0 0 24 24" 
+							fill="currentColor" aria-hidden="true" focusable="false" 
+							preserveAspectRatio="xMidYMid meet" class="magnifier" style="">
+								<path xmlns="http://www.w3.org/2000/svg" d="M11.2307008,3.5 C15.5002489,3.5 18.9614015,6.96828437 18.9614015,11.24663 C18.9614015,13.0978372 18.3133954,14.7973826 17.2322825,16.1299241 L20.2742127,19.178378 C20.5762688,19.4810023 20.5764739,19.9714482 20.2746708,20.2738195 C19.9728678,20.5761908 19.4833433,20.5759857 19.1812873,20.2733614 L19.1812873,20.2733614 L16.1426973,17.2288066 C14.8071694,18.3312107 13.0960911,18.9932599 11.2307008,18.9932599 C6.96115262,18.9932599 3.5,15.5249756 3.5,11.24663 C3.5,6.96828437 6.96115262,3.5 11.2307008,3.5 Z M11.2307008,5.04932599 C7.81506225,5.04932599 5.04614015,7.82395349 5.04614015,11.24663 C5.04614015,14.6693064 7.81506225,17.4439339 11.2307008,17.4439339 C14.6463393,17.4439339 17.4152614,14.6693064 17.4152614,11.24663 C17.4152614,7.82395349 14.6463393,5.04932599 11.2307008,5.04932599 Z" style=""></path>
 							</svg>
-						</span>
+						</div>
+					</div>
+				</form>
+				
+				<div class="top-header-menu-wrapper">
+					<a class="top-header-menu" href="">
+						<span>메시지</span>
+					</a>
+					<a class="top-header-menu" href="">
+						<span>마이크몽</span>
+					</a>
+					<div>
+						<a class="top-header-user">
+							<span class="top-header-user-wrapper">
+								<div class="top-header-user-container">
+									<img src="https://d2v80xjmx68n4w.cloudfront.net/members/thumbs/3aQLe1687185331.jpg"  class="top-header-user-image">
+								</div>
+							</span>
+						</a>
 					</div>
 				</div>
-				<div class="search-input">
-					<section class="inner-search">
-						<section class="inner-search1">
-							<div class="last-search">
-								<h3 class="last-search1">최근 검색어</h3>
-							</div>
-							<div class="last-search-text">최근 검색어가 없습니다.</div>
-						</section>
-						<section class="inner-search1">
-							<h3 class="recommened">추천 검색어</h3>
-							<div class="recommened1">
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">홈페이지제작</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">홈페이지</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">카페24</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">워드프레스</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">크롤링</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">파이썬</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">상세페이지</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">엑셀</div>
-								</a>
-							</div>
-						</section>
-					</section>
+			</section>
+
+		<!-- 전체 카테고리 포함된 헤더바 -->	
+			<section class="header-bar">
+				<div class="header-bar-category-wrapper">
+					<button class="header-bar-category">
+						<span class="header-bar-category-hamberger">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="css-7kp13n e181xm9y0" style="">
+								<path xmlns="http://www.w3.org/2000/svg" d="M19,17 C19.5522847,17 20,17.4477153 20,18 C20,18.5522847 19.5522847,19 19,19 L5,19 C4.44771525,19 4,18.5522847 4,18 C4,17.4477153 4.44771525,17 5,17 L19,17 Z M19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L19,11 Z M19,5 C19.5522847,5 20,5.44771525 20,6 C20,6.55228475 19.5522847,7 19,7 L5,7 C4.44771525,7 4,6.55228475 4,6 C4,5.44771525 4.44771525,5 5,5 L19,5 Z" style=""></path>
+							</svg>
+						</span>
+						
+						<span>전체 카테고리</span>
+						
+						<span class="header-bar-category-show-btn">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="css-7kp13n e181xm9y0" style="">
+								<polygon id="Triangle" transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) " points="12 9 18 15 6 15"></polygon>
+							</svg>
+						</span>
+					</button>
+					<div class="active-bar-wrapper">
+						<div class="active-bar"></div>
+					</div>
+
+					<!-- 드롭다운 메뉴바 -->
+					<div class="dropdown-menu-wrapper">
+						<a href="#"><strong>디자인</strong></a>
+						<a href="">IT·프로그래밍</a>
+						<a href="">영상·사진·음향</a>
+						<a href="">마케팅</a>
+						<a href="">번역·통역</a>
+						<a href="">문서·글쓰기</a>
+						<a href="">창업·사업</a>
+						<a href="">주문제작</a>
+						<a href="">세무·법무·노무</a>
+
+						<a href="#"><strong>N잡∙커리어</strong></a>
+						<a href="">취업·입시</a>
+						<a href="">투잡·노하우</a>
+						<a href="">직무역량 레슨</a>
+
+						<a href="#"><strong>취미·생활</strong></a>
+						<a href="">운세</a>
+						<a href="">심리상담</a>
+						<a href="">취미 레슨</a>
+						<a href="">생활 서비스</a>
+					  </div>
 				</div>
-			</form>
-			<div>
-				<button color="default" class="expert">
-					<span class="">전문가 등록</span>
-				</button>
-				<button color="default" class="login">
-					<span class="">로그인</span>
-				</button>
-				<a color="yellow" class="join">
-					<span class="">무료 회원가입</span>	
-				</a>
-			</div>
-		</section>
-		<section class="haed-two"> 
-			   <div class="header-two">
-			      <div class="heder-flex">
-			         <div class="all-category">
-			            <button type="button" class="header-category">
-			               <span rotate="0" class="advertisement-img">
-			               <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="star2">
-			               <path xmlns="http://www.w3.org/2000/svg" d="M19,17 C19.5522847,17 20,17.4477153 20,18 C20,18.5522847 19.5522847,19 19,19 L5,19 C4.44771525,19 4,18.5522847 4,18 C4,17.4477153 4.44771525,17 5,17 L19,17 Z M19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L19,11 Z M19,5 C19.5522847,5 20,5.44771525 20,6 C20,6.55228475 19.5522847,7 19,7 L5,7 C4.44771525,7 4,6.55228475 4,6 C4,5.44771525 4.44771525,5 5,5 L19,5 Z">
-			               </path></svg></span>
-			               <span class="all-category-text">전체 카테고리</span>
-			               <span class="drop-icon">
-			               		<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="star2">
-			               		<polygon id="Triangle" transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) " points="12 9 18 15 6 15"></polygon>
-			               		</svg>
-			               </span>
-			            </button>
-			            <div class="all-category-bottom"></div>
-			         </div>
-			         <nav>
-			            <ul class="top-category">
-			            	<li class="category-magin">
-			            		<a active="false" class="top-category-text" href="">Prime</a>
-			            	</li>
-			            	<li class="category-magin">
-								<a active="false" class="top-category-text" href="">엔터프라이즈</a>
-							</li>
-			            	<li class="category-magin">
-			            		<a active="false" class="top-category-text" href="">전자책∙VOD</a>
-			            	</li>
-			            </ul>
-			         </nav>
-			    <!-- 이후 추가 -->
-			         <div></div>
-			      </div>
-			   </div>
-		</section>
-	</header>
+				
+				<nav class="header-bar-nav">
+					<ul class="header-bar-nav-content-wrapper">
+						<li class="header-bar-nav-content">
+							<a>Prime</a>
+						</li>
+						<li class="header-bar-nav-content">
+							<a>엔터프라이즈</a>
+						</li>
+						<li class="header-bar-nav-content">
+							<a>전자책∙VOD</a>
+						</li>
+					</ul>
+				</nav>
+				
+		 	<div class="header-bar-rightside">
+					<!-- <a href="https://kmong.com/custom-project/requests" class="underline" style="">
+						원하는 서비스를 못 찾겠다면, <strong>프로젝트 의뢰</strong>하세요! &nbsp;&gt;</a> -->
+				</div>   	  
+			</section>
+		</div>
+	</div>
+</header>
+
 	<div class="body-wrap">
 		   <div class="body-container">
-		      <!--배너
-		      <div class="top-banner">
-		         <img class="top-banner-img" src="https://kmong.com/_next/image?url=https%3A%2F%2Fd2v80xjmx68n4w.cloudfront.net%2Fassets%2Fdesktop%2Fpages%2Fcategory%2Fit_banner.png&w=2880&q=75">
-		      </div>-->
 		      <main class="main">
 		         <!--왼쪽 카테고리-->
 		         <nav class="left-category">
@@ -622,13 +619,65 @@
 		         	</section>
 		         	<section class="header-margin">
 		         		<section class="category-select">
-		         			<section class="select-category">
+		         			<section class="all-list-select">
 		         				<label class="select-text">카테고리 선택 
 		         					<span color="#c8cad2" class="select-down">
-		         					<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet">
-		         					<path xmlns="http://www.w3.org/2000/svg" d="M16.2207159,6.10870583 C16.5916812,5.74209279 16.5932964,5.14609072 16.2243236,4.77749794 C15.8553508,4.40890516 15.2555125,4.40730026 14.8845472,4.77391329 L7.77928409,11.9296701 C7.40827322,12.2963282 7.40670988,12.7039529 7.7757925,13.0725272 L14.8810556,20.2226181 C15.2500929,20.5911471 15.8499315,20.5926484 16.2208326,20.2259713 C16.5917338,19.8592942 16.5932448,19.2632919 16.2242075,18.8947628 L9.75,12.5010986 L16.2207159,6.10870583 Z" transform="translate(12.000000, 12.500000) scale(1, -1) rotate(-270.000000) translate(-12.000000, -12.500000) ">
-		         					</path></svg></span>
+			         					<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet">
+			         					<path xmlns="http://www.w3.org/2000/svg" d="M16.2207159,6.10870583 C16.5916812,5.74209279 16.5932964,5.14609072 16.2243236,4.77749794 C15.8553508,4.40890516 15.2555125,4.40730026 14.8845472,4.77391329 L7.77928409,11.9296701 C7.40827322,12.2963282 7.40670988,12.7039529 7.7757925,13.0725272 L14.8810556,20.2226181 C15.2500929,20.5911471 15.8499315,20.5926484 16.2208326,20.2259713 C16.5917338,19.8592942 16.5932448,19.2632919 16.2242075,18.8947628 L9.75,12.5010986 L16.2207159,6.10870583 Z" transform="translate(12.000000, 12.500000) scale(1, -1) rotate(-270.000000) translate(-12.000000, -12.500000) ">
+			         					</path></svg>
+		         					</span>
 		         				</label>
+		       	<!-- 메뉴드롭 -->			
+			         			<div class="all-list-form">	
+			         				<div class="all-list-born" style="display: none;">
+			         					<ul class="all-list">
+			         						<ul class="top-list">
+			         							<div class="all-list-topText">UX 기획</div>
+			         							<li class="all-list-text">웹·모바일앱 기획</li>
+			         							<li class="all-list-text">기타 기획</li>
+			         						</ul>
+			         						<ul class="top-list">
+			         							<div class="all-list-topText">웹</div>
+			         							<li class="all-list-text">홈페이지</li>
+			         							<li class="all-list-text">홈페이지(웹빌더·CMS)</li>
+			         							<li class="all-list-text">홈페이지(카페24)</li>
+			         							<li class="all-list-text">홈페이지(워드프레스)</li>
+			         							<li class="all-list-text">랜딩페이지</li>
+			         							<li class="all-list-text">프런트엔드·퍼블리싱</li>
+			         							<li class="all-list-text">애널리틱스</li>
+			         							<li class="all-list-text">홈페이지 수정·유지보수</li>
+			         							<li class="all-list-text">검색최적화·SEO</li>
+			         						</ul>
+			         						<ul class="top-list">
+			         							<div class="all-list-topText">커머스</div>
+			         							<li class="all-list-text">쇼핑몰</li>
+			         							<li class="all-list-text">쇼핑몰(웹빌더·CMS)</li>
+			         							<li class="all-list-text">쇼핑몰(카페24)</li>
+			         							<li class="all-list-text">쇼핑몰 수정·유지보수</li>
+			         						</ul>
+			         						<ul class="top-list">
+			         							<div class="all-list-topText">모바일</div>
+			         							<li class="all-list-text">앱</li>
+			         							<li class="all-list-text">앱 수정·유지보수</li>
+			         						</ul>
+			         						<ul class="top-list">
+			         							<div class="all-list-topText">프로그램</div>
+			         							<li class="all-list-text">비즈니스 애플리케이션</li>
+			         							<li class="all-list-text">PC·웹 프로그램</li>
+			         							<li class="all-list-text">백엔드·서버</li>
+			         							<li class="all-list-text">봇·챗봇</li>
+			         						</ul>
+			         						<ul class="top-list">
+			         							<div class="all-list-topText">트렌드</div>
+			         							<li class="all-list-text">AI 애플리케이션</li>
+			         							<li class="all-list-text">게임∙AR∙VR</li>
+			         							<li class="all-list-text">노코드·로우코드</li>
+			         							<li class="all-list-text">메타버스</li>
+			         							<li class="all-list-text">블록체인·NFT</li>
+			         						</ul>
+			         					</ul>
+			         				</div>
+			         			</div>	
 		         			</section>
 		         			<div class="selectbox-margin">
 		         				<label class="select-text">서비스옵션 
@@ -655,7 +704,7 @@
 		         				</label>
 		         			</div>
 		         		</section>
-		         		<div class="check">
+		         	<!-- 	<div class="check">
 		         			<div>
 		         				<label class="checked" color="#ffd400">
 		         					<span class="checkbox">
@@ -682,7 +731,7 @@
 			         				</span>
 			         			</label>
 		         			</div>
-		         		</div>
+		         		</div> -->
 		         	</section>
 		         	<div class="main-middle">
 		         		<p class="merge">
@@ -2990,9 +3039,9 @@
 			         <!-- 반복 끝5 -->
 			         	</div>
 			         	<div class="number-mvp">
-			         		<ul class="number-list">
+			         		<ul class="number-list" disabled>
 			         			<li class="number-list2">
-			         				<button class="number-list3">
+			         				<button class="list-left">
 			         					<span class="">
 				         					<span class="advertisement-img">
 				         						<svg class="list-left" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet">
