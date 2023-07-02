@@ -652,7 +652,7 @@ footer {
 
 
 .footer-inner {
-	font-family : 'NanumSquareAcr';
+	/* font-family : 'NanumSquareAcr'; */
     max-width: 1160px;
     margin: 0 auto;
     padding: 0 5%;
@@ -671,7 +671,7 @@ footer {
 }
 
 .footer-mweb {
-	font-family : 'NanumSquareAcr';
+	/* font-family : 'NanumSquareAcr'; */
     margin: 0 auto;
     padding: 0;
     display: flex;
