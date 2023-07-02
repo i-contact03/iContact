@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 * {
-	font-family: 'NanumSquareNeo';
+	font-family: 'MetroSansMedium';
     box-sizing: border-box;
 }
+
 
 svg {
 	width: 16;
@@ -197,7 +198,7 @@ nav {
     transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
     text-decoration: none;
     display: inline-flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
     cursor: pointer;
     position: relative;
@@ -669,6 +670,7 @@ nav {
     color: #303441;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .portfolio-text2 {
@@ -687,7 +689,6 @@ nav {
 	position: relative;
     display: block;
     box-sizing: border-box;
-    user-select: none;
     touch-action: pan-y;
 }
 
@@ -731,8 +732,20 @@ nav {
     padding: 0;
 }
 
+.slick-track {
+	position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+    gap: 24px;
+}
+
 .slick-slide {
-	display: none;
+	outline:none;
+	/*display: none;*/
     float: left;
     height: 100%;
     min-height: 1px;
@@ -756,6 +769,10 @@ nav {
     border: 1px solid rgba(0,0,0,0.05);
     cursor: pointer;
     overflow: hidden;
+}
+
+.portfolio-img1:hover {
+	transform:scale(1.1);
 }
 
 .portfolio-img1 {
@@ -800,7 +817,7 @@ nav {
 	margin-top: 8px;
     flex-direction: column;
     display: flex;
-    flex: 1;
+    flex: 1 1 0%;
 }
 
 .title-top {
@@ -824,11 +841,136 @@ nav {
     line-height: normal;
 }
 
+.service-info {
+	border-bottom: 1px solid rgb(228, 229, 237);
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
 
+.service-info-title {
+	font-size: 18px;
+    font-weight: 700;
+    color: rgb(48, 52, 65);
+}
 
+.service-info-body {
+	position: relative;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out 0s;
+    max-height: none;
+}
 
+.service-info-text {
+    color: rgb(48, 52, 65);
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 16px;
+    user-select: none;
+    word-break: break-all;
+}
 
+.service-info-margin {
+	height: 20px;
+}
 
+.service-info-margin2 {
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.more-portfolio {
+	text-decoration: none;
+    line-height: normal;
+    position: relative;
+    background-color: rgb(242, 243, 247);
+    color: rgb(48, 52, 65);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.more-portfolio-button {
+	background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+.next-button {
+	cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 0px;
+    border: 0px;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    color: rgb(48, 52, 65);
+    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    box-shadow: transparent 0px 0px 0px 1px, transparent 0px 0px 0px 4px, rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.76);
+    right: 8px;
+}
+
+.advertisement-img >span {
+    transform: translateX(2px);
+}
+
+.list-number-non {
+	outline: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    line-height: 1;
+    font-weight: 500;
+    transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    white-space: nowrap;
+    max-width: 100%;
+    font-size: 12px;
+    padding: 0px 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(154, 155, 167);
+    border: none;
+    min-width: 36px;
+    height: 36px;
+}
+
+.list-number-non:disabled {
+	border-color: rgb(228, 229, 237);
+    color: rgb(154, 155, 167);
+    opacity: 0.3;
+    background: none;
+    cursor: default;
+}
 
 
 

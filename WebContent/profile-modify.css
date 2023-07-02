@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+	font-family: 'MetroSansMedium';
+}
+
+
 
 body {
 	margin: 0;
@@ -32,7 +37,7 @@ body {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 16px;
-	justify-content: space-content;	
+	justify-content: space-content;
 }
 
 .main-page-link{
@@ -112,7 +117,6 @@ body {
 }
 
 .modify-button span{
-	font-family: 'NanumSquareAcb';
 	line-height: 1;
 	font-weight: 500;
 	cursor: pointer;
@@ -158,7 +162,6 @@ body {
 }
 
 .kmong-profile-modify-nav-btn-div-active{
-	font-family: 'NanumSquareAceb';
 	color: rgb(255, 255, 255);
 	background-color: rgb(85, 89, 105);
 	border: 1px solid rgb(85, 89, 105);
@@ -173,14 +176,12 @@ body {
 }
 
 .kmong-profile-modify-nav-btn-span-active{
-	font-family: 'NanumSquareAcb';
 	color: rgb(48, 52, 65);
 	
 	font-size: 16px;
 }
 
 .kmong-profile-modify-nav-btn-div{
-	font-family: 'NanumSquareAceb';
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -194,7 +195,6 @@ body {
 }
 
 .kmong-profile-modify-nav-btn-span{
-	font-family: 'NanumSquareAcb';
 	color: #9a9ba7;
     font-size: 16px;
 }
@@ -214,7 +214,6 @@ body {
 }
 
 .information-title{
-	font-family: 'NanumSquareAcb';
 	color: #303441;
 	font-size: 16px;
 	font-weight: 500;
@@ -334,8 +333,6 @@ body {
 
 .profile-image-modify-btn-inner-label{
 	cursor: pointer;
-	
-	font-family: 'NanumSquareAcb';
 }
 
 .profile-image-modify-btn-inner-input{
@@ -380,7 +377,6 @@ body {
 
 
 .user-nickname-wrapper span{
-	font-family: 'NanumSquareAcb';
 	display: flex;
 	
 	/* flex에 의해 창 조절시 원래라면 그에 맞게 줄어들었어야 하지만,
@@ -405,7 +401,6 @@ body {
 }
 
 .user-nickname{
-	font-family: 'NanumSquareAcr';
 	font-size: 13px;
 	outline: none;
     flex: 1;
@@ -424,7 +419,6 @@ body {
 }
 
 .restricted-conditions{
-	font-family: 'NanumSquareAcr';
 	display: flex;
 	flex-shrink: 0;
 	flex-basis: 0;
@@ -437,7 +431,6 @@ body {
 
 .test-nickname{
 	margin: 0;
-	font-family: 'NanumSquareAcr';
 	font-weight: 400;
     line-height: 1.429;
     letter-spacing: 0;
@@ -459,7 +452,6 @@ body {
 }
 
 .tip-title{
-	font-family: 'NanumSquareAcb';
 	font-size: 11px;
     font-weight: bold;
     letter-spacing: 0.42px;
@@ -474,7 +466,6 @@ body {
 
 
 .tip-list{
-	font-family: 'NanumSquareAcb';
 	font-size: 12px;
     font-weight: 500;
     line-height: 20px;
@@ -493,7 +484,6 @@ body {
 }
 
 .introduce-yourself-title{
-	font-family: 'NanumSquareAcb';
 	display: flex;
 	flex-shrink: 0;
 	
@@ -507,8 +497,6 @@ body {
 
 
 .introduce-yourself-content{
-	font-family: 'NanumSquareAcr';
-	
 	outline: none;
     width: 100%;
     height: 100%;
@@ -519,7 +507,7 @@ body {
     padding: 14px;
     font-size: 13px;
     resize: none;
-    
+    background-color: transparent;
     overflow: auto;
 }
 
@@ -537,7 +525,6 @@ body {
 }
 
 .choose-title{
-	font-family: 'NanumSquareAcb';
 	display: flex;
 	flex-shrink: 0;
 	
@@ -599,7 +586,6 @@ body {
 }
 
 .choose {
-	font-family: 'NanumSquareAcr';
 	color: rgb(48, 52, 65);
     margin-left: 2px;
     margin-right: 2px;
@@ -652,7 +638,6 @@ body {
 }
 
 .information-content-skill-detail-title{
-	font-family: 'NanumSquareAcb';
 	color: #303441;
     font-size: 13px;
     font-weight: 500;
@@ -667,7 +652,6 @@ body {
 }
 
 .detail-restricted-conditions{
-	font-family: 'NanumSquareAcb';
 	color: #303441;
     font-size: 11px;
     font-weight: normal;
@@ -675,7 +659,6 @@ body {
 }
 
 .mandatory{
-	font-family: 'NanumSquareAcr';
 	color: #ff402b;
     margin-left: 4px;
     
@@ -684,8 +667,6 @@ body {
 }
 
 .choice {
-	font-family: 'NanumSquareAcr';
-	
 	color: #9a9ba7;
 	margin-left: 4px;
 	
@@ -710,13 +691,11 @@ body {
 }
 
 .choose-type-title{
-	font-family: 'NanumSquareAcb';
 	font-size: 14px;
     font-weight: 500;
 }
 
 .delete-tag-all{
-	font-family: 'NanumSquareAcb';
 	outline: none;
     border-width: 1px;
     border-style: solid;
@@ -753,7 +732,6 @@ body {
 }
 
 .choose-tag{
-	font-family: 'NanumSquareAcr';
 	padding: 8px 12px;
     font-size: 13px;
     border-radius: 20px;
@@ -834,7 +812,6 @@ body {
 }
 
 .retained-technology-tag-list-search-bar{
-	font-family: 'NanumSquareAcb';
 	outline: none;
     flex: 1;
     width: 100%;
@@ -873,26 +850,24 @@ body {
 }
 
 .retained-technology-type-content-active{
-	font-family: 'NanumSquareAcr';
 	font-size: 14px;
     color: #303441;
     border-bottom: 1px solid #f2f3f7;
     padding: 12px 20px;
     cursor: pointer;
-    height: 15px;
+    height: 25px;
     font-weight: bold;
     background-color: #fafafc;
     list-style: none;
 }
 
 .retained-technology-type-content{
-	font-family: 'NanumSquareAcr';
 	font-size: 14px;
     color: #303441;
     border-bottom: 1px solid #f2f3f7;
     padding: 12px 20px;
     cursor: pointer;
-    height: 15px;
+    height: 25px;
 }
 
 
@@ -937,7 +912,6 @@ body {
 
 
 .retained-technology-detail-type-content{
-	font-family: 'NanumSquareAcr';
 	display: flex;
 	align-items: center;
     height: 34px;
@@ -950,7 +924,6 @@ body {
 }
 
 .retained-technology-detail-type-content-active{
-	font-family: 'NanumSquareAcr';
 	display: flex;
 	align-items: center;
     height: 34px;
@@ -995,7 +968,6 @@ body {
 }
 
 .delete-all-tag-btn{
-	font-family: 'NanumSquareAcb';
 	outline: none;
     border-width: 1px;
     border-style: solid;
@@ -1039,7 +1011,6 @@ body {
 }
 
 .detail-type-tag-content{
-	font-family: 'NanumSquareAcb';
 	padding: 8px 12px;
     font-size: 13px;
     border-radius: 20px;
@@ -1089,7 +1060,6 @@ body {
 }
 
 .additional-information-title{
-	font-family: 'NanumSquareAcb';
 	color: #303441;
     font-size: 16px;
     font-weight: 500;
@@ -1177,7 +1147,6 @@ body {
 }
 
 .additional-information-input{
-	font-family: 'NanumSquareAcb';
 	margin-left: 200px;
     text-align: right;
     
@@ -1199,12 +1168,14 @@ body {
 
 
 .won{
-	font-family: 'NanumSquareAcb';
 	color: #000000;
     margin-right: 50px;
     font-size: 13px;
 }
 
+.darker:hover{
+   filter: brightness(50%);
+}
 
 
 

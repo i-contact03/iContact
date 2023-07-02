@@ -2,38 +2,36 @@
  * profile-modify.jsp
  */
 
-
-
-function modalOn() {
-    var otherModal = document.getElementById('other-modal');
-  	otherModal.style.display = 'block';
+// 스크롤 이동 기능
+function goToScroll(name) {
+    var location = document.querySelector("#" + name).offsetTop;
+    window.scrollTo({top: location, behavior: 'smooth'});
 }
 
-
-/*으앙나아아ㅓㄴㅇㄹ 다 뒤집어 엎ㅁ어ㅓ어*/
-
-function isModalOn() {
-    return modal.style.display === "flex"
+// 버튼 활성화
+function setActiveButton(btnElement) {
+  var buttons = document.querySelectorAll(".kmong-profile-modify-nav-btn");
+  
+  // 모든 버튼에 비활성 상태 스타일을 적용
+  buttons.forEach(function(button) {
+    button.querySelector(".kmong-profile-modify-nav-btn-div").classList.remove("kmong-profile-modify-nav-btn-div-active");
+    button.querySelector(".kmong-profile-modify-nav-btn-span").classList.remove("kmong-profile-modify-nav-btn-span-active");
+  });
+  
+  // 선택한 버튼에 활성 상태 스타일을 적용
+  var activeDiv = btnElement.querySelector(".kmong-profile-modify-nav-btn-div");
+  var activeSpan = btnElement.querySelector(".kmong-profile-modify-nav-btn-span");
+  activeDiv.classList.add("kmong-profile-modify-nav-btn-div-active");
+  activeSpan.classList.add("kmong-profile-modify-nav-btn-span-active");
 }
-function modalOff() {
-    modal.style.display = "none"
-}
-const btnModal = document.getElementById("btn-modal")
-btnModal.addEventListener("click", e => {
-    modalOn()
-})
-const closeBtn = modal.querySelector(".close-area")
-closeBtn.addEventListener("click", e => {
-    modalOff()
-})
-modal.addEventListener("click", e => {
-    const evTarget = e.target
-    if(evTarget.classList.contains("modal-overlay")) {
-        modalOff()
-    }
-})
-window.addEventListener("keyup", e => {
-    if(isModalOn() && e.key === "Escape") {
-        modalOff()
-    }
-})
+
+// 각 버튼에 클릭 이벤트 리스너 등록
+document.querySelectorAll(".kmong-profile-modify-nav-btn").forEach(function(button) {
+  button.addEventListener("click", function() {
+    setActiveButton(button);
+    var targetId = button.getAttribute("onclick").replace("goToScroll('", "").replace("')", "");
+    goToScroll(targetId);
+  });
+});
+
+

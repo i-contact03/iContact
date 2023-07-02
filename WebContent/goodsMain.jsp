@@ -4,123 +4,145 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>상품 상세페이지</title>
+<title>홈페이지를 꼼꼼하고 완벽하게 제작해 드립니다.</title>
+<link rel="icon" href="kmongFavicon.png">
 <link rel="stylesheet" href="goodsMain.css"/>
 <link rel="stylesheet" href="ideabank.css"/>
 <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css" rel="stylesheet">
+
+<style>
+
+	@font-face {
+		font-family: 'MetroSansBold';
+		src: url('MetroSans-Bold.woff2'); /* 굵은글씨체 주소지정 */
+	}
+	
+	@font-face {
+		font-family: 'MetroSansMedium';
+		src: url('MetroSans-Medium.woff2');
+	}
+	
+	
+	@font-face {
+		font-family: 'MetroSansRegular';
+		src: url('MetroSans-Regular.woff2'); /* 가는글씨체 주소지정 */
+	}
+	
+</style>
+
 </head>
 <body>
-	<header class="header-born">
-		<section class="header-one">
-			<a class="header-logo">
-				<svg width="85" height="100%" viewBox="0 0 85 26" xmlns="http://www.w3.org/2000/svg">
+	<header>
+	<div class="header-wrap">
+		<div class="header">
+		<!-- 로고 + 검색바 + 메시지 + 마이크몽 + 프로필-->
+			<section class="top-header">
+				<svg class="top-header-logo" width="85" height="100%" viewBox="0 0 85 26" 
+					xmlns="http://www.w3.org/2000/svg">
 					<path d="M77.69 4.86c3.975 0 7.197 3.215 7.197 7.18l-.002.055h.002c.073 3.477.074 5.769.003 6.874-.108 1.659-.724 3.372-1.947 4.693A7.21 7.21 0 0 1 77.593 26c-2.724 0-4.998-.984-6.653-2.921l-.05-.059 3.226-2.684c.837.997 1.938 1.48 3.478 1.48.9 0 1.67-.358 2.259-.992.515-.556.817-1.263.832-1.813v-.443a7.186 7.186 0 0 1-2.995.65c-3.975 0-7.197-3.214-7.197-7.179 0-3.964 3.222-7.178 7.197-7.178zm-32.13-.225c4.131 0 7.48 3.34 7.48 7.46 0 4.121-3.349 7.462-7.48 7.462s-7.48-3.34-7.48-7.461c0-4.12 3.349-7.461 7.48-7.461zM4.533 0v10.354L8.623 5.2h5.309l-5.337 6.726 5.572 7.065h-4.98L4.534 13.42v5.572H0V0h4.533zM29.92 4.86a6.233 6.233 0 0 1 6.233 6.234v7.897H31.96v-7.908a2.04 2.04 0 0 0-4.074-.152l-.006.152v7.908h-4.193v-7.908a2.04 2.04 0 0 0-4.075-.152l-.005.152v7.908h-4.194v-7.897a6.233 6.233 0 0 1 10.371-4.662 6.201 6.201 0 0 1 4.136-1.571zm31.847 0a6.8 6.8 0 0 1 6.8 6.8v7.331h-4.194v-7.34a2.607 2.607 0 0 0-2.441-2.602l-.165-.006a2.607 2.607 0 0 0-2.602 2.442l-.005.165v7.34l-4.193.001v-7.33a6.8 6.8 0 0 1 6.8-6.8zM45.56 8.818a3.282 3.282 0 0 0-3.287 3.279 3.282 3.282 0 0 0 3.287 3.278 3.282 3.282 0 0 0 3.287-3.278 3.282 3.282 0 0 0-3.287-3.279zm32.13.226a3 3 0 0 0-3.003 2.996 3 3 0 0 0 3.003 2.996 3 3 0 0 0 3.003-2.996 3 3 0 0 0-3.003-2.996z" fill="#212224" fill-rule="evenodd"></path>
-				</svg>			
-			</a>
-		<!--<div></div>
-			<div></div>  -->
-			<div style="flex-grow: 1;"></div>
-			<form class="search-form">
-				<div class="main-searsh-box">
-					<input type="text" placeholder="서비스 또는 전문가를 검색해보세요." class="input-text" maxlength="30" autocomplete="off" autocorrect="off" autocapitalize="off" value>
-					<div class="suffix-wrapper search-icon">
-						<span role="img" class="advertisement-img">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" class="star2">
-								<path xmlns="http://www.w3.org/2000/svg" d="M11.2307008,3.5 C15.5002489,3.5 18.9614015,6.96828437 18.9614015,11.24663 C18.9614015,13.0978372 18.3133954,14.7973826 17.2322825,16.1299241 L20.2742127,19.178378 C20.5762688,19.4810023 20.5764739,19.9714482 20.2746708,20.2738195 C19.9728678,20.5761908 19.4833433,20.5759857 19.1812873,20.2733614 L19.1812873,20.2733614 L16.1426973,17.2288066 C14.8071694,18.3312107 13.0960911,18.9932599 11.2307008,18.9932599 C6.96115262,18.9932599 3.5,15.5249756 3.5,11.24663 C3.5,6.96828437 6.96115262,3.5 11.2307008,3.5 Z M11.2307008,5.04932599 C7.81506225,5.04932599 5.04614015,7.82395349 5.04614015,11.24663 C5.04614015,14.6693064 7.81506225,17.4439339 11.2307008,17.4439339 C14.6463393,17.4439339 17.4152614,14.6693064 17.4152614,11.24663 C17.4152614,7.82395349 14.6463393,5.04932599 11.2307008,5.04932599 Z">
-								</path>
+				</svg>
+				
+				<form action="" class="top-header-input-form">
+					<div class="top-header-input-wrapper">
+						<input type="text" class="top-header-input" placeholder="서비스 또는 전문가를 검색해보세요.">
+						<div class="magnifier-wrapper">
+							<svg width="24" height="24" viewBox="0 0 24 24" 
+							fill="currentColor" aria-hidden="true" focusable="false" 
+							preserveAspectRatio="xMidYMid meet" class="magnifier" style="">
+								<path xmlns="http://www.w3.org/2000/svg" d="M11.2307008,3.5 C15.5002489,3.5 18.9614015,6.96828437 18.9614015,11.24663 C18.9614015,13.0978372 18.3133954,14.7973826 17.2322825,16.1299241 L20.2742127,19.178378 C20.5762688,19.4810023 20.5764739,19.9714482 20.2746708,20.2738195 C19.9728678,20.5761908 19.4833433,20.5759857 19.1812873,20.2733614 L19.1812873,20.2733614 L16.1426973,17.2288066 C14.8071694,18.3312107 13.0960911,18.9932599 11.2307008,18.9932599 C6.96115262,18.9932599 3.5,15.5249756 3.5,11.24663 C3.5,6.96828437 6.96115262,3.5 11.2307008,3.5 Z M11.2307008,5.04932599 C7.81506225,5.04932599 5.04614015,7.82395349 5.04614015,11.24663 C5.04614015,14.6693064 7.81506225,17.4439339 11.2307008,17.4439339 C14.6463393,17.4439339 17.4152614,14.6693064 17.4152614,11.24663 C17.4152614,7.82395349 14.6463393,5.04932599 11.2307008,5.04932599 Z" style=""></path>
 							</svg>
-						</span>
+						</div>
+					</div>
+				</form>
+				
+				<div class="top-header-menu-wrapper">
+					<a class="top-header-menu" href="">
+						<span>메시지</span>
+					</a>
+					<a class="top-header-menu" href="">
+						<span>마이크몽</span>
+					</a>
+					<div>
+						<a class="top-header-user">
+							<span class="top-header-user-wrapper">
+								<div class="top-header-user-container">
+									<img src="https://d2v80xjmx68n4w.cloudfront.net/members/thumbs/3aQLe1687185331.jpg"  class="top-header-user-image">
+								</div>
+							</span>
+						</a>
 					</div>
 				</div>
-				<div class="search-input">
-					<section class="inner-search">
-						<section class="inner-search1">
-							<div class="last-search">
-								<h3 class="last-search1">최근 검색어</h3>
-							</div>
-							<div class="last-search-text">최근 검색어가 없습니다.</div>
-						</section>
-						<section class="inner-search1">
-							<h3 class="recommened">추천 검색어</h3>
-							<div class="recommened1">
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">홈페이지제작</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">홈페이지</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">카페24</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">워드프레스</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">크롤링</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">파이썬</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">상세페이지</div>
-								</a>
-								<a class="recommened-a" href="">
-									<div shape="rounded" label="default" class="recommened-a-text">엑셀</div>
-								</a>
-							</div>
-						</section>
-					</section>
+			</section>
+
+		<!-- 전체 카테고리 포함된 헤더바 -->	
+			<section class="header-bar">
+				<div class="header-bar-category-wrapper">
+					<button class="header-bar-category">
+						<span class="header-bar-category-hamberger">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="css-7kp13n e181xm9y0" style="">
+								<path xmlns="http://www.w3.org/2000/svg" d="M19,17 C19.5522847,17 20,17.4477153 20,18 C20,18.5522847 19.5522847,19 19,19 L5,19 C4.44771525,19 4,18.5522847 4,18 C4,17.4477153 4.44771525,17 5,17 L19,17 Z M19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L19,11 Z M19,5 C19.5522847,5 20,5.44771525 20,6 C20,6.55228475 19.5522847,7 19,7 L5,7 C4.44771525,7 4,6.55228475 4,6 C4,5.44771525 4.44771525,5 5,5 L19,5 Z" style=""></path>
+							</svg>
+						</span>
+						
+						<span>전체 카테고리</span>
+						
+						<span class="header-bar-category-show-btn">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="css-7kp13n e181xm9y0" style="">
+								<polygon id="Triangle" transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) " points="12 9 18 15 6 15"></polygon>
+							</svg>
+						</span>
+					</button>
+					<div class="active-bar-wrapper">
+						<div class="active-bar"></div>
+					</div>
+
+					<!-- 드롭다운 메뉴바 -->
+					<div class="dropdown-menu-wrapper">
+						<a href="#"><strong>디자인</strong></a>
+						<a href="">IT·프로그래밍</a>
+						<a href="">영상·사진·음향</a>
+						<a href="">마케팅</a>
+						<a href="">번역·통역</a>
+						<a href="">문서·글쓰기</a>
+						<a href="">창업·사업</a>
+						<a href="">주문제작</a>
+						<a href="">세무·법무·노무</a>
+
+						<a href="#"><strong>N잡∙커리어</strong></a>
+						<a href="">취업·입시</a>
+						<a href="">투잡·노하우</a>
+						<a href="">직무역량 레슨</a>
+
+						<a href="#"><strong>취미·생활</strong></a>
+						<a href="">운세</a>
+						<a href="">심리상담</a>
+						<a href="">취미 레슨</a>
+						<a href="">생활 서비스</a>
+					  </div>
 				</div>
-			</form>
-			<div>
-				<button color="default" class="expert">
-					<span class="">전문가 등록</span>
-				</button>
-				<button color="default" class="login">
-					<span class="">로그인</span>
-				</button>
-				<a color="yellow" class="join">
-					<span class="">무료 회원가입</span>	
-				</a>
-			</div>
-		</section>
-		<section class="haed-two"> 
-			   <div class="header-two">
-			      <div class="heder-flex">
-			         <div class="all-category">
-			            <button type="button" class="header-category">
-			               <span rotate="0" class="advertisement-img">
-			               <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="star2">
-			               <path xmlns="http://www.w3.org/2000/svg" d="M19,17 C19.5522847,17 20,17.4477153 20,18 C20,18.5522847 19.5522847,19 19,19 L5,19 C4.44771525,19 4,18.5522847 4,18 C4,17.4477153 4.44771525,17 5,17 L19,17 Z M19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L19,11 Z M19,5 C19.5522847,5 20,5.44771525 20,6 C20,6.55228475 19.5522847,7 19,7 L5,7 C4.44771525,7 4,6.55228475 4,6 C4,5.44771525 4.44771525,5 5,5 L19,5 Z">
-			               </path></svg></span>
-			               <span class="all-category-text">전체 카테고리</span>
-			               <span class="drop-icon">
-			               		<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="star2">
-			               		<polygon id="Triangle" transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) " points="12 9 18 15 6 15"></polygon>
-			               		</svg>
-			               </span>
-			            </button>
-			            <div class="all-category-bottom"></div>
-			         </div>
-			         <nav>
-			            <ul class="top-category">
-			            	<li class="category-magin">
-			            		<a active="false" class="top-category-text" href="">Prime</a>
-			            	</li>
-			            	<li class="category-magin">
-								<a active="false" class="top-category-text" href="">엔터프라이즈</a>
-							</li>
-			            	<li class="category-magin">
-			            		<a active="false" class="top-category-text" href="">전자책∙VOD</a>
-			            	</li>
-			            </ul>
-			         </nav>
-			    <!-- 이후 추가 -->
-			         <div></div>
-			      </div>
-			   </div>
-		</section>
-	</header>
+				
+				<nav class="header-bar-nav">
+					<ul class="header-bar-nav-content-wrapper">
+						<li class="header-bar-nav-content">
+							<a>Prime</a>
+						</li>
+						<li class="header-bar-nav-content">
+							<a>엔터프라이즈</a>
+						</li>
+						<li class="header-bar-nav-content">
+							<a>전자책∙VOD</a>
+						</li>
+					</ul>
+				</nav>
+				
+		 	<div class="header-bar-rightside">
+					<!-- <a href="https://kmong.com/custom-project/requests" class="underline" style="">
+						원하는 서비스를 못 찾겠다면, <strong>프로젝트 의뢰</strong>하세요! &nbsp;&gt;</a> -->
+				</div>   	  
+			</section>
+		</div>
+	</div>
+</header>
 <div class="born">
 	<div class="main-born2">
 		<section class="main-born">
@@ -139,7 +161,7 @@
 					</div>
 				</section>
 				<section class="main-goods">
-					<img width="652" height="488" src="/img/goods3.jpg">
+					<img width="652" height="488" src="img/goods3.jpg">
 				</section>
 				<section class="star-rating">
 					<button type="button" class="star-button">
@@ -162,10 +184,10 @@
 					<div class="menu-con2">
 						<div class="select-menu">포트폴리오</div>
 						<div class="non-select-menu">서비스설명</div>
-						<div class="non-select-menu">가격 정보</div>
-						<div class="non-select-menu">수정·재진행</div>
-						<div class="non-select-menu">취소·환불</div>
-						<div class="non-select-menu">서비스 평가</div>
+						<div class="non-select-menu">서비스제공절차</div>
+						<div class="non-select-menu">의뢰인 준비사항</div>
+			<!-- 			<div class="non-select-menu">가격 정보</div>
+						<div class="non-select-menu">서비스 평가</div>   -->
 					</div>
 				</nav>
 		<!-- 포트폴리오 -->
@@ -176,7 +198,7 @@
 					</div>
 					<div class="portfolio-img-form">
 						<div class="portfolio-part">
-							<button class="portfolio-left-button" direction="prev" disabled>
+							<button class="portfolio-left-button prev-button" direction="prev">
 								<span class="heart-icon2">
 									<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
 									<path xmlns="http://www.w3.org/2000/svg" d="M9.41421356,12 L15.7071068,5.70710678 C16.0976311,5.31658249 16.0976311,4.68341751 15.7071068,4.29289322 C15.3165825,3.90236893 14.6834175,3.90236893 14.2928932,4.29289322 L7.29289322,11.2928932 C6.90236893,11.6834175 6.90236893,12.3165825 7.29289322,12.7071068 L14.2928932,19.7071068 C14.6834175,20.0976311 15.3165825,20.0976311 15.7071068,19.7071068 C16.0976311,19.3165825 16.0976311,18.6834175 15.7071068,18.2928932 L9.41421356,12 Z"></path>
@@ -185,12 +207,12 @@
 							</button>
 							<div class="slick-list">
 								<div class="slick-track" style="width: 3586px; opacity: 1; transform: translate3d(0px, 0px, 0px);">
-									<div style="outline:none" data-index="0" class="slick-slide" aria-hidden="false">
+									<div data-index="0" class="slick-slide" aria-hidden="false">
 										<div>
 											<article class="portfolio">
 												<a class="portfolio-link">
 													<div class="portfolio-img">
-														<img src="/img/goods1.jpg" class="portfolio-img1">
+														<img src="img/potpolio1.jpg" class="portfolio-img1">
 														<div class="liking">
 															<button class="liking2">
 																<span color="#f2f3f7" rotate="0" class="likings">
@@ -212,15 +234,16 @@
 											</article>
 										</div>
 									</div>
+				<!-- 2번 -->					
 									<div style="outline:none" data-index="1" class="slick-slide" tabindex="-1" aria-hidden="false">
 										<div>
 											<article class="portfolio">
 												<a class="portfolio-link" href="">
 													<div class="portfolio-img">
-														<img src="/img/goods6.jpg" class="portfolio-img1">
+														<img src="img/potpolio2.jpg" class="portfolio-img1">
 														<div class="liking">
-															<button class="css-tyn2nr euvc9d20">
-																<span color="#f2f3f7" rotate="0" class="liking2">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
 																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
 																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
 																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
@@ -235,25 +258,335 @@
 													<div class="title-top">기업형 홈페이지 한국응급처치교육원</div>
 													<div class="title-bottom">#홈페이지 #독립형 #반응형 #커스터마이징 #그누보드</div>
 												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 3번 -->
+									<div style="outline:none" data-index="2" class="slick-slide" tabindex="-1" aria-hidden="false">
+										<div>
+											<article class="portfolio">
+												<a class="portfolio-link" href="">
+													<div class="portfolio-img">
+														<img src="img/potpolio3.jpg" class="portfolio-img1">
+														<div class="liking">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
+																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
+																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
+																		<path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z" id="Shape" fill="#212224" fill-rule="nonzero" opacity="0.2"></path>
+																		<mask id="mask-2" fill="white"><use xlink:href="#heart-outlined-fill-icon"></use></mask><use id="Shape" xlink:href="#heart-outlined-fill-icon"></use></g>
+																	</svg>
+																</span>
+															</button>
+														</div>
+													</div>
+												<div class="portfolio-title">
+													<div class="title-top">기업형 홈페지이 주식회사 샘솔</div>
+													<div class="title-bottom">#홈페이지 #독립형 #반응형 #웹사이트 #커스터마이징</div>
+												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 4번 -->
+									<div style="outline:none" data-index="3" class="slick-slide" tabindex="-1" aria-hidden="false">
+										<div>
+											<article class="portfolio">
+												<a class="portfolio-link" href="">
+													<div class="portfolio-img">
+														<img src="img/potpolio4.jpg" class="portfolio-img1">
+														<div class="liking">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
+																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
+																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
+																		<path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z" id="Shape" fill="#212224" fill-rule="nonzero" opacity="0.2"></path>
+																		<mask id="mask-2" fill="white"><use xlink:href="#heart-outlined-fill-icon"></use></mask><use id="Shape" xlink:href="#heart-outlined-fill-icon"></use></g>
+																	</svg>
+																</span>
+															</button>
+														</div>
+													</div>
+												<div class="portfolio-title">
+													<div class="title-top">기업형 홈페지이 주식회사 샘솔</div>
+													<div class="title-bottom">#홈페이지 #독립형 #반응형 #웹사이트 #커스터마이징</div>
+												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 5번 -->
+									<div style="outline:none" data-index="4" class="slick-slide" tabindex="-1" aria-hidden="false">
+										<div>
+											<article class="portfolio">
+												<a class="portfolio-link" href="">
+													<div class="portfolio-img">
+														<img src="img/potpolio5.jpg" class="portfolio-img1">
+														<div class="liking">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
+																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
+																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
+																		<path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z" id="Shape" fill="#212224" fill-rule="nonzero" opacity="0.2"></path>
+																		<mask id="mask-2" fill="white"><use xlink:href="#heart-outlined-fill-icon"></use></mask><use id="Shape" xlink:href="#heart-outlined-fill-icon"></use></g>
+																	</svg>
+																</span>
+															</button>
+														</div>
+													</div>
+												<div class="portfolio-title">
+													<div class="title-top">기업형 홈페지이 주식회사 샘솔</div>
+													<div class="title-bottom">#홈페이지 #독립형 #반응형 #웹사이트 #커스터마이징</div>
+												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 6번 -->
+									<div style="outline:none" data-index="5" class="slick-slide" tabindex="-1" aria-hidden="false">
+										<div>
+											<article class="portfolio">
+												<a class="portfolio-link" href="">
+													<div class="portfolio-img">
+														<img src="img/potpolio6.jpg" class="portfolio-img1">
+														<div class="liking">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
+																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
+																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
+																		<path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z" id="Shape" fill="#212224" fill-rule="nonzero" opacity="0.2"></path>
+																		<mask id="mask-2" fill="white"><use xlink:href="#heart-outlined-fill-icon"></use></mask><use id="Shape" xlink:href="#heart-outlined-fill-icon"></use></g>
+																	</svg>
+																</span>
+															</button>
+														</div>
+													</div>
+												<div class="portfolio-title">
+													<div class="title-top">기업형 홈페지이 주식회사 샘솔</div>
+													<div class="title-bottom">#홈페이지 #독립형 #반응형 #웹사이트 #커스터마이징</div>
+												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 7번 -->
+									<div style="outline:none" data-index="6" class="slick-slide" tabindex="-1" aria-hidden="false">
+										<div>
+											<article class="portfolio">
+												<a class="portfolio-link" href="">
+													<div class="portfolio-img">
+														<img src="img/potpolio7.jpg" class="portfolio-img1">
+														<div class="liking">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
+																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
+																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
+																		<path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z" id="Shape" fill="#212224" fill-rule="nonzero" opacity="0.2"></path>
+																		<mask id="mask-2" fill="white"><use xlink:href="#heart-outlined-fill-icon"></use></mask><use id="Shape" xlink:href="#heart-outlined-fill-icon"></use></g>
+																	</svg>
+																</span>
+															</button>
+														</div>
+													</div>
+												<div class="portfolio-title">
+													<div class="title-top">기업형 홈페지이 주식회사 샘솔</div>
+													<div class="title-bottom">#홈페이지 #독립형 #반응형 #웹사이트 #커스터마이징</div>
+												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 8번 -->
+									<div style="outline:none" data-index="7" class="slick-slide" tabindex="-1" aria-hidden="false">
+										<div>
+											<article class="portfolio">
+												<a class="portfolio-link" href="">
+													<div class="portfolio-img">
+														<img src="img/potpolio8.jpg" class="portfolio-img1">
+														<div class="liking">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
+																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
+																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
+																		<path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z" id="Shape" fill="#212224" fill-rule="nonzero" opacity="0.2"></path>
+																		<mask id="mask-2" fill="white"><use xlink:href="#heart-outlined-fill-icon"></use></mask><use id="Shape" xlink:href="#heart-outlined-fill-icon"></use></g>
+																	</svg>
+																</span>
+															</button>
+														</div>
+													</div>
+												<div class="portfolio-title">
+													<div class="title-top">기업형 홈페지이 주식회사 샘솔</div>
+													<div class="title-bottom">#홈페이지 #독립형 #반응형 #웹사이트 #커스터마이징</div>
+												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 9번 -->
+									<div style="outline:none" data-index="8" class="slick-slide" tabindex="-1" aria-hidden="false">
+										<div>
+											<article class="portfolio">
+												<a class="portfolio-link" href="">
+													<div class="portfolio-img">
+														<img src="img/potpolio9.jpg" class="portfolio-img1">
+														<div class="liking">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
+																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
+																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
+																		<path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z" id="Shape" fill="#212224" fill-rule="nonzero" opacity="0.2"></path>
+																		<mask id="mask-2" fill="white"><use xlink:href="#heart-outlined-fill-icon"></use></mask><use id="Shape" xlink:href="#heart-outlined-fill-icon"></use></g>
+																	</svg>
+																</span>
+															</button>
+														</div>
+													</div>
+												<div class="portfolio-title">
+													<div class="title-top">기업형 홈페지이 주식회사 샘솔</div>
+													<div class="title-bottom">#홈페이지 #독립형 #반응형 #웹사이트 #커스터마이징</div>
+												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 10번 -->
+									<div style="outline:none" data-index="9" class="slick-slide" tabindex="-1" aria-hidden="false">
+										<div>
+											<article class="portfolio">
+												<a class="portfolio-link" href="">
+													<div class="portfolio-img">
+														<img src="img/potpolio10.jpg" class="portfolio-img1">
+														<div class="liking">
+															<button class="liking2">
+																<span color="#f2f3f7" rotate="0" class="likings">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="share-img">
+																		<defs><path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z M11.999764,19.1166999 L4.75479942,11.7085588 C3.15293092,10.0706117 3.15293094,7.4069956 4.75479947,5.76904857 C6.34586921,4.14214354 8.91709737,4.14214352 10.5081671,5.76904852 L11.4435969,6.72554678 C11.7484384,7.0372541 12.2510896,7.0372541 12.555931,6.72554678 L13.4913608,5.76904851 C14.2561214,4.98669624 15.2906419,4.5483871 16.3680447,4.5483871 C17.4454474,4.5483871 18.4799679,4.98669624 19.2446013,5.76891842 C20.0136074,6.55487573 20.4466019,7.6234063 20.4466019,8.73880364 C20.4466019,9.85420097 20.0136074,10.9227315 19.2448557,11.7084287 L18.3092987,12.665057 L11.999764,19.1166999 Z" id="heart-outlined-fill-icon"></path></defs>
+																		<g stroke="none" stroke-width="1" fill-rule="evenodd">
+																		<path d="M16.3680447,3 C14.8701244,3 13.434867,3.60809471 12.3788995,4.68835248 L11.999764,5.07602721 L11.6205012,4.68822239 C9.41974855,2.43790277 5.843218,2.4379028 3.64246538,4.68822244 C1.45251156,6.92750008 1.45251154,10.5501072 3.64246532,12.7893849 L11.4435969,20.7662195 C11.7484384,21.0779268 12.2510896,21.0779268 12.555931,20.7662195 L20.3570626,12.7893849 C21.4096395,11.7136062 22,10.2567327 22,8.73880364 C22,7.22093571 21.409687,5.76411845 20.3570626,4.68822238 C19.3011071,3.60804588 17.8659048,3 16.3680447,3 Z" id="Shape" fill="#212224" fill-rule="nonzero" opacity="0.2"></path>
+																		<mask id="mask-2" fill="white"><use xlink:href="#heart-outlined-fill-icon"></use></mask><use id="Shape" xlink:href="#heart-outlined-fill-icon"></use></g>
+																	</svg>
+																</span>
+															</button>
+														</div>
+													</div>
+												<div class="portfolio-title">
+													<div class="title-top">기업형 홈페지이 주식회사 샘솔</div>
+													<div class="title-bottom">#홈페이지 #독립형 #반응형 #웹사이트 #커스터마이징</div>
+												</div>
+												</a>
+											</article>
+										</div>
+									</div>
+					<!-- 더보기 -->
+									<div style="outline:none" data-index="10" class="slick-slide" tabindex="-1">
+										<div>
+											<a class="more-portfolio">
+												더 많은 포트폴리오를
+												<br>
+												확인해보세요
+												<div class="more-portfolio-button">
+													<span class="hot-down">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="star2">
+														<path xmlns="http://www.w3.org/2000/svg" d="m 13.706875,17.707 5,-5 c 0.391,-0.39 0.391,-1.024 0,-1.414 l -5,-4.9999998 c -0.391,-0.391 -1.024,-0.391 -1.414,0 -0.39,0.391 -0.391,1.024 0,1.414 L 15.585875,11 H 5.9998748 c -0.552,0 -1,0.448 -1,1 0,0.552 0.448,1 1,1 h 9.5860002 l -3.293,3.293 c -0.195,0.195 -0.293,0.451 -0.293,0.707 0,0.256 0.098,0.512 0.293,0.707 0.391,0.391 1.024,0.391 1.414,0 z"></path>
+														</svg>
+													</span>
+												</div>
 											</a>
-										</article>
+										</div>
 									</div>
 								</div>
-								</div>
 							</div>
-							<button></button>
+							<button aria-label="carousel-arrow-button"  direction="next" class="next-button">
+								<span role="img" rotate="0" class="advertisement-img">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="star2">
+									<path xmlns="http://www.w3.org/2000/svg" d="M9.41421356,12 L15.7071068,5.70710678 C16.0976311,5.31658249 16.0976311,4.68341751 15.7071068,4.29289322 C15.3165825,3.90236893 14.6834175,3.90236893 14.2928932,4.29289322 L7.29289322,11.2928932 C6.90236893,11.6834175 6.90236893,12.3165825 7.29289322,12.7071068 L14.2928932,19.7071068 C14.6834175,20.0976311 15.3165825,20.0976311 15.7071068,19.7071068 C16.0976311,19.3165825 16.0976311,18.6834175 15.7071068,18.2928932 L9.41421356,12 Z" transform="translate(11.500000, 12.000000) scale(-1, 1) translate(-11.500000, -12.000000) "></path>
+									</svg>
+								</span>
+							</button>
 						</div>
 					</div>
 				</section>
-				<section>서비스설명</section>
-				<section>서비스 제공절차</section>
-				<section>의뢰인 준비사항</section>
-				<section>서비스_태그</section>
+				<section class="service-info">
+					<div class="service-info-title">서비스 설명</div>
+					<div height="842" class="service-info-body">
+						<div class="service-info-text">
+							<p>고객님은 고객님의 분야에서 최고이실 거예요!</p>
+							<p>저흰 고객님의 전문 분야에 대해선 초보이고 문외한이에요.</p>
+							<p><br></p>
+							<p><br></p>
+							<p style="text-align: center;">
+								<strong>당연한 것 같아요! 저희는 IT에서 최고이거든요 : )</strong>
+							</p>
+							<p><br></p>
+							<p><br></p>
+							<p>IT에 대한 용어도 서툴고 모르시는 것이 당연해요.</p>
+							<p>그건 하나하나 친절하게 안내해드릴게요!</p>
+							<p><br></p>
+							<p>홈페이지, 플랫폼, 솔루션을 제작하며 수많은 좋지 않은 사례를 겪은 클라이언트님들이 많았어요.</p>
+							<p>제작사의 폐업, 전문가의 잠수 등..</p>
+							<p>2017년 회사설립 이후 지금까지도 크리티온에 유지보수를 맡겨주시는 클라이언트가 많아요.</p>
+							<p><u>그만큼 만족하시고 믿으시는 이유가 아닐까요?</u></p>
+							<p><br></p>
+							<p>홈페이지를 만들때 물론 저렴한 홈페이지도 있지만</p>
+							<p>저희는 내 집 같이 오래 사용할 수 있는 홈페이지를 만들어 드릴 거예요.</p>
+							<p><br></p>
+							<p>다른 전문가보다 다소 비싸다는 생각이 드실 수 있어요.</p>
+							<p>저희는 <strong>영업팀, 기획팀, 디자인팀, 퍼블리싱팀, 개발팀, 운영관리팀을 가지고 있는 웹에이전시이고 해당 공정 과정에 최고의 전문가들이 배치</strong>되어 있답니다.</p>
+							<p><br></p>
+							<p>한번 만들고 실패해서 두 번 만들게 될 내 소중한 자산!</p>
+							<p>한 번에 원스톱으로 정확하게 만들고 평생 관리가 가능한 자산관리시스템을 이용하여 유지보수를 이용해보세요!</p>
+							<p>(제작 완료 시 자산관리시스템 계정 제공)</p>
+							<p>총 제작비의 10%를 추가 유지보수에 사용하실 수 있도록 마일리지를 적립해 드릴게요 : )</p>
+							<p><br></p>
+						</div>
+						<div class="service-info-margin"></div>
+						<div class="service-info-margin2"></div>
+					</div>
+				</section>
+				<section class="service-info">
+					<div class="service-info-title">서비스 제공 절차</div>
+					<div height="842" class="service-info-body">
+						<div class="service-info-text">
+							<p>1. 크몽 문의</p>
+							<p>2. 결제</p>
+							<p>3. 기획팀과 소통을 통해 컨셉과 자료 전달 및 필요시 미팅 진행</p>
+							<p>4. 기획 작업 진행 후 컨펌</p>
+							<p>5. 디자인 작업 진행 후 컨펌</p>
+							<p>6. 퍼블리싱/개발 작업 진행 후 컨펌</p>
+							<p>7. 구매확정 및 자산관리 시스템 계정 전달 및 마일리지 적립</p>
+							<p>8. 서비스 개시</p>
+						</div>
+						<div class="service-info-margin"></div>
+						<div class="service-info-margin2"></div>
+					</div>
+				</section>
+				<section class="service-info">
+					<div class="service-info-title">의뢰인 준비사항</div>
+					<div height="842" class="service-info-body">
+						<div class="service-info-text">
+							<p>상담전 동종 업계가 아니더라도 원하는 디자인 사이트 URL을 준비해주시면 보다 높은 만족감으로 완성이 될 수 있어요.</p>
+							<p>또한 작업이 시작되면 빠른 자료 전달이 빠르게 작업을 완료시킬 수 있답니다.</p>
+							<p>자료 요청은 우리 기획팀이 닦달할게요 : )</p>
+						</div>
+						<div class="service-info-margin"></div>
+						<div class="service-info-margin2"></div>
+					</div>
+				</section>
+		<!-- 	<section>서비스_태그</section>
 				<section>서비스 상세</section>
 				<section>가격정보</section>
 				<section>수정 및 재진행</section>
 				<section>취소 및 환불 규정</section>
-				<section>서비스평가</section>
+				<section>서비스평가</section>  -->
 			</main>
 			<!--메인 옆 공간-->
 			<aside class="right-born">
@@ -294,7 +627,7 @@
 						<div class="logo-img">
 							<a color="secondary" class="text-logo1">
 								<div size="80" shape="0" class="logo-img1">
-									<img src="/img/mainLogo.jpg" shape="0" class="logo-img2">
+									<img src="img/mainLogo.jpg" shape="0" class="logo-img2">
 								</div>
 							</a>
 						</div>
@@ -358,7 +691,7 @@
 거품없는 홈페이지 제작, 보여드리겠습니다.
 감사합니다.
 						</P>
-						<div class="more-introduce">
+					<!-- 	<div class="more-introduce">
 							<button color="default" class="more-veview">
 								<span>자기소개 더 보기</span>
 								<span class="more-button">
@@ -369,7 +702,7 @@
 									</span>
 								</span>
 							</button>
-						</div>
+						</div>  -->
 					</div>
 				</section>
 				<section class="security">
@@ -516,4 +849,6 @@
 	<div></div>
 </footer>
 </body>
+<script type="module" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="goodsmain.js"></script>
 </html>
