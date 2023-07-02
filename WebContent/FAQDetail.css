@@ -134,7 +134,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid rgba(255, 212, 0, 1);
+  border: 1px solid #eacaff;
 }
 
 input[disabled] {
@@ -155,7 +155,7 @@ input[disabled] {
 }
 
 .container-divider {
-  border-top: 1px solid #FEEB83;
+  border-top: 1px solid #eacaff;
   margin-bottom: 20px;
 }
 
@@ -169,7 +169,7 @@ ul {
 
 ***** Header *****/
 .header-bg{
- background-color: #FEEB83;
+ background-color: #eacaff;
 }
 
 .header {
@@ -398,7 +398,7 @@ ul {
 }
 
 .search input[type="search"]:focus {
-  border: 1px solid rgba(255, 212, 0, 1);
+  border: 1px solid #eacaff;
   color: #555;
 }
 
@@ -610,7 +610,7 @@ b, strong {
 }
 
 .orange80 {
-    color: #ffc266;
+    color: #eacaff;
 }
 
 .article-body > p:last-child {
@@ -677,7 +677,7 @@ b, strong {
 }
 
 .button-yellow, input[type="submit"] {
-    background-color: rgba(255, 212, 0, 1);
+    background-color: #eacaff;
     border: 0;
     border-radius: 4px;
     color: #333333;
