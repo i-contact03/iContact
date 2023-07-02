@@ -8,12 +8,12 @@
 
 
 <link rel="stylesheet" href="FAQ.css">
-
+<link rel="icon" href="kmongFavicon.png">
 </head>
 <body>
 
-<div style="background-color:#FAE57C">
-<header class="header" style="background-color:#FAE57C">
+<div style="background-color:#eacaff">
+<header class="header" style="background-color:#eacaff">
   <div class="header-logo">
     <a href="https://kmong.com">
       <img src="//theme.zdassets.com/theme_assets/9204604/ed54b2d958a2f7b420f8412b529519e676c20bc3.png" class="kmong-logo">

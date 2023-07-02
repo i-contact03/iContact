@@ -86,7 +86,7 @@ hr {
     align-items: center;
     justify-content: space-between;
     flex: 0 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #eacaff;
     padding: 0px 40px;
 }
 
@@ -136,14 +136,15 @@ hr {
 
 
 
+
 .announcement-button {
     border: none;
     outline: none;
     padding: 5.5px 12px;
     height: 32px;
     cursor: pointer;
-    color: rgb(255, 255, 255);
-    background-color: rgb(33, 34, 36);
+    color: #eacaff;
+    background-color: #eacaff;
     border-radius: 4px;
 }
 
@@ -292,7 +293,7 @@ hr {
 
 .interview-button {
     cursor: inherit;
-    background-color: rgb(255, 212, 0);
+    background-color: #eacaff;
     color: rgb(48, 52, 65);
     border-radius: 8px;
     padding: 10.5px 24px;
@@ -351,11 +352,7 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    align-items: flex-start;
-    -webkit-box-pack: center;
     justify-content: center;
-    flex-wrap: unset;
-    flex: unset;
     box-sizing: border-box;
 }
 
@@ -785,4 +782,147 @@ element.style {
 
 .jwyDuD {
     width: 100%;
+}
+
+/*
+FAQ 질문 폰트
+*/
+.ftDUPf {
+    display: block;
+    width: 100%;
+    color: rgb(34, 34, 34);
+    text-align: left;
+    white-space: pre-wrap;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+}
+
+
+
+/*
+슬라이드 이미지 넓이
+*/
+.bCaAjf {
+    width: 100%;
+}
+
+.bCaAjf .slick-list {
+    overflow: initial;
+}
+
+/*
+슬라이드 이미지 갭
+*/
+.bCaAjf .slick-track {
+    display: flex;
+    gap: 48px;
+}
+
+/*
+슬라이드 이미지 블록
+*/
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+/*
+슬라이드 이미지 패딩
+*/
+.fdWrXH {
+    width: 100%;
+    padding-bottom: 66.6667%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+/*
+슬라이드 이미지??
+*/
+.eCKVqW {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+/*
+슬라이드 이미지 높이 너비
+*/
+.fdWrXH img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*
+슬라이드 버튼
+*/
+.cqROqn {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    margin: 28px 0px 16px;
+}
+
+
+/*
+슬라이드 버튼 왼쪽
+*/
+.hXpYAH {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.85);
+    border: none;
+    cursor: pointer;
+}
+
+/*
+슬라이드 버튼 회색
+*/
+.hXpYAH:disabled {
+    color: rgba(0, 0, 0, 0.25);
+    cursor: default;
+}
+
+/*
+슬라이드 폰트
+*/
+.gSTlWw {
+    margin-block: 0px;
+    margin-inline: 0px;
+    letter-spacing: normal;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.6em;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: inherit;
+    white-space: pre-line;
+    font-style: normal;
+    user-select: auto;
+    word-break: normal;
+}
+
+
+.bCaAjf .slick-arrow {
+    display: none !important;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    appearance: button;
 }
