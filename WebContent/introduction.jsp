@@ -163,7 +163,7 @@
 								></div>
 							<div  type="button"
 								name="플랫폼기술팀 백엔드 개발자 Ellie" 
-								shape="square" class="gPnrrv">
+								shape="square" >
 								<a
 									href="https://kmong-admin.medium.com/%ED%81%AC%EB%AA%BD-%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC%EA%B8%B0%EC%88%A0%ED%8C%80-ellie-5499ac7297fd"
 									target="_blank" rel="noreferrer"><button
@@ -207,7 +207,7 @@
 								></div>
 							<div  type="button"
 								name="Enterprise팀 기업외주파트 리드 Aida" 
-								shape="square" class="gPnrrv">
+								shape="square" >
 								<a
 									href="https://kmong-admin.medium.com/%ED%81%AC%EB%AA%BD-%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C-enterprise%ED%8C%80-%EA%B8%B0%EC%97%85%EC%99%B8%EC%A3%BC%ED%8C%8C%ED%8A%B8-aida-5af83404644f"
 									target="_blank" rel="noreferrer"><button
@@ -249,7 +249,7 @@
 								></div>
 							<div  type="button"
 								name="soon팀 PO Don"  shape="square"
-								class="gPnrrv">
+								>
 								<a
 									href="https://kmong-admin.medium.com/%ED%81%AC%EB%AA%BD-%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C-soon%ED%8C%80-po-don-44e2586f5afe"
 									target="_blank" rel="noreferrer"><button
@@ -341,7 +341,7 @@
 								></div>
 							<div  type="button"
 								name="Mass Market팀 PO Ray" 
-								shape="square" class="gPnrrv">
+								shape="square" >
 								<a
 									href="https://kmong-admin.medium.com/%ED%81%AC%EB%AA%BD-%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C-mass-market%ED%8C%80-po-ray-503e50514d5a"
 									target="_blank" rel="noreferrer"><button
@@ -384,7 +384,7 @@
 								></div>
 							<div  type="button"
 								name="People팀 피플매니저 Joanne" 
-								shape="square" class="gPnrrv">
+								shape="square" >
 								<a
 									href="https://kmong-admin.medium.com/%ED%81%AC%EB%AA%BD-%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C-people%ED%8C%80-%ED%94%BC%ED%94%8C%EB%A7%A4%EB%8B%88%EC%A0%80-joanne-88dc3e4f6468"
 									target="_blank" rel="noreferrer"><button
@@ -432,7 +432,7 @@
 								></div>
 							<div  type="button"
 								name="Category팀 리드 Danny" 
-								shape="square" class="gPnrrv">
+								shape="square" >
 								<a
 									href="https://kmong-admin.medium.com/%ED%81%AC%EB%AA%BD-%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C-category%ED%8C%80-danny-aea934ae1d3f"
 									target="_blank" rel="noreferrer"><button
