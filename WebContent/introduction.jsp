@@ -30,9 +30,9 @@
 <div class="div-height"></div>
 
 		<div  class="section-focus"></div>
-			<div class="div-">
-				<div class="div--width ">
-					<div class="div--max ">
+			<div>
+				<div>
+					<div>
 									<div class="profile-intro"
 										style="position: relative;">
 									</div>
@@ -72,7 +72,7 @@
 								<div class="profile-intro"
 									style="position: relative;">
 									<div  type="blank"
-										class="iPzkpi"></div>
+										class=""></div>
 								</div>
 							</div>
 						</div>
@@ -92,7 +92,7 @@
 
 
 
-		<div class="cgv-flex">
+		<div class="div-flex-wrap">
 
 			<h2  type="text" content="<p>크몽 인사이드</p>" class="h2-font">
 				<p>크몽 인사이드</p>
@@ -123,7 +123,7 @@
 						<div class="profile-intro"
 							style="position: relative;">
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 						</div>
 					</div>
 				</div>
@@ -150,7 +150,7 @@
 								</div>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="text"
 								content="<p>크몽은 다양한 시도를 통해 개발자가 성장할 수 있는 기회를 제공해줍니다.</p><p><br></p>"
 								class="font-bold height">
@@ -160,7 +160,7 @@
 								</p>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="button"
 								name="플랫폼기술팀 백엔드 개발자 Ellie" radius="[object Object]"
 								shape="square" class="gPnrrv">
@@ -204,7 +204,7 @@
 								</p>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="button"
 								name="Enterprise팀 기업외주파트 리드 Aida" radius="[object Object]"
 								shape="square" class="gPnrrv">
@@ -239,14 +239,14 @@
 								</div>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="text"
 								content="<p>soon팀은 기존 경쟁 서비스들이 해결하지 못한 명쾌한 솔루션을 제시하며 새로운 역사를 쓰고 있어요.</p>"
 								class="font-bold height">
 								<p>soon팀은 기존 경쟁 서비스들이 해결하지 못한 명쾌한 솔루션을 제시하며 새로운 역사를 쓰고 있어요.</p>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="button"
 								name="soon팀 PO Don     " radius="[object Object]" shape="square"
 								class="gPnrrv">
@@ -276,7 +276,7 @@
 						<div class="profile-intro"
 							style="position: relative;">
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 						</div>
 					</div>
 				</div>
@@ -301,7 +301,7 @@
 						<div class="profile-intro"
 							style="position: relative;">
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 						</div>
 					</div>
 				</div>
@@ -328,7 +328,7 @@
 								</div>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="text"
 								content="<p>크몽은 무한한 확장성을 바탕으로 다양한 기회를 통해 새로운 가능성을 만들어낼 수 있는 곳입니다.</p><p><br></p>"
 								class="font-bold height">
@@ -338,7 +338,7 @@
 								</p>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="button"
 								name="Mass Market팀 PO Ray" radius="[object Object]"
 								shape="square" class="gPnrrv">
@@ -373,7 +373,7 @@
 								</div>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="text"
 								content="<p>크몽은 표방하는 조직 문화가 실제로 잘 이행되고 있는 곳입니다. 구성원이 행복하게 일하는 것에 진심이고, 이를 통해 자연스럽게 최고의 성과를 낼 수 있도록 도와줍니다.&amp;nbsp;</p>"
 								class="height">
@@ -381,7 +381,7 @@
 									진심이고, 이를 통해 자연스럽게 최고의 성과를 낼 수 있도록 도와줍니다.&nbsp;</p>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="button"
 								name="People팀 피플매니저 Joanne" radius="[object Object]"
 								shape="square" class="gPnrrv">
@@ -416,7 +416,7 @@
 								</div>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="text"
 								content="<p>크몽은 내가 어떤 Happy를 꿈꾸든, 그 Happy가 있는 곳입니다.</p><p><br></p><p><br></p>"
 								class="height">
@@ -429,7 +429,7 @@
 								</p>
 							</div>
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 							<div  type="button"
 								name="Category팀 리드 Danny" radius="[object Object]"
 								shape="square" class="gPnrrv">
@@ -459,7 +459,7 @@
 						<div class="profile-intro"
 							style="position: relative;">
 							<div  type="blank"
-								class="iPzkpi"></div>
+								class=""></div>
 						</div>
 					</div>
 				</div>
@@ -497,7 +497,7 @@
 							<div class="profile-intro"
 								style="position: relative;">
 								<div  type="blank"
-									class="iPzkpi"></div>
+									class=""></div>
 							</div>
 						</div>
 					</div>
@@ -519,7 +519,7 @@
 									<p>긱 이코노미가 성장해온 길입니다.</p>
 								</h2>
 								<div  type="blank"
-									class="iPzkpi"></div>
+									class=""></div>
 								<div  type="text"
 									content="<p>우리는 변화하는 노동 시장의 흐름을 리드하며 새로운 기회와 성장을 만들어 냈습니다.</p>"
 									class="height">
@@ -600,7 +600,7 @@
 								<div class="profile-intro"
 									style="position: relative;">
 									<div  type="blank"
-										class="iPzkpi"></div>
+										class=""></div>
 								</div>
 							</div>
 						</div>
@@ -619,7 +619,7 @@
 										content="복지 및 혜택"
 										class="font-height height">복지 및 혜택</h2>
 									<div  type="blank"
-										class="iPzkpi"></div>
+										class=""></div>
 									<div  type="text"
 										content="<p>크몽 팀원이 되면 누릴 수 있는 복지와 혜택입니다.</p>"
 										class="height">
@@ -685,7 +685,7 @@
 													</div>
 												</div>
 												<div  type="blank"
-													class="iPzkpi"></div>
+													class=""></div>
 												<div  type="text" content="<p><strong>업무에만 집중할 수 있도록</strong></p><p><br></p><p>- 주 35시간 근무</p><p>- 재택근무(주 1회 필수 출근)</p><p>- 유연출퇴근(7~11시 사이 출근)</p><p>- 점심식사 지원</p><p>- 간식과 음료 무제한 제공</p><p>- 최신 업무장비 및 다양한 업무 툴 지원</p><p>- 야근 시 저녁식사, 택시비 지원</p>"
 													class="font-bold height">
 													<p id="isPasted">
@@ -723,7 +723,7 @@
 													</div>
 												</div>
 												<div  type="blank"
-													class="iPzkpi"></div>
+													class=""></div>
 												<div  type="text"
 													content="<p id=><strong>더 멀리 함께 나아갈 수 있도록&amp;nbsp;</strong></p><p><br></p><p>- 자기계발비 지원</p><p>- 크몽 도서관 운영</p><p>- 크몽캐시 지급</p>"
 													class="font-bold  height">
@@ -758,7 +758,7 @@
 													</div>
 												</div>
 												<div  type="blank"
-													class="iPzkpi"></div>
+													class=""></div>
 												<div  type="text"
 													content="<p ><strong>&amp;nbsp;충분한 쉼을 통해 다시 도약할 수 있도록</strong></p><p><br></p><p>- 5년 근속 시 1개월 리프레쉬 휴가 지원</p><p>-&amp;nbsp;생일반차 지원</p><p>- 각종 경조사 지원</p>"
 													class="font-bold height">
@@ -788,7 +788,7 @@
 												<div class="profile-intro"
 													style="position: relative;">
 													<div  type="blank"
-														class="iPzkpi"></div>
+														class=""></div>
 												</div>
 											</div>
 										</div>
@@ -829,7 +829,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -864,7 +864,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -894,7 +894,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -916,7 +916,7 @@
 															<p>Q. 지원 서류 양식이 따로 있나요?</p>
 														</h3>
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 														<div  type="text"
 															content="<p>크몽은 정해진 양식 없이 자유양식으로 지원을 받고 있습니다. 가지고 계신 양식의 이력서로 지원 부탁드립니다.</p>"
 															class="height">
@@ -939,7 +939,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -968,7 +968,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -990,7 +990,7 @@
 															<p>Q. 지원 절차가 궁금합니다.</p>
 														</h3>
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 														<div  type="text"
 															content="<p>지원 절차는 직군에 따라 아래와 같이 다르게 진행하고 있습니다.</p><p><br></p><p><strong>개발 - 서류 &amp;gt; 과제(또는 전화인터뷰) &amp;gt; 1차 인터뷰 &amp;gt; 2차 인터뷰 &amp;gt; 처우 협의 &amp;gt; 크몽 입사</strong></p><p><strong>비개발 - 서류 &amp;gt; 1차 인터뷰 &amp;gt; 2차 인터뷰 &amp;gt; 처우 협의 &amp;gt; 크몽 입사</strong></p><p><br></p><p>* 채용 절차에서 필요에 따라 3차 인터뷰 등 추가 전형을 요청드릴 수 있습니다.</p>"
 															class="height">
@@ -1027,7 +1027,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -1056,7 +1056,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -1078,7 +1078,7 @@
 															<p>Q. 인터뷰는 어떤 방식으로 진행되나요?</p>
 														</h3>
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 														<div  type="text"
 															content="<p>통상적으로 1,2차 인터뷰 모두 비대면 화상인터뷰로 진행됩니다.</p><p>하지만 필요에 따라 대면 인터뷰를 요청드릴 수 있습니다.</p>"
 															class="height">
@@ -1101,7 +1101,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -1129,7 +1129,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -1151,7 +1151,7 @@
 															<p>Q. 1차, 2차 인터뷰는 어떤 내용으로 진행되나요?</p>
 														</h3>
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 														<div  type="text"
 															content="<p>1차, 2차 인터뷰에서 실무, 컬쳐핏에 대해 구분하지 않고 전반적인 내용이 모두 다뤄집니다.</p><p>그 동안 해오신 직무 경험과 컬쳐핏에 대해 1,2차 인터뷰를 준비해주시면 됩니다.</p>"
 															class="height">
@@ -1175,7 +1175,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
@@ -1203,7 +1203,7 @@
 													<div class="profile-intro"
 														style="position: relative;">
 														<div 
-															type="blank" class="iPzkpi"></div>
+															type="blank" class=""></div>
 													</div>
 												</div>
 											</div>
