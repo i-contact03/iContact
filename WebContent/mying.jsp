@@ -182,70 +182,70 @@
 				<div class="menu-list-wrapper">
 					<ul class="side-menu-main-group">
 						<li class="main-menu">
-							<div class="flex-between-center">
-								<a>내 프로젝트</a>
-								<a aria-controls="buyerRequests" aria-expanded="true" data-toggle="collapse">
-									<div class="flex">
-									  <img src="/images/arrow.png" width="14px" height="14px" class="arrow">
-									</div>
-								</a>
-							</div>
-							
-							<div class="block" aria-expanded="true">
-								<div class="panel-body">
-									<div class="sub-menu">
-										<a>
-											<span>
-												전체 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									<div class="sub-menu">
-										<a>
-											<span>
-												승인대기중 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									<div class="sub-menu">
-										<a>
-											<span>
-												요청중 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									<div class="sub-menu">
-										<a>
-											<span>
-												마감 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									<div class="sub-menu">
-										<a>
-											<span>
-												비승인 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									
-								</div>
-							</div>
+						    <div class="flex-between-center">
+						        <a>내 프로젝트</a>
+						        <a>
+						            <div id="arrow-btn" class="flex toggle_btn">
+						              <img src="arrow.png" width="14px" height="14px" class="arrow">
+						            </div>
+						        </a>
+						    </div>
+						    
+						    <div class="show-menu">
+						        <div class="panel-body show-menu">
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        전체 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        승인대기중 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        요청중 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        마감 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        비승인 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            
+						        </div>
+						    </div>
 						</li>
 						
 						<li class="main-menu">
@@ -289,7 +289,7 @@
 			<h2 class="main-content-title">구매 관리</h2>
 			
 			<section class="main-content-status-wrapper">
-				<div class="notice-wrapper">
+				<div class="notice-wrapper underline">
 					<div style="margin-right: 4px">
 						<span class="notice-image-wrapper">
 							<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" class="notice-image">
@@ -559,8 +559,9 @@
 </footer>
 
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="mainpage.js"></script>
+<script src="mying.js"></script>
 
 
 

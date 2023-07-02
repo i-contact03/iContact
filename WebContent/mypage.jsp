@@ -6,7 +6,6 @@
 <meta charset="UTF-8">
 <title>프리랜서마켓 No.1 크몽 | 디자인, IT·프로그래밍, 마케팅, 번역·통역, 경영진단, 법률 및 취업 관련 전문가들을 만나보세요</title>
 <link rel="icon" href="kmongFavicon.png">
-<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
 <link rel="stylesheet" href="mypage.css">
 <style>
 
@@ -145,6 +144,7 @@
 
 <div style="margin-top: 0px">
 	<div class="buyer-requests">
+		<!-- 왼쪽 프로필과 사이드 메뉴 시작 ------------------------------------------->
 		<div class="side-menu-wrapper">
 			<div class="mykmong-side-menu">
 				<div class="userprofile-info-wrapper">
@@ -180,72 +180,70 @@
 				<div class="menu-list-wrapper">
 					<ul class="side-menu-main-group">
 						<li class="main-menu">
-							<div class="flex-between-center">
-								<a>내 프로젝트</a>
-								<a aria-controls="buyerRequests" aria-expanded="true" data-toggle="collapse">
-									<div class="flex">
-									  <i class="arrow">
-									  
-									  </i>
-									</div>
-								</a>
-							</div>
-							
-							<div class="block" aria-expanded="true">
-								<div class="panel-body">
-									<div class="sub-menu">
-										<a>
-											<span>
-												전체 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									<div class="sub-menu">
-										<a>
-											<span>
-												승인대기중 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									<div class="sub-menu">
-										<a>
-											<span>
-												요청중 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									<div class="sub-menu">
-										<a>
-											<span>
-												마감 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									<div class="sub-menu">
-										<a>
-											<span>
-												비승인 (
-													<span>0</span>
-												)
-											</span>
-										</a>
-									</div>
-									
-									
-								</div>
-							</div>
+						    <div class="flex-between-center">
+						        <a>내 프로젝트</a>
+						        <a>
+						            <div id="arrow-btn" class="flex toggle_btn">
+						              <img src="arrow.png" width="14px" height="14px" class="arrow">
+						            </div>
+						        </a>
+						    </div>
+						    
+						    <div class="show-menu">
+						        <div class="panel-body show-menu">
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        전체 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        승인대기중 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        요청중 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        마감 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            <div class="sub-menu">
+						                <a>
+						                    <span>
+						                        비승인 (
+						                            <span>0</span>
+						                        )
+						                    </span>
+						                </a>
+						            </div>
+						            
+						            
+						        </div>
+						    </div>
 						</li>
 						
 						<li class="main-menu">
@@ -283,6 +281,8 @@
 			</div>
 		</div>
 		
+		<!-- 왼쪽 프로필과 사이드 메뉴 끝 ------------------------------------------->
+		
 		
 		
 		
@@ -303,13 +303,7 @@
 					<button class="empty-list-button" style="width: 280px">프로젝트 의뢰하기</button>
 				</div>
 			</div>
-		
-		
 		</div>
-		
-		
-		
-		
 	</div>
 </div>
 
@@ -462,6 +456,9 @@
 	
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="mainpage.js"></script>
+<script src="mying.js"></script>
 
 
 </body>

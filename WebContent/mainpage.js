@@ -8,9 +8,11 @@ HTMLCollection.prototype.forEach = Array.prototype.forEach;
 // --------------------------------------------------------------------
 // --------------------------메인 베너 전환-----------------------------
 
-// 배경 이미지 설정
+// 배경 이미지
 const banners = document.querySelectorAll("div.image");
 
+
+// 이미지는 총 11개 순서대로 009, 001 ~ 009, 001
 banners.forEach((banner, i) => { // 이미지, 인덱스
     if(i == 0) {
         banner.style.backgroundImage = 'url(images/009.png)';
@@ -36,15 +38,15 @@ const size = slideImages[0].clientWidth; // 슬라이드 이미지의 너비
 const colors = [
   "#2A303C", //009.png
   "#FF73A1", //001.png
-  "#07BBDF",
-  "#FF6433",
-  "#0452E9",
-  "#5F65EA",
-  "#04BB6A",
-  "#FF599F",
-  "#FF9E0D",
-  "#2A303C",
-  "#FF73A1"
+  "#07BBDF", //002.png
+  "#FF6433", //003.png
+  "#0452E9", //004.png
+  "#5F65EA", //005.png
+  "#04BB6A", //006.png
+  "#FF599F", //007.png
+  "#FF9E0D", //008.png
+  "#2A303C", //009.png
+  "#FF73A1"  //001.png
 ];
 
 // 만약 해당 counter인덱스의 colors요소가 없다면 colors[0] 적용

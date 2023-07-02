@@ -7,7 +7,27 @@
 <title>전문가가 필요한 순간 | 프리랜서 마켓 No.1 크몽에서 전문가를 만나고 능력을 확장해보세요.</title>
 <link rel="icon" href="kmongFavicon.png">
 <link rel="stylesheet" href="profile-modify.css">
-<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+
+<style>
+
+	@font-face {
+		font-family: 'MetroSansBold';
+		src: url('MetroSans-Bold.woff2'); /* 굵은글씨체 주소지정 */
+	}
+	
+	@font-face {
+		font-family: 'MetroSansMedium';
+		src: url('MetroSans-Medium.woff2');
+	}
+	
+	
+	@font-face {
+		font-family: 'MetroSansRegular';
+		src: url('MetroSans-Regular.woff2'); /* 가는글씨체 주소지정 */
+	}
+	
+</style>
+
 </head>
 <body>
 
@@ -30,32 +50,25 @@
 		<div class="kmong-profile-modify-form">
 			<nav class="kmong-profile-modify-nav">
 				<div class="kmong-profile-modify-nav-content">
-					<div class="kmong-profile-modify-nav-btn">
+					<div class="kmong-profile-modify-nav-btn" onclick="goToScroll('first')">
 						<div class="kmong-profile-modify-nav-btn-div-active">1</div>
 						<span class="kmong-profile-modify-nav-btn-span-active">전문가 소개</span>
 					</div>
 					
-					<div class="kmong-profile-modify-nav-btn">
+					<div class="kmong-profile-modify-nav-btn" onclick="goToScroll('second')">
 						<div class="kmong-profile-modify-nav-btn-div">2</div>
 						<span class="kmong-profile-modify-nav-btn-span">경력사항</span>
 					</div>
 					
-					<div class="kmong-profile-modify-nav-btn">
+					<div class="kmong-profile-modify-nav-btn" onclick="goToScroll('third')">
 						<div class="kmong-profile-modify-nav-btn-div">3</div>
 						<span class="kmong-profile-modify-nav-btn-span">학력﹒자격증</span>
 					</div>
 					
-					<div class="kmong-profile-modify-nav-btn">
+					<div class="kmong-profile-modify-nav-btn" onclick="goToScroll('fourth')">
 						<div class="kmong-profile-modify-nav-btn-div">4</div>
 						<span class="kmong-profile-modify-nav-btn-span">희망 급여</span>
 					</div>
-					
-					
-					<!-- 상주 가능 정보 일단 생략! -->
-					<!-- <div class="kmong-profile-modify-nav-btn">
-						<div class="kmong-profile-modify-nav-btn-div">5</div>
-						<span class="kmong-profile-modify-nav-btn-span">상주 가능 정보</span>
-					</div> -->
 				</div>
 			</nav>
 			
@@ -63,7 +76,7 @@
 			<div class="kmong-profile-modify-write-out">
 			
 				<!-- 전문가 소개 -->
-				<section class="information-wrapper">
+				<section id="first" class="information-wrapper">
 					<span class="information-title">전문가 소개</span>
 					<div class="information-content">
 						<div class="information-content-detail-wrapper">
@@ -100,7 +113,8 @@
 									
 									<div></div>
 									
-									<p class="test-nickname">사용 가능한 닉네입입니다.</p>
+									<!-- 유효성 검사 -->
+									<!-- <p class="test-nickname">사용 가능한 닉네입입니다.</p> -->
 									
 									<div class="tip-wrapper">
 										<div class="tip-title">Tip</div>
@@ -413,7 +427,7 @@
 				
 				
 				<!-- 경력사항 -->
-				<section class="additional-information-section">
+				<section id="second" class="additional-information-section">
 					<span class="additional-information-title">경력사항</span>
 					<div class="additional-information-content-wrapper">
 						<span class="mandatory">필수</span>
@@ -462,7 +476,7 @@
 				
 				
 				<!-- 학력﹒자격증 -->
-				<section class="additional-information-section">
+				<section id="third" class="additional-information-section">
 					<span class="additional-information-title">학력 · 자격증</span>
 					<div class="additional-information-content-wrapper">
 						<span class="choice">선택</span>
@@ -504,41 +518,18 @@
 													<div class="choose">추가해주세요</div>
 												</div>
 												
-												<!-- 모달 버튼 -->
-												<div id="btn-modal" class="plus-icon-container" onClick="modalOn()">
+												<div class="plus-icon-container">
 													<span class="plus-icon-wrapper">
 														<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid meet" class="plus-icon">
 															<path xmlns="http://www.w3.org/2000/svg" d="M6.34314575,4.92893219 L12.000039,10.585039 L17.6568542,4.92893219 C18.0473785,4.5384079 18.6805435,4.5384079 19.0710678,4.92893219 C19.4615921,5.31945648 19.4615921,5.95262146 19.0710678,6.34314575 L13.415039,12.000039 L19.0710678,17.6568542 C19.4615921,18.0473785 19.4615921,18.6805435 19.0710678,19.0710678 C18.6805435,19.4615921 18.0473785,19.4615921 17.6568542,19.0710678 L12.000039,13.415039 L6.34314575,19.0710678 C5.95262146,19.4615921 5.31945648,19.4615921 4.92893219,19.0710678 C4.5384079,18.6805435 4.5384079,18.0473785 4.92893219,17.6568542 L10.585039,12.000039 L4.92893219,6.34314575 C4.5384079,5.95262146 4.5384079,5.31945648 4.92893219,4.92893219 C5.31945648,4.5384079 5.95262146,4.5384079 6.34314575,4.92893219 Z"></path>
 														</svg>
 													</span>
 												</div>
-												
 											</div>
 										</div>
 									</div>
 								</div>
-								
-								
 							</div>
-                    		
-							<!-- 모달 영역?------------------------------------------------- -->
-							<!-- <div id="modal" class="modal-overlay">
-								<div class="modal-window">
-						            <div class="title">
-						                <h2>모달</h2>
-						            </div>
-						            <div class="close-area">X</div>
-						            <div class="content">
-						                <p>가나다라마바사 아자차카타파하</p>
-						                <p>가나다라마바사 아자차카타파하</p>
-						                <p>가나다라마바사 아자차카타파하</p>
-						                <p>가나다라마바사 아자차카타파하</p>
-						            </div>
-						        </div>
-						    </div> -->
-						    
-						    <!-- --------------------------------------------------------------- -->
-						    
 						</div>
 					</div>
 				</section>
@@ -546,7 +537,7 @@
 				
 				
 				<!-- 희망 급여 -->
-				<section class="additional-information-section">
+				<section id="fourth" class="additional-information-section">
 					<span class="additional-information-title">희망 급여</span>
 					<div class="additional-information-content-wrapper">
 						<span class="choice">선택</span>
@@ -567,26 +558,12 @@
 						</div>
 					</div>
 				</section>
-				
-				
-				
-				<!-- 상주 가능 정보 -->  <!-- 일단 생략! -->
-				<!-- <section class="additional-information-section">
-					<span class="additional-information-title">상주 가능 정보</span>
-					<div class="additional-information-content-wrapper">
-						<span class="mandatory">필수</span>
-						<div class="additional-information-content">
-						</div>
-					</div>
-				</section> -->
-				
-				
 			</div>
 		</div>
 		<!-- footer -->
 		<footer class="kmong-profile-modify-form-footer-wrapper">
 			<div class="kmong-profile-modify-form-footer">
-				<button class="modify-button">
+				<button class="modify-button darker">
 					<span>프로필 저장</span>
 				</button>
 			</div>
