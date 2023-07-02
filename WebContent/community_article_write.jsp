@@ -141,7 +141,7 @@
 				</div>
 
   				<footer>
-  					<input type="submit" name="commit" value="제출">
+  					<input type="submit" name="commit" value="제출" class="darker">
   				</footer>
 
   			</div>
