@@ -224,6 +224,8 @@ hr {
 }
 
 
+
+
 .padding-layout {
     position: relative;
     max-width: 960px;
@@ -231,6 +233,7 @@ hr {
     box-sizing: content-box;
     padding: 0px 40px;
 }
+
 
 
 
@@ -332,7 +335,7 @@ hr {
 
 
     
-.cgvBGH {
+.div-flex-column {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -371,6 +374,10 @@ hr {
 .font-bold strong {
     font-weight: bold;
 }
+
+
+
+
 
 
 
@@ -438,8 +445,6 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 2px, rgba(0, 0, 0, 0.36) 0px 3px 12px;
     z-index: 1;
 }
-
-
 
 
 
