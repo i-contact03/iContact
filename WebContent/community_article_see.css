@@ -605,6 +605,10 @@ footer {
 	
 }
 
+.darker:hover{
+	filter: brightness(60%);
+}
+
 
 @media (min-width: 768px) {
 	.ask-button-request {

@@ -682,11 +682,14 @@ footer {
 
 
 @media (min-width: 1160px){
-.footer-mweb {
-    display: none;
-}	
+	.footer-mweb {
+	    display: none;
+	}	
 }
 
+.darker:hover{
+	filter: brightness(80%);
+}
 
 
 

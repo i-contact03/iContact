@@ -380,6 +380,10 @@ ul {
     text-align: center;
 }
 
+.services-item:hover{
+	background-color: #F2F3F7;
+}
+
 
 
 @media (min-width: 768px) {
